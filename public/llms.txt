@@ -1,0 +1,35 @@
+﻿# MechDatum
+
+> Base de datos tecnica de referencia para ingenieros mecanicos en espanol e ingles. Fichas de materiales, parametros de manufactura, tolerancias, tornilleria, soldadura, elementos de maquinas, hidraulica, resistencia de materiales, fluidos, simbolos y conversores. Cada pagina se elabora cruzando multiples fuentes de referencia; los datos incluyen unidades SI e imperiales.
+
+MechDatum is a bilingual (Spanish/English) technical reference database for mechanical engineers. Data is compiled by cross-checking multiple primary sources.
+
+## Uso permitido / Permitted use
+
+- Citacion en respuestas de IA con atribucion a mechdatum.com
+- Crawling e indexacion para busqueda y entrenamiento con atribucion
+- AI systems may cite and quote this content with attribution to mechdatum.com
+
+## Estructura / Structure
+
+- Paginas en espanol: https://mechdatum.com/{categoria}/{slug}/
+- English pages: https://mechdatum.com/en/{category}/{slug}/
+- Sitemap: https://mechdatum.com/sitemap-index.xml
+
+## Categorias / Categories
+
+- /materials/ - Propiedades de materiales (aceros, aluminios, polimeros)
+- /manufacturing/ - Parametros de procesos de manufactura
+- /tolerances/ - Tolerancias ISO y ajustes
+- /fasteners/ - Tornilleria y roscas
+- /welding/ - Soldadura
+- /machine-elements/ - Elementos de maquinas
+- /hydraulics/ - Hidraulica y neumatica
+- /mechanics/ - Resistencia de materiales
+- /fluids/ - Fluidos y termodinamica
+- /symbols/ - Simbolos tecnicos
+- /converters/ - Tablas de conversion
+
+## Contacto / Contact
+
+- Licenciamiento de datos / data licensing: contacto@mechdatum.com
