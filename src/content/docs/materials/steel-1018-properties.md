@@ -1,8 +1,11 @@
 ---
 title: "Acero 1018 propiedades"
+sidebar:
+  label: "Acero 1018"
 description: "Ficha tecnica: Acero 1018 propiedades"
 keywords: ["1018 carbon steel properties specifications", "materials"]
 category: "materials"
+topic: "ferrous-metals"
 subcategory: "carbon-steels"
 skill: "material-properties"
 launch_phase: 1
@@ -10,110 +13,117 @@ last_updated: "2026-07-21"
 verified: true
 ---
 
-## 1. Introducción
-El acero AISI 1018 (UNS G10180) es un acero al carbono de baja aleación y fácil maquinabilidad, ampliamente utilizado en la industria por su excelente soldabilidad, conformabilidad y capacidad de cementación. Con un contenido de carbono controlado entre 0,15 y 0,20 %, este material combina una resistencia mecánica moderada con una buena ductilidad, lo que lo convierte en una opción versátil para componentes estructurales y piezas de maquinaria de uso general.
+## Composición química
+El acero AISI 1018 contiene un porcentaje de carbono entre 0.15 % y 0.20 % y manganeso entre 0.60 % y 0.90 %, lo que le confiere buena maquinabilidad y soldabilidad. La composición química nominal es la siguiente.
 
-## 2. Composición química
-La composición química (análisis de colada) del acero 1018 se presenta en la tabla siguiente, con el balance en hierro.
+| Elemento | Contenido (%) |
+|---|---|
+| Carbono (C) | 0.15 – 0.20 |
+| Manganeso (Mn) | 0.60 – 0.90 |
+| Fósforo (P) | 0.04 máx. |
+| Azufre (S) | 0.05 máx. |
+| Hierro (Fe) | Resto |
 
-| Elemento   | Contenido (%) |
-|------------|----------------|
-| Carbono (C)   | 0,15 – 0,20 |
-| Manganeso (Mn)| 0,60 – 0,90 |
-| Fósforo (P)   | ≤ 0,040      |
-| Azufre (S)    | ≤ 0,050      |
-| Hierro (Fe)   | Balance      |
+*Nota: según algunas especificaciones el contenido de carbono puede variar entre 0.14 % y 0.20 % y el manganeso entre 0.30 % y 0.90 %.*
 
-El contenido relativamente elevado de manganeso respecto a otros aceros de bajo carbono (como el 1020) contribuye a mejorar la respuesta al temple superficial y la maquinabilidad.
+## Propiedades físicas
+La densidad del acero 1018 es de 7.87 g/cm³, valor típico de los aceros al carbono no aleados.
 
-## 3. Propiedades mecánicas
-Las propiedades mecánicas del acero 1018 varían significativamente con el tratamiento termomecánico. La tabla siguiente recoge valores típicos para los estados de suministro más comunes (barra redonda de diámetro medio).
+| Propiedad | Métrico | Imperial |
+|---|---|---|
+| Densidad | 7.87 g/cm³ | 0.284 lb/in³ |
 
-| Condición               | Resistencia a la tracción (MPa / ksi) | Límite elástico (MPa / ksi) | Alargamiento (% en 50 mm) | Dureza Brinell (HB) |
-|-------------------------|---------------------------------------|-----------------------------|----------------------------|---------------------|
-| Laminado en caliente     | 440 / 64                             | 290 / 42                   | 27                         | 126               |
-| Estirado en frío         | 485 / 70                             | 415 / 60                   | 15                         | 143               |
-| Recocido                 | 415 / 60                             | 220 / 32                   | 35                         | 111               |
-| Normalizado              | 440 / 64                             | 275 / 40                   | 28                         | 131               |
+## Propiedades mecánicas (estirado en frío)
+En estado estirado en frío, la resistencia a la tracción del acero 1018 alcanza 440 MPa. A continuación se detallan las propiedades mecánicas representativas.
 
-*Nota: Los valores corresponden a probetas maquinadas a partir de barras de sección circular; pueden existir ligeras variaciones según el fabricante y la sección.*
+| Propiedad | Métrico | Imperial |
+|---|---|---|
+| Resistencia a la tracción | 440 MPa | 63 800 psi |
+| Límite elástico (0.2 %) | 370 MPa | 53 700 psi |
+| Módulo de elasticidad | 205 GPa | 29 700 ksi |
+| Módulo de cortante | 80 GPa | 11 600 ksi |
+| Coeficiente de Poisson | 0.29 | 0.29 |
+| Alargamiento a rotura (50 mm) | 15 % | 15 % |
+| Dureza Brinell | 126 | 126 |
+| Dureza Knoop (convertida) | 145 | 145 |
+| Dureza Rockwell B (convertida) | 71 | 71 |
+| Dureza Vickers (convertida) | 131 | 131 |
+| Maquinabilidad (base AISI 1212 = 100 %) | 70 | 70 |
 
-## 4. Propiedades físicas
-Las constantes físicas más relevantes del acero 1018 se listan a continuación.
+## Propiedades mecánicas (recocido)
+La resistencia a la tracción del 1018 recocido ronda los 400 MPa, presentando una ductilidad notablemente superior a la de la condición estirada.
 
-| Propiedad                 | Valor (SI)               | Valor (Imperial)          |
-|---------------------------|--------------------------|---------------------------|
-| Densidad                  | 7,87 g/cm³               | 0,284 lb/in³             |
-| Módulo de elasticidad     | ~200 GPa                 | ~29 000 ksi             |
-| Coeficiente de Poisson    | ~0,29                    | ~0,29                    |
-| Módulo de cizalladura     | ~80 GPa                  | ~11 600 ksi             |
+| Propiedad | Métrico | Imperial |
+|---|---|---|
+| Resistencia a la tracción | 400 MPa | 58 000 psi |
+| Límite elástico (0.2 %) | 221 MPa | 32 000 psi |
+| Alargamiento a rotura (50 mm) | 25 % | 25 % |
+| Dureza Brinell | 116 | 116 |
 
-Estos valores son representativos de los aceros al carbono de bajo contenido de carbono y pueden emplearse en cálculos de ingeniería.
+*Valores típicos de material laminado en caliente, asimilables al estado recocido.*
 
-## 5. Propiedades térmicas
-El comportamiento térmico del acero 1018 queda descrito por los siguientes parámetros.
+## Propiedades térmicas
+La conductividad térmica del acero 1018 es de 51.9 W/m·K, lo que facilita la disipación de calor en componentes mecanizados.
 
-| Propiedad                                      | Valor (SI)               | Valor (Imperial)              |
-|------------------------------------------------|--------------------------|-------------------------------|
-| Coeficiente de expansión térmica (20 – 100 °C) | 12,1 µm/m·°C            | 6,72 µin/in·°F               |
-| Conductividad térmica (a 100 °C)               | 51,9 W/m·K              | 360 BTU·in/(h·ft²·°F)       |
-| Calor específico (0 – 100 °C)                  | 0,486 J/g·°C            | 0,116 BTU/lb·°F             |
-| Intervalo de fusión                             | 1425 – 1540 °C          | 2600 – 2800 °F               |
+| Propiedad | Métrico | Imperial |
+|---|---|---|
+| Conductividad térmica | 51.9 W/m·K | 360 BTU·in/(h·ft²·°F) |
 
-## 6. Maquinabilidad
-**Índice de maquinabilidad del 70 % (referencia AISI 1212 = 100 %).** Este acero se considera de fácil mecanizado, apropiado para operaciones de torneado, fresado y taladrado. Produce viruta corta, buen acabado superficial y desgaste moderado de la herramienta. La presencia de manganeso y el bajo contenido de carbono minimizan la formación de filos recrecidos, lo que permite elevadas velocidades de corte.
+*Otras propiedades orientativas (no proceden de las fuentes consultadas): coeficiente de expansión térmica ≈ 11.5 × 10⁻⁶ /°C, calor específico ≈ 486 J/kg·°C.*
 
-## 7. Conformado
-**La forja en caliente se realiza en el intervalo de 1093 °C a 1260 °C (2000 °F a 2300 °F),** seguido de enfriamiento al aire o en horno según los requerimientos posteriores. En frío, el acero 1018 admite doblado, estampado y embutición profunda sin agrietamiento gracias a su buena ductilidad. El trabajo en frío incrementa la resistencia y dureza, pero reduce la plasticidad, por lo que se recomienda un recocido de alivio de tensiones tras deformaciones severas.
+## Tratamiento térmico
+El intervalo de forja recomendado se sitúa entre 996 °C y 1260 °C (1825 – 2300 °F). Mediante cementación superficial es posible alcanzar una dureza de 42 HRC en secciones delgadas; en piezas de más de 4 in (101 mm) la dureza máxima obtenida oscila entre 28 y 30 HRC. El recocido completo se realiza a 899 °C (1650 °F) seguido de enfriamiento lento en horno, mientras que el recocido de proceso se lleva a cabo a 649 °C (1200 °F).
 
-## 8. Soldadura
-**Para espesores inferiores a 25 mm (1 pulgada) normalmente no es necesario precalentamiento; en secciones mayores se aplica un precalentamiento de 150 °C a 260 °C (300 °F a 500 °F).** Se puede soldar con todos los procesos convencionales (SMAW, GMAW, GTAW, SAW) sin problemas de agrietamiento en frío, debido al bajo carbono equivalente. Después de soldar, un recocido de relevado de tensiones a 600–650 °C mejora la resistencia mecánica de la unión.
+## Maquinabilidad
+La maquinabilidad del 1018 se evalúa en un 70 % respecto al acero AISI 1212 (100 %). También se reporta como un 62 % frente al AISI 1112. Genera virutas continuas y duras, y puede mecanizarse en cualquier estado de tratamiento térmico, consiguiendo un acabado superficial muy fino.
 
-## 9. Tratamiento térmico
-**El recocido completo se practica calentando a 855–900 °C (1575–1650 °F),** con enfriamiento lento en horno para ablandar el material y facilitar operaciones de mecanizado posteriores. El normalizado se efectúa a 890–940 °C (1635–1725 °F) y enfriamiento al aire, refinando el grano y homogeneizando la estructura. Por su contenido limitado de carbono, no es posible un temple martensítico significativo; sin embargo, la cementación (carburización) a 900–925 °C (1650–1700 °F) seguida de temple y revenido permite obtener una capa superficial dura (≈60 HRC) con núcleo tenaz.
+## Soldadura
+El acero 1018 admite soldadura por gas, oxiacetilénica, por resistencia y arco sumergido. Debido a su bajo contenido de carbono no suele requerir precalentamiento, lo que simplifica las operaciones de unión.
 
-## 10. Aplicaciones
-El acero 1018 se emplea masivamente en piezas que requieren buena combinación de resistencia, ductilidad y maquinabilidad, especialmente cuando se necesita endurecimiento superficial por cementación. Ejemplos típicos:
+## Aplicaciones
+Gracias a su disponibilidad y excelente maquinabilidad, el 1018 se destina sobre todo a piezas producidas en grandes volúmenes mediante tornos automáticos. Entre las aplicaciones más habituales se encuentran:
 
-- Ejes, flechas y pasadores  
-- Tornillería y pernos de resistencia media  
-- Piezas de maquinaria general y agrícola  
-- Componentes estructurales soldados  
-- Casquillos, bujes y elementos de deslizamiento  
-- Sectores automotriz, construcción, electrodomésticos y bienes de equipo
+- Ejes y árboles de transmisión
+- Husillos y espindles
+- Pasadores y pines
+- Barras y varillas
+- Conjuntos de piñones y ruedas dentadas
+- Componentes estructurales de baja carga
 
-## 11. Comparativa con aceros similares
-La tabla siguiente compara el acero 1018 con otros aceros al carbono de uso común, destacando diferencias en composición y propiedades.
+## Comparativa con materiales similares
+La tabla siguiente contrasta el acero 1018 con otros aceros al carbono de uso frecuente, destacando las diferencias en contenido de carbono, resistencia y maquinabilidad.
 
-| Grado AISI | Carbono (%)   | Manganeso (%) | Resist. tracción (estirado en frío, MPa) | Dureza típica (CD, HB) | Maquinabilidad relativa | Aplicaciones típicas                         |
-|------------|---------------|---------------|------------------------------------------|------------------------|--------------------------|----------------------------------------------|
-| 1018       | 0,15 – 0,20   | 0,60 – 0,90  | 485                                      | 143                    | Muy buena (70 %)        | Piezas cementadas, pernos, ejes de baja carga |
-| 1020       | 0,18 – 0,23   | 0,30 – 0,60  | 450                                      | 121                    | Buena (65 %)            | Estructuras soldadas, tubos, perfiles         |
-| 1045       | 0,43 – 0,50   | 0,60 – 0,90  | 630                                      | 179                    | Regular (50 %)          | Engranajes, cigüeñales, piezas de alta resistencia |
+| Material | Carbono (%) | Resistencia tracción (MPa, estirado en frío) | Maquinabilidad (%) | Característica principal |
+|---|---|---|---|---|
+| AISI 1018 | 0.15 – 0.20 | 440 | 70 | Equilibrio resistencia‑maquinabilidad |
+| AISI 1020 | 0.18 – 0.23 | 450 | 60 – 65 | Ligeramente más carbono, menor maquinabilidad |
+| AISI 1045 | 0.43 – 0.50 | 590 (templado y revenido) | ≈ 55 | Mayor templabilidad, apto para fatiga |
+| AISI 12L14 | ≤ 0.15 | 490 | 160 | Maquinabilidad extrema (plomo), poca soldabilidad |
 
-Como se observa, el 1018 mejora ligeramente la maquinabilidad frente al 1020 gracias al mayor contenido de manganeso, mientras que el 1045 ofrece prestaciones mecánicas superiores pero con menor soldabilidad y maquinabilidad.
+*La maquinabilidad está referida al estándar AISI 1212 (100 %); los valores de resistencia pueden variar según el fabricante y el tratamiento térmico.*
 
-## 12. Preguntas frecuentes (FAQ)
+## Preguntas frecuentes (FAQ)
 
-**1. ¿Cuál es la resistencia a la tracción del acero 1018 estirado en frío?**  
-La resistencia a la tracción típica del acero 1018 estirado en frío es de 485 MPa (70 ksi).
+### 1. ¿Cuál es la resistencia a la tracción del acero 1018?
+La resistencia a la tracción del acero 1018 estirado en frío es de 440 MPa (63.8 ksi). En estado recocido disminuye hasta aproximadamente 400 MPa (58 ksi).
 
-**2. ¿Qué dureza Brinell presenta el acero 1018 en estado recocido?**  
-El acero 1018 recocido tiene una dureza Brinell de 111 HB.
+### 2. ¿Qué dureza tiene el acero 1018?
+La dureza Brinell del 1018 estirado en frío es de 126 HB, equivalente a 71 HRB. La versión recocida presenta una dureza Brinell de 116.
 
-**3. ¿Cuál es la densidad del acero 1018?**  
-La densidad del acero 1018 es de 7,87 g/cm³ (0,284 lb/in³).
+### 3. ¿A qué temperatura se forja el acero 1018?
+La forja se realiza en el rango de 996 °C a 1260 °C (1825 – 2300 °F).
 
-**4. ¿A qué temperatura se realiza el recocido del acero 1018?**  
-El recocido del acero 1018 se lleva a cabo entre 855 °C y 900 °C.
+### 4. ¿Se puede soldar el acero 1018?
+Sí, el contenido máximo de carbono del 0.20 % proporciona una soldabilidad excelente con todos los métodos convencionales (gas, MIG, TIG, resistencia), sin necesidad de precalentamiento especial.
 
-**5. ¿Qué índice de maquinabilidad tiene el acero 1018?**  
-El índice de maquinabilidad del acero 1018 es del 70 % (referencia AISI 1212 = 100 %).
+### 5. ¿Cuál es la maquinabilidad del acero 1018?
+La maquinabilidad del 1018 se califica con un 70 % respecto al acero de referencia AISI 1212 (100 %), lo que lo convierte en un material apto para producción en serie.
 
-**6. ¿Cuál es el contenido de carbono del acero 1018?**  
-El contenido de carbono del acero 1018 oscila entre 0,15 % y 0,20 %.
+### 6. ¿Cuál es el alargamiento del acero 1018?
+El alargamiento a rotura del 1018 estirado en frío es del 15 % (medido sobre 50 mm). En condición recocida la ductilidad se eleva hasta el 25 %.
 
 ## Fuentes consultadas
 
 - **azom.com**: https://www.azom.com/article.aspx?ArticleID=9138
 - **engineeringtoolbox.com**: https://www.engineeringtoolbox.com/compositions-steel-d_1494.html
+- **steelnumber.com**: https://www.steelnumber.com/en/steel_composition_eu.php?name_id=688

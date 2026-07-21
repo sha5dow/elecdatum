@@ -18,9 +18,7 @@ export default defineConfig({
           lang: 'en',
         },
       },
-      social: [
-        { icon: 'github', label: 'GitHub', href: 'https://github.com/sha5dow/mechdatum' },
-      ],
+    
       sidebar: [
         {
           label: 'Materiales',

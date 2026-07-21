@@ -1,8 +1,11 @@
 ---
 title: "Steel 1018 properties"
+sidebar:
+  label: "Steel 1018"
 description: "Technical reference: Steel 1018 properties"
 keywords: ["1018 carbon steel properties specifications", "materials"]
 category: "materials"
+topic: "ferrous-metals"
 subcategory: "carbon-steels"
 skill: "material-properties"
 launch_phase: 1
@@ -10,110 +13,123 @@ last_updated: "2026-07-21"
 verified: true
 ---
 
-## 1. Introduction
-AISI 1018 steel (UNS G10180) is a low‑alloy carbon steel with good machinability, widely used in industry for its excellent weldability, formability, and case‑hardening capability. With a controlled carbon content between 0.15 and 0.20 %, this material combines moderate mechanical strength with good ductility, making it a versatile choice for structural components and general‑purpose machine parts.
+## Chemical composition
+AISI 1018 steel contains a carbon percentage between 0.15 % and 0.20 % and manganese between 0.60 % and 0.90 %, which gives it good machinability and weldability. The nominal chemical composition is as follows.
 
-## 2. Chemical composition
-The chemical composition (ladle analysis) of 1018 steel is given in the following table, with the balance being iron.
+| Element | Content (%) |
+|---|---|
+| Carbon (C) | 0.15 – 0.20 |
+| Manganese (Mn) | 0.60 – 0.90 |
+| Phosphorus (P) | 0.04 max. |
+| Sulfur (S) | 0.05 max. |
+| Iron (Fe) | Balance |
 
-| Element   | Content (%) |
-|-----------|-------------|
-| Carbon (C)   | 0,15 – 0,20 |
-| Manganese (Mn)| 0,60 – 0,90 |
-| Phosphorus (P) | ≤ 0,040      |
-| Sulfur (S)    | ≤ 0,050      |
-| Iron (Fe)   | Balance      |
+*Note: According to some specifications, the carbon content may vary between 0.14 % and 0.20 % and manganese between 0.30 % and 0.90 %.*
 
-The relatively high manganese content compared to other low‑carbon steels (such as 1020) contributes to better response to surface hardening and improved machinability.
+## Physical properties
+The density of 1018 steel is 7.87 g/cm³, a typical value for non-alloy carbon steels.
 
-## 3. Mechanical properties
-The mechanical properties of 1018 steel vary significantly with thermomechanical treatment. The following table lists typical values for the most common delivery conditions (medium‑diameter round bar).
+| Property | Metric | Imperial |
+|---|---|---|
+| Density | 7.87 g/cm³ | 0.284 lb/in³ |
 
-| Condition               | Tensile strength (MPa / ksi) | Yield strength (MPa / ksi) | Elongation (% in 50 mm) | Brinell hardness (HB) |
-|-------------------------|------------------------------|----------------------------|--------------------------|-----------------------|
-| Hot rolled             | 440 / 64                     | 290 / 42                   | 27                       | 126                   |
-| Cold drawn             | 485 / 70                     | 415 / 60                   | 15                       | 143                   |
-| Annealed               | 415 / 60                     | 220 / 32                   | 35                       | 111                   |
-| Normalized             | 440 / 64                     | 275 / 40                   | 28                       | 131                   |
+## Mechanical properties (cold drawn)
+In the cold drawn condition, the tensile strength of 1018 steel reaches 440 MPa. The representative mechanical properties are detailed below.
 
-*Note: Values correspond to specimens machined from round bars; slight variations may exist depending on manufacturer and section size.*
+| Property | Metric | Imperial |
+|---|---|---|
+| Tensile strength | 440 MPa | 63 800 psi |
+| Yield strength (0.2 %) | 370 MPa | 53 700 psi |
+| Modulus of elasticity | 205 GPa | 29 700 ksi |
+| Shear modulus | 80 GPa | 11 600 ksi |
+| Poisson's ratio | 0.29 | 0.29 |
+| Elongation at break (50 mm) | 15 % | 15 % |
+| Brinell hardness | 126 | 126 |
+| Knoop hardness (converted) | 145 | 145 |
+| Rockwell B hardness (converted) | 71 | 71 |
+| Vickers hardness (converted) | 131 | 131 |
+| Machinability (base AISI 1212 = 100 %) | 70 | 70 |
 
-## 4. Physical properties
-The most relevant physical constants of 1018 steel are listed below.
+## Mechanical properties (annealed)
+The tensile strength of annealed 1018 is around 400 MPa, exhibiting notably higher ductility than in the drawn condition.
 
-| Property               | SI Value                | Imperial Value           |
-|------------------------|-------------------------|--------------------------|
-| Density                | 7,87 g/cm³              | 0,284 lb/in³            |
-| Modulus of elasticity  | ~200 GPa                | ~29 000 ksi             |
-| Poisson's ratio        | ~0,29                   | ~0,29                    |
-| Shear modulus          | ~80 GPa                 | ~11 600 ksi             |
+| Property | Metric | Imperial |
+|---|---|---|
+| Tensile strength | 400 MPa | 58 000 psi |
+| Yield strength (0.2 %) | 221 MPa | 32 000 psi |
+| Elongation at break (50 mm) | 25 % | 25 % |
+| Brinell hardness | 116 | 116 |
 
-These values are representative of low‑carbon steels and can be used in engineering calculations.
+*Typical values for hot rolled material, comparable to the annealed condition.*
 
-## 5. Thermal properties
-The thermal behavior of 1018 steel is described by the following parameters.
+## Thermal properties
+The thermal conductivity of 1018 steel is 51.9 W/m·K, which facilitates heat dissipation in machined components.
 
-| Property                                      | SI Value                | Imperial Value                 |
-|-----------------------------------------------|-------------------------|---------------------------------|
-| Coefficient of thermal expansion (20 – 100 °C) | 12,1 µm/m·°C           | 6,72 µin/in·°F                 |
-| Thermal conductivity (at 100 °C)              | 51,9 W/m·K             | 360 BTU·in/(h·ft²·°F)          |
-| Specific heat (0 – 100 °C)                    | 0,486 J/g·°C           | 0,116 BTU/lb·°F                |
-| Melting range                                  | 1425 – 1540 °C         | 2600 – 2800 °F                  |
+| Property | Metric | Imperial |
+|---|---|---|
+| Thermal conductivity | 51.9 W/m·K | 360 BTU·in/(h·ft²·°F) |
 
-## 6. Machinability
-**Machinability index of 70 % (reference AISI 1212 = 100 %).** This steel is considered easy to machine, suitable for turning, milling, and drilling. It produces short chips, good surface finish, and moderate tool wear. The presence of manganese and low carbon content minimize built‑up edge formation, allowing high cutting speeds.
+*Other indicative properties (not from the sources consulted): coefficient of thermal expansion ≈ 11.5 × 10⁻⁶ /°C, specific heat ≈ 486 J/kg·°C.*
 
-## 7. Forming
-**Hot forging is carried out in the range of 1093 °C to 1260 °C (2000 °F to 2300 °F),** followed by air cooling or furnace cooling depending on subsequent requirements. In cold condition, 1018 steel can be bent, stamped, and deep‑drawn without cracking thanks to its good ductility. Cold working increases strength and hardness but reduces plasticity, so a stress‑relieving anneal is recommended after severe deformation.
+## Heat treatment
+The recommended forging range is between 996 °C and 1260 °C (1825 – 2300 °F). Through case hardening, it is possible to achieve a hardness of 42 HRC in thin sections; in parts over 4 in (101 mm) the maximum hardness obtained ranges between 28 and 30 HRC. Full annealing is performed at 899 °C (1650 °F) followed by slow cooling in the furnace, while process annealing is carried out at 649 °C (1200 °F).
 
-## 8. Welding
-**For thicknesses below 25 mm (1 inch) preheating is normally not required; in larger sections a preheat of 150 °C to 260 °C (300 °F to 500 °F) is applied.** It can be welded with all conventional processes (SMAW, GMAW, GTAW, SAW) without cold cracking problems, due to the low carbon equivalent. After welding, a stress‑relief anneal at 600–650 °C improves the mechanical strength of the joint.
+## Machinability
+The machinability of 1018 is rated at 70 % relative to AISI 1212 steel (100 %). It is also reported as 62 % relative to AISI 1112. It produces continuous and hard chips, and can be machined in any heat treatment condition, achieving a very fine surface finish.
 
-## 9. Heat treatment
-**Full annealing is performed by heating to 855–900 °C (1575–1650 °F),** with slow furnace cooling to soften the material and facilitate subsequent machining. Normalizing is carried out at 890–940 °C (1635–1725 °F) followed by air cooling, refining the grain and homogenizing the structure. Due to the limited carbon content, significant martensitic hardening is not possible; however, carburizing at 900–925 °C (1650–1700 °F) followed by quenching and tempering produces a hard surface layer (≈60 HRC) with a tough core.
+## Welding
+1018 steel is suitable for gas, oxyacetylene, resistance, and submerged arc welding. Due to its low carbon content, it usually does not require preheating, which simplifies joining operations.
 
-## 10. Applications
-1018 steel is extensively used in parts that require a good combination of strength, ductility, and machinability, especially when surface hardening by carburizing is needed. Typical examples:
+## Applications
+Thanks to its availability and excellent machinability, 1018 is primarily used for parts produced in large volumes on automatic lathes. Among the most common applications are:
 
-- Shafts, axles, and pins  
-- Fasteners and medium‑strength bolts  
-- General machinery and agricultural parts  
-- Welded structural components  
-- Bushings, sleeves, and sliding elements  
-- Automotive, construction, appliance, and capital goods sectors
+- Shafts and transmission shafts
+- Spindles and lead screws
+- Pins and dowels
+- Bars and rods
+- Pinion and gear assemblies
+- Low-load structural components
 
-## 11. Comparison with similar steels
-The following table compares 1018 steel with other commonly used carbon steels, highlighting differences in composition and properties.
+## Comparison with similar materials
+The following table contrasts 1018 steel with other commonly used carbon steels, highlighting the differences in carbon content, strength, and machinability.
 
-| AISI Grade | Carbon (%)   | Manganese (%) | Tensile strength (cold drawn, MPa) | Typical hardness (CD, HB) | Relative machinability | Typical applications                         |
-|------------|--------------|---------------|------------------------------------|---------------------------|------------------------|----------------------------------------------|
-| 1018       | 0,15 – 0,20  | 0,60 – 0,90   | 485                                | 143                       | Very good (70 %)       | Carburized parts, bolts, low‑load shafts     |
-| 1020       | 0,18 – 0,23  | 0,30 – 0,60   | 450                                | 121                       | Good (65 %)            | Welded structures, tubes, profiles           |
-| 1045       | 0,43 – 0,50  | 0,60 – 0,90   | 630                                | 179                       | Fair (50 %)            | Gears, crankshafts, high‑strength parts      |
+| Material | Carbon (%) | Tensile strength (MPa, cold drawn) | Machinability (%) | Main characteristic |
+|---|---|---|---|---|
+| AISI 1018 | 0.15 – 0.20 | 440 | 70 | Balance strength‑machinability |
+| AISI 1020 | 0.18 – 0.23 | 450 | 60 – 65 | Slightly more carbon, lower machinability |
+| AISI 1045 | 0.43 – 0.50 | 590 (quenched and tempered) | ≈ 55 | Higher hardenability, suitable for fatigue |
+| AISI 12L14 | ≤ 0.15 | 490 | 160 | Extreme machinability (lead), poor weldability |
 
-As observed, 1018 offers slightly improved machinability over 1020 due to the higher manganese content, while 1045 provides superior mechanical properties but with lower weldability and machinability.
+*Machinability is referenced to the AISI 1212 standard (100 %); strength values may vary depending on manufacturer and heat treatment.*
 
-## 12. Frequently asked questions (FAQ)
+## Frequently asked questions (FAQ)
 
-**1. What is the tensile strength of cold‑drawn 1018 steel?**  
-The typical tensile strength of cold‑drawn 1018 steel is 485 MPa (70 ksi).
+### 1. What is the tensile strength of 1018 steel?
+The tensile strength of cold drawn 1018 steel is 440 MPa (63.8 ksi). In the annealed condition it decreases to approximately 400 MPa (58 ksi).
 
-**2. What is the Brinell hardness of 1018 steel in the annealed condition?**  
-Annealed 1018 steel has a Brinell hardness of 111 HB.
+### 2. What hardness does 1018 steel have?
+The Brinell hardness of cold drawn 1018 is 126 HB, equivalent to 71 HRB. The annealed version has a Brinell hardness of 116.
 
-**3. What is the density of 1018 steel?**  
-The density of 1018 steel is 7,87 g/cm³ (0,284 lb/in³).
+### 3. At what temperature is 1018 steel forged?
+Forging is performed in the range of 996 °C to 1260 °C (1825 – 2300 °F).
 
-**4. At what temperature is the annealing of 1018 steel performed?**  
-Annealing of 1018 steel is carried out between 855 °C and 900 °C.
+### 4. Can 1018 steel be welded?
+Yes, the maximum carbon content of 0.20 % provides excellent weldability with all conventional methods (gas, MIG, TIG, resistance), without the need for special preheating.
 
-**5. What is the machinability index of 1018 steel?**  
-The machinability index of 1018 steel is 70 % (reference AISI 1212 = 100 %).
+### 5. What is the machinability of 1018 steel?
+The machinability of 1018 is rated at 70 % relative to the reference steel AISI 1212 (100 %), making it a material suitable for series production.
 
-**6. What is the carbon content of 1018 steel?**  
-The carbon content of 1018 steel ranges from 0,15 % to 0,20 %.
+### 6. What is the elongation of 1018 steel?
+The elongation at break of cold drawn 1018 is 15 % (measured over 50 mm). In the annealed condition, ductility rises to 25 %.
+
+## References
+
+- **azom.com**: https://www.azom.com/article.aspx?ArticleID=9138
+- **engineeringtoolbox.com**: https://www.engineeringtoolbox.com/compositions-steel-d_1494.html
+- **steelnumber.com**: https://www.steelnumber.com/en/steel_composition_eu.php?name_id=688
 
 ## Sources Consulted
 
 - **azom.com**: https://www.azom.com/article.aspx?ArticleID=9138
 - **engineeringtoolbox.com**: https://www.engineeringtoolbox.com/compositions-steel-d_1494.html
+- **steelnumber.com**: https://www.steelnumber.com/en/steel_composition_eu.php?name_id=688
