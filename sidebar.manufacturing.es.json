@@ -1,0 +1,94 @@
+[
+  {
+    "label": "Conformado",
+    "items": [
+      {
+        "label": "Bend allowance y deducción fórmulas",
+        "link": "/manufacturing/bend-allowance-deduction/"
+      },
+      {
+        "label": "Embutición profunda límites y",
+        "link": "/manufacturing/deep-drawing-parameters/"
+      },
+      {
+        "label": "Extrusión parámetros y tolerancias",
+        "link": "/manufacturing/extrusion-parameters-tolerances/"
+      },
+      {
+        "label": "Forja parámetros y tolerancias",
+        "link": "/manufacturing/forging-parameters-tolerances/"
+      },
+      {
+        "label": "K-factor acero inoxidable 304",
+        "link": "/manufacturing/k-factor-stainless-304/"
+      },
+      {
+        "label": "K-factor aluminio 5052",
+        "link": "/manufacturing/k-factor-aluminum-5052/"
+      },
+      {
+        "label": "K-factor aluminio 6061",
+        "link": "/manufacturing/k-factor-aluminum-6061/"
+      },
+      {
+        "label": "K-factor chapa DC01",
+        "link": "/manufacturing/k-factor-dc01/"
+      },
+      {
+        "label": "Radios mínimos de doblez por material",
+        "link": "/manufacturing/minimum-bend-radius/"
+      },
+      {
+        "label": "Reglas DFM para chapa metálica",
+        "link": "/manufacturing/dfm-sheet-metal/"
+      },
+      {
+        "label": "Springback en doblado de chapa",
+        "link": "/manufacturing/springback-sheet-metal/"
+      }
+    ]
+  },
+  {
+    "label": "Fundición",
+    "items": [
+      {
+        "label": "Fundición a presión",
+        "link": "/manufacturing/die-casting-parameters/"
+      },
+      {
+        "label": "Fundición en Arena parámetros y tolerancias",
+        "link": "/manufacturing/sand-casting-parameters/"
+      },
+      {
+        "label": "Fundición en molde permanente",
+        "link": "/manufacturing/permanent-mold-casting/"
+      },
+      {
+        "label": "Guía selección proceso de fundición",
+        "link": "/manufacturing/casting-selection-guide/"
+      },
+      {
+        "label": "Microfusión cera perdida",
+        "link": "/manufacturing/investment-casting-parameters/"
+      }
+    ]
+  },
+  {
+    "label": "Mecanizado",
+    "items": [
+      {
+        "label": "Torneado velocidades y avances por material",
+        "link": "/manufacturing/turning-speeds-feeds/"
+      }
+    ]
+  },
+  {
+    "label": "otros",
+    "items": [
+      {
+        "label": "Procesos de Manufactura",
+        "link": "/manufacturing/index/"
+      }
+    ]
+  }
+]

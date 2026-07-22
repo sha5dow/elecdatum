@@ -1,5 +1,7 @@
 import { defineConfig } from 'astro/config';
 import starlight from '@astrojs/starlight';
+import sitemap from '@astrojs/sitemap';
+import sidebarGenerated from './sidebar.generated.json' with { type: 'json' };
 
 export default defineConfig({
   site: 'https://mechdatum.com',
@@ -18,18 +20,9 @@ export default defineConfig({
           lang: 'en',
         },
       },
-    
+
       sidebar: [
-        {
-          label: 'Materiales',
-          translations: { en: 'Materials' },
-          items: [{ autogenerate: { directory: 'materials' } }],
-        },
-        {
-          label: 'Procesos de Manufactura',
-          translations: { en: 'Manufacturing Processes' },
-          items: [{ autogenerate: { directory: 'manufacturing' } }],
-        },
+        ...sidebarGenerated,
         {
           label: 'Tolerancias y Ajustes',
           translations: { en: 'Tolerances & Fits' },
@@ -39,11 +32,6 @@ export default defineConfig({
           label: 'Tornillería',
           translations: { en: 'Fasteners' },
           items: [{ autogenerate: { directory: 'fasteners' } }],
-        },
-        {
-          label: 'Soldadura',
-          translations: { en: 'Welding' },
-          items: [{ autogenerate: { directory: 'welding' } }],
         },
         {
           label: 'Elementos de Máquinas',
@@ -85,6 +73,10 @@ export default defineConfig({
           },
         },
       ],
+      components: {
+        Footer: './src/components/Footer.astro',
+      },
     }),
+    sitemap(),
   ],
 });

@@ -1,0 +1,94 @@
+[
+  {
+    "label": "Conformado",
+    "items": [
+      {
+        "label": "Bend allowance and deduction formulas",
+        "link": "/en/manufacturing/bend-allowance-deduction/"
+      },
+      {
+        "label": "Deep drawing limits and",
+        "link": "/en/manufacturing/deep-drawing-parameters/"
+      },
+      {
+        "label": "DFM rules for sheet metal",
+        "link": "/en/manufacturing/dfm-sheet-metal/"
+      },
+      {
+        "label": "Extrusion parameters and tolerances",
+        "link": "/en/manufacturing/extrusion-parameters-tolerances/"
+      },
+      {
+        "label": "Forging parameters and tolerances",
+        "link": "/en/manufacturing/forging-parameters-tolerances/"
+      },
+      {
+        "label": "K-factor aluminum 5052",
+        "link": "/en/manufacturing/k-factor-aluminum-5052/"
+      },
+      {
+        "label": "K-factor aluminum 6061",
+        "link": "/en/manufacturing/k-factor-aluminum-6061/"
+      },
+      {
+        "label": "K-factor sheet metal DC01",
+        "link": "/en/manufacturing/k-factor-dc01/"
+      },
+      {
+        "label": "K-factor stainless steel 304",
+        "link": "/en/manufacturing/k-factor-stainless-304/"
+      },
+      {
+        "label": "Minimum bend radius by material",
+        "link": "/en/manufacturing/minimum-bend-radius/"
+      },
+      {
+        "label": "Springback in sheet metal bending",
+        "link": "/en/manufacturing/springback-sheet-metal/"
+      }
+    ]
+  },
+  {
+    "label": "Fundición",
+    "items": [
+      {
+        "label": "Casting process selection guide",
+        "link": "/en/manufacturing/casting-selection-guide/"
+      },
+      {
+        "label": "Die Casting parameters tolerances",
+        "link": "/en/manufacturing/die-casting-parameters/"
+      },
+      {
+        "label": "Investment Casting lost wax",
+        "link": "/en/manufacturing/investment-casting-parameters/"
+      },
+      {
+        "label": "Permanent mold casting",
+        "link": "/en/manufacturing/permanent-mold-casting/"
+      },
+      {
+        "label": "Sand Casting parameters and tolerances",
+        "link": "/en/manufacturing/sand-casting-parameters/"
+      }
+    ]
+  },
+  {
+    "label": "Mecanizado",
+    "items": [
+      {
+        "label": "Turning speeds and feeds by material",
+        "link": "/en/manufacturing/turning-speeds-feeds/"
+      }
+    ]
+  },
+  {
+    "label": "otros",
+    "items": [
+      {
+        "label": "Manufacturing Processes",
+        "link": "/en/manufacturing/index/"
+      }
+    ]
+  }
+]

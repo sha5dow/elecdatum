@@ -1,6 +1,6 @@
 ﻿---
 title: Manufacturing Processes
-description: Technical parameters for manufacturing processes. Casting, forming, machining, welding and more.
+description: Technical parameters for manufacturing processes. Verified references for machining, welding, casting, forming, and additive manufacturing.
 ---
 
-Technical reference for manufacturing processes with verified parameters by material and process.
+Manufacturing process parameters database for engineers. Data verified across multiple primary sources.

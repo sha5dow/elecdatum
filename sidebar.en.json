@@ -1,0 +1,412 @@
+[
+  {
+    "label": "Materials",
+    "items": [
+      {
+        "label": "Compuestos",
+        "items": [
+          {
+            "label": "Carbon Fiber CFRP",
+            "link": "/en/materials/carbon-fiber-cfrp/"
+          },
+          {
+            "label": "Fiberglass GFRP",
+            "link": "/en/materials/fiberglass-gfrp-properties/"
+          },
+          {
+            "label": "Kevlar Aramid",
+            "link": "/en/materials/kevlar-aramid-properties/"
+          }
+        ]
+      },
+      {
+        "label": "Ferrosos",
+        "items": [
+          {
+            "label": "Ductile Iron",
+            "link": "/en/materials/ductile-iron-properties/"
+          },
+          {
+            "label": "Gray Cast Iron",
+            "link": "/en/materials/gray-cast-iron-properties/"
+          },
+          {
+            "label": "HSLA steels",
+            "link": "/en/materials/hsla-steels-properties/"
+          },
+          {
+            "label": "Malleable Cast Iron",
+            "link": "/en/materials/malleable-cast-iron/"
+          },
+          {
+            "label": "Stainless Steel 17-4PH",
+            "link": "/en/materials/stainless-steel-17-4ph/"
+          },
+          {
+            "label": "Stainless Steel 301",
+            "link": "/en/materials/stainless-steel-301/"
+          },
+          {
+            "label": "Stainless Steel 304",
+            "link": "/en/materials/stainless-steel-304/"
+          },
+          {
+            "label": "Stainless Steel 316",
+            "link": "/en/materials/stainless-steel-316/"
+          },
+          {
+            "label": "Stainless Steel 410",
+            "link": "/en/materials/stainless-steel-410/"
+          },
+          {
+            "label": "Stainless Steel 420",
+            "link": "/en/materials/stainless-steel-420/"
+          },
+          {
+            "label": "Stainless Steel 440C",
+            "link": "/en/materials/stainless-steel-440c/"
+          },
+          {
+            "label": "Steel 1018",
+            "link": "/en/materials/steel-1018-properties/"
+          },
+          {
+            "label": "Steel 1020",
+            "link": "/en/materials/steel-1020-properties/"
+          },
+          {
+            "label": "Steel 1045",
+            "link": "/en/materials/steel-1045-properties/"
+          },
+          {
+            "label": "Steel 1060",
+            "link": "/en/materials/steel-1060-properties/"
+          },
+          {
+            "label": "Steel 1080",
+            "link": "/en/materials/steel-1080-properties/"
+          },
+          {
+            "label": "Steel 4130",
+            "link": "/en/materials/steel-4130-properties/"
+          },
+          {
+            "label": "Steel 4140",
+            "link": "/en/materials/steel-4140-properties/"
+          },
+          {
+            "label": "Steel 4340",
+            "link": "/en/materials/steel-4340-properties/"
+          },
+          {
+            "label": "Steel 8620",
+            "link": "/en/materials/steel-8620-properties/"
+          },
+          {
+            "label": "Tool Steel A2",
+            "link": "/en/materials/tool-steel-a2/"
+          },
+          {
+            "label": "Tool Steel D2",
+            "link": "/en/materials/tool-steel-d2/"
+          },
+          {
+            "label": "Tool Steel H13",
+            "link": "/en/materials/tool-steel-h13/"
+          },
+          {
+            "label": "Tool Steel M2",
+            "link": "/en/materials/tool-steel-m2/"
+          },
+          {
+            "label": "Tool Steel O1",
+            "link": "/en/materials/tool-steel-o1/"
+          }
+        ]
+      },
+      {
+        "label": "No Ferrosos",
+        "items": [
+          {
+            "label": "Aluminum 1100",
+            "link": "/en/materials/aluminum-1100-properties/"
+          },
+          {
+            "label": "Aluminum 2024",
+            "link": "/en/materials/aluminum-2024-properties/"
+          },
+          {
+            "label": "Aluminum 5052",
+            "link": "/en/materials/aluminum-5052-properties/"
+          },
+          {
+            "label": "Aluminum 6061",
+            "link": "/en/materials/aluminum-6061-properties/"
+          },
+          {
+            "label": "Aluminum 6063",
+            "link": "/en/materials/aluminum-6063-properties/"
+          },
+          {
+            "label": "Aluminum 7075",
+            "link": "/en/materials/aluminum-7075-properties/"
+          },
+          {
+            "label": "Brass C260",
+            "link": "/en/materials/brass-c260-properties/"
+          },
+          {
+            "label": "Brass C360 free cutting",
+            "link": "/en/materials/brass-c360-properties/"
+          },
+          {
+            "label": "Bronze C630",
+            "link": "/en/materials/bronze-c630-properties/"
+          },
+          {
+            "label": "Bronze C932 bearing bronze",
+            "link": "/en/materials/bronze-c932-bearing/"
+          },
+          {
+            "label": "Copper C110",
+            "link": "/en/materials/copper-c110-properties/"
+          },
+          {
+            "label": "Inconel 625",
+            "link": "/en/materials/inconel-625-properties/"
+          },
+          {
+            "label": "Inconel 718",
+            "link": "/en/materials/inconel-718-properties/"
+          },
+          {
+            "label": "Magnesium AZ31B",
+            "link": "/en/materials/magnesium-az31b-properties/"
+          },
+          {
+            "label": "Monel 400",
+            "link": "/en/materials/monel-400-properties/"
+          },
+          {
+            "label": "Titanium Grade 2",
+            "link": "/en/materials/titanium-grade-2/"
+          },
+          {
+            "label": "Titanium Ti-6Al-4V",
+            "link": "/en/materials/titanium-ti6al4v/"
+          },
+          {
+            "label": "Zinc general",
+            "link": "/en/materials/zinc-properties/"
+          }
+        ]
+      },
+      {
+        "label": "polymers",
+        "items": [
+          {
+            "label": "ABS",
+            "link": "/en/materials/abs-properties/"
+          },
+          {
+            "label": "EPDM",
+            "link": "/en/materials/epdm-properties/"
+          },
+          {
+            "label": "NBR Nitrile rubber",
+            "link": "/en/materials/nbr-nitrile-properties/"
+          },
+          {
+            "label": "Neoprene CR",
+            "link": "/en/materials/neoprene-cr-properties/"
+          },
+          {
+            "label": "Nylon PA6",
+            "link": "/en/materials/nylon-pa6-properties/"
+          },
+          {
+            "label": "Nylon PA66",
+            "link": "/en/materials/nylon-pa66-properties/"
+          },
+          {
+            "label": "PEEK",
+            "link": "/en/materials/peek-properties/"
+          },
+          {
+            "label": "PET",
+            "link": "/en/materials/pet-properties/"
+          },
+          {
+            "label": "Polycarbonate PC",
+            "link": "/en/materials/polycarbonate-pc/"
+          },
+          {
+            "label": "Polyethylene PE",
+            "link": "/en/materials/polyethylene-pe-properties/"
+          },
+          {
+            "label": "Polypropylene PP",
+            "link": "/en/materials/polypropylene-pp/"
+          },
+          {
+            "label": "POM Delrin",
+            "link": "/en/materials/pom-delrin-properties/"
+          },
+          {
+            "label": "PTFE Teflon",
+            "link": "/en/materials/ptfe-teflon-properties/"
+          },
+          {
+            "label": "PVC",
+            "link": "/en/materials/pvc-properties/"
+          },
+          {
+            "label": "Silicone",
+            "link": "/en/materials/silicone-properties/"
+          },
+          {
+            "label": "UHMWPE",
+            "link": "/en/materials/uhmwpe-properties/"
+          },
+          {
+            "label": "Viton FKM",
+            "link": "/en/materials/viton-fkm-properties/"
+          }
+        ]
+      },
+      {
+        "label": "Tablas Comparativas",
+        "items": [
+          {
+            "label": "Comparative metal densities",
+            "link": "/en/materials/metal-densities-comparison/"
+          },
+          {
+            "label": "Electrical conductivity of metals",
+            "link": "/en/materials/electrical-conductivity-metals/"
+          },
+          {
+            "label": "Galvanic compatibility of metals",
+            "link": "/en/materials/galvanic-compatibility-metals/"
+          },
+          {
+            "label": "Metal melting points",
+            "link": "/en/materials/metal-melting-points/"
+          },
+          {
+            "label": "Specific strength of materials",
+            "link": "/en/materials/specific-strength-materials/"
+          },
+          {
+            "label": "Thermal conductivity of materials",
+            "link": "/en/materials/thermal-conductivity-materials/"
+          },
+          {
+            "label": "Thermal expansion coefficients",
+            "link": "/en/materials/thermal-expansion-coefficients/"
+          },
+          {
+            "label": "Young modulus comparison",
+            "link": "/en/materials/young-modulus-comparison/"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "label": "Manufacturing Processes",
+    "items": [
+      {
+        "label": "Conformado",
+        "items": [
+          {
+            "label": "Bend allowance and deduction formulas",
+            "link": "/en/manufacturing/bend-allowance-deduction/"
+          },
+          {
+            "label": "Deep drawing limits and",
+            "link": "/en/manufacturing/deep-drawing-parameters/"
+          },
+          {
+            "label": "DFM rules for sheet metal",
+            "link": "/en/manufacturing/dfm-sheet-metal/"
+          },
+          {
+            "label": "Extrusion parameters and tolerances",
+            "link": "/en/manufacturing/extrusion-parameters-tolerances/"
+          },
+          {
+            "label": "Forging parameters and tolerances",
+            "link": "/en/manufacturing/forging-parameters-tolerances/"
+          },
+          {
+            "label": "K-factor aluminum 5052",
+            "link": "/en/manufacturing/k-factor-aluminum-5052/"
+          },
+          {
+            "label": "K-factor aluminum 6061",
+            "link": "/en/manufacturing/k-factor-aluminum-6061/"
+          },
+          {
+            "label": "K-factor sheet metal DC01",
+            "link": "/en/manufacturing/k-factor-dc01/"
+          },
+          {
+            "label": "K-factor stainless steel 304",
+            "link": "/en/manufacturing/k-factor-stainless-304/"
+          },
+          {
+            "label": "Minimum bend radius by material",
+            "link": "/en/manufacturing/minimum-bend-radius/"
+          },
+          {
+            "label": "Springback in sheet metal bending",
+            "link": "/en/manufacturing/springback-sheet-metal/"
+          }
+        ]
+      },
+      {
+        "label": "Fundición",
+        "items": [
+          {
+            "label": "Casting process selection guide",
+            "link": "/en/manufacturing/casting-selection-guide/"
+          },
+          {
+            "label": "Die Casting parameters tolerances",
+            "link": "/en/manufacturing/die-casting-parameters/"
+          },
+          {
+            "label": "Investment Casting lost wax",
+            "link": "/en/manufacturing/investment-casting-parameters/"
+          },
+          {
+            "label": "Permanent mold casting",
+            "link": "/en/manufacturing/permanent-mold-casting/"
+          },
+          {
+            "label": "Sand Casting parameters and tolerances",
+            "link": "/en/manufacturing/sand-casting-parameters/"
+          }
+        ]
+      },
+      {
+        "label": "Mecanizado",
+        "items": [
+          {
+            "label": "Drilling speeds and feeds",
+            "link": "/en/manufacturing/drilling-speeds-feeds/"
+          },
+          {
+            "label": "Milling speeds and feeds by material",
+            "link": "/en/manufacturing/milling-speeds-feeds/"
+          },
+          {
+            "label": "Turning speeds and feeds by material",
+            "link": "/en/manufacturing/turning-speeds-feeds/"
+          }
+        ]
+      }
+    ]
+  }
+]

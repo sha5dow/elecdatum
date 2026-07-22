@@ -1,0 +1,61 @@
+﻿---
+import Default from '@astrojs/starlight/components/Footer.astro';
+
+const locale = Astro.currentLocale;
+const isEn = locale === 'en';
+
+const prefix = isEn ? '/en' : '';
+
+const links = isEn
+  ? [
+      { href: `${prefix}/about/`, label: 'About' },
+      { href: `${prefix}/methodology/`, label: 'Methodology' },
+      { href: `${prefix}/contact/`, label: 'Contact' },
+      { href: `${prefix}/privacy-policy/`, label: 'Privacy Policy' },
+      { href: `${prefix}/terms-of-service/`, label: 'Terms of Service' },
+    ]
+  : [
+      { href: '/about/', label: 'Acerca de' },
+      { href: '/methodology/', label: 'Metodología' },
+      { href: '/contact/', label: 'Contacto' },
+      { href: '/privacy-policy/', label: 'Política de Privacidad' },
+      { href: '/terms-of-service/', label: 'Términos de Servicio' },
+    ];
+
+const copyright = isEn
+  ? '© 2026 MechDatum. All rights reserved.'
+  : '© 2026 MechDatum. Todos los derechos reservados.';
+---
+<Default><slot /></Default>
+<footer class="site-footer">
+  <nav>
+    {links.map((link) => (
+      <a href={link.href}>{link.label}</a>
+    ))}
+  </nav>
+  <p>{copyright}</p>
+</footer>
+
+<style>
+  .site-footer {
+    margin-top: 3rem;
+    padding-top: 1.5rem;
+    border-top: 1px solid var(--sl-color-gray-5);
+    font-size: 0.85rem;
+    color: var(--sl-color-gray-3);
+  }
+  .site-footer nav {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1rem;
+    margin-bottom: 0.75rem;
+  }
+  .site-footer nav a {
+    color: var(--sl-color-gray-3);
+    text-decoration: none;
+  }
+  .site-footer nav a:hover {
+    color: var(--sl-color-white);
+    text-decoration: underline;
+  }
+</style>

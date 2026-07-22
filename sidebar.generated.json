@@ -1,0 +1,458 @@
+[
+  {
+    "label": "Materiales",
+    "translations": {
+      "en": "Materials"
+    },
+    "items": [
+      {
+        "label": "Compuestos",
+        "translations": {
+          "en": "Composites"
+        },
+        "items": [
+          {
+            "label": "Fibra de Carbono CFRP",
+            "link": "/materials/carbon-fiber-cfrp/"
+          },
+          {
+            "label": "Fibra de Vidrio GFRP",
+            "link": "/materials/fiberglass-gfrp-properties/"
+          },
+          {
+            "label": "Kevlar Aramida",
+            "link": "/materials/kevlar-aramid-properties/"
+          }
+        ]
+      },
+      {
+        "label": "Ferrosos",
+        "translations": {
+          "en": "Ferrous"
+        },
+        "items": [
+          {
+            "label": "Acero 1018",
+            "link": "/materials/steel-1018-properties/"
+          },
+          {
+            "label": "Acero 1020",
+            "link": "/materials/steel-1020-properties/"
+          },
+          {
+            "label": "Acero 1045",
+            "link": "/materials/steel-1045-properties/"
+          },
+          {
+            "label": "Acero 1060",
+            "link": "/materials/steel-1060-properties/"
+          },
+          {
+            "label": "Acero 1080",
+            "link": "/materials/steel-1080-properties/"
+          },
+          {
+            "label": "Acero 4130",
+            "link": "/materials/steel-4130-properties/"
+          },
+          {
+            "label": "Acero 4140",
+            "link": "/materials/steel-4140-properties/"
+          },
+          {
+            "label": "Acero 4340",
+            "link": "/materials/steel-4340-properties/"
+          },
+          {
+            "label": "Acero 8620",
+            "link": "/materials/steel-8620-properties/"
+          },
+          {
+            "label": "Acero Herramienta A2",
+            "link": "/materials/tool-steel-a2/"
+          },
+          {
+            "label": "Acero Herramienta D2",
+            "link": "/materials/tool-steel-d2/"
+          },
+          {
+            "label": "Acero Herramienta H13",
+            "link": "/materials/tool-steel-h13/"
+          },
+          {
+            "label": "Acero Herramienta M2",
+            "link": "/materials/tool-steel-m2/"
+          },
+          {
+            "label": "Acero Herramienta O1",
+            "link": "/materials/tool-steel-o1/"
+          },
+          {
+            "label": "Acero Inoxidable 17-4PH",
+            "link": "/materials/stainless-steel-17-4ph/"
+          },
+          {
+            "label": "Acero Inoxidable 301",
+            "link": "/materials/stainless-steel-301/"
+          },
+          {
+            "label": "Acero Inoxidable 304",
+            "link": "/materials/stainless-steel-304/"
+          },
+          {
+            "label": "Acero Inoxidable 316",
+            "link": "/materials/stainless-steel-316/"
+          },
+          {
+            "label": "Acero Inoxidable 410",
+            "link": "/materials/stainless-steel-410/"
+          },
+          {
+            "label": "Acero Inoxidable 420",
+            "link": "/materials/stainless-steel-420/"
+          },
+          {
+            "label": "Acero Inoxidable 440C",
+            "link": "/materials/stainless-steel-440c/"
+          },
+          {
+            "label": "Aceros HSLA",
+            "link": "/materials/hsla-steels-properties/"
+          },
+          {
+            "label": "Fundición Gris",
+            "link": "/materials/gray-cast-iron-properties/"
+          },
+          {
+            "label": "Fundición Maleable",
+            "link": "/materials/malleable-cast-iron/"
+          },
+          {
+            "label": "Fundición Nodular",
+            "link": "/materials/ductile-iron-properties/"
+          }
+        ]
+      },
+      {
+        "label": "No Ferrosos",
+        "translations": {
+          "en": "Non-Ferrous"
+        },
+        "items": [
+          {
+            "label": "Aluminio 1100",
+            "link": "/materials/aluminum-1100-properties/"
+          },
+          {
+            "label": "Aluminio 2024",
+            "link": "/materials/aluminum-2024-properties/"
+          },
+          {
+            "label": "Aluminio 5052",
+            "link": "/materials/aluminum-5052-properties/"
+          },
+          {
+            "label": "Aluminio 6061",
+            "link": "/materials/aluminum-6061-properties/"
+          },
+          {
+            "label": "Aluminio 6063",
+            "link": "/materials/aluminum-6063-properties/"
+          },
+          {
+            "label": "Aluminio 7075",
+            "link": "/materials/aluminum-7075-properties/"
+          },
+          {
+            "label": "Bronce C630",
+            "link": "/materials/bronze-c630-properties/"
+          },
+          {
+            "label": "Bronce C932",
+            "link": "/materials/bronze-c932-bearing/"
+          },
+          {
+            "label": "Cobre C110",
+            "link": "/materials/copper-c110-properties/"
+          },
+          {
+            "label": "Inconel 625",
+            "link": "/materials/inconel-625-properties/"
+          },
+          {
+            "label": "Inconel 718",
+            "link": "/materials/inconel-718-properties/"
+          },
+          {
+            "label": "Latón C260",
+            "link": "/materials/brass-c260-properties/"
+          },
+          {
+            "label": "Latón C360",
+            "link": "/materials/brass-c360-properties/"
+          },
+          {
+            "label": "Magnesio AZ31B",
+            "link": "/materials/magnesium-az31b-properties/"
+          },
+          {
+            "label": "Monel 400",
+            "link": "/materials/monel-400-properties/"
+          },
+          {
+            "label": "Titanio Grado 2",
+            "link": "/materials/titanium-grade-2/"
+          },
+          {
+            "label": "Titanio Ti-6Al-4V",
+            "link": "/materials/titanium-ti6al4v/"
+          },
+          {
+            "label": "Zinc propiedades generales",
+            "link": "/materials/zinc-properties/"
+          }
+        ]
+      },
+      {
+        "label": "Polímeros",
+        "translations": {
+          "en": "Polymers"
+        },
+        "items": [
+          {
+            "label": "ABS",
+            "link": "/materials/abs-properties/"
+          },
+          {
+            "label": "EPDM",
+            "link": "/materials/epdm-properties/"
+          },
+          {
+            "label": "NBR Nitrilo",
+            "link": "/materials/nbr-nitrile-properties/"
+          },
+          {
+            "label": "Neopreno CR",
+            "link": "/materials/neoprene-cr-properties/"
+          },
+          {
+            "label": "Nylon PA6",
+            "link": "/materials/nylon-pa6-properties/"
+          },
+          {
+            "label": "Nylon PA66",
+            "link": "/materials/nylon-pa66-properties/"
+          },
+          {
+            "label": "PEEK",
+            "link": "/materials/peek-properties/"
+          },
+          {
+            "label": "PET",
+            "link": "/materials/pet-properties/"
+          },
+          {
+            "label": "Policarbonato PC",
+            "link": "/materials/polycarbonate-pc/"
+          },
+          {
+            "label": "Polietileno PE",
+            "link": "/materials/polyethylene-pe-properties/"
+          },
+          {
+            "label": "Polipropileno PP",
+            "link": "/materials/polypropylene-pp/"
+          },
+          {
+            "label": "POM Delrin",
+            "link": "/materials/pom-delrin-properties/"
+          },
+          {
+            "label": "PTFE Teflón",
+            "link": "/materials/ptfe-teflon-properties/"
+          },
+          {
+            "label": "PVC",
+            "link": "/materials/pvc-properties/"
+          },
+          {
+            "label": "Silicona",
+            "link": "/materials/silicone-properties/"
+          },
+          {
+            "label": "UHMWPE",
+            "link": "/materials/uhmwpe-properties/"
+          },
+          {
+            "label": "Viton FKM",
+            "link": "/materials/viton-fkm-properties/"
+          }
+        ]
+      },
+      {
+        "label": "Tablas Comparativas",
+        "translations": {
+          "en": "Comparison Tables"
+        },
+        "items": [
+          {
+            "label": "Coeficientes de expansión térmica",
+            "link": "/materials/thermal-expansion-coefficients/"
+          },
+          {
+            "label": "Compatibilidad galvánica entre metales",
+            "link": "/materials/galvanic-compatibility-metals/"
+          },
+          {
+            "label": "Conductividad eléctrica de metales",
+            "link": "/materials/electrical-conductivity-metals/"
+          },
+          {
+            "label": "Conductividad térmica de materiales",
+            "link": "/materials/thermal-conductivity-materials/"
+          },
+          {
+            "label": "Densidades comparativas de metales",
+            "link": "/materials/metal-densities-comparison/"
+          },
+          {
+            "label": "Módulos de Young comparativos",
+            "link": "/materials/young-modulus-comparison/"
+          },
+          {
+            "label": "Puntos de fusión de metales",
+            "link": "/materials/metal-melting-points/"
+          },
+          {
+            "label": "Resistencia específica de materiales",
+            "link": "/materials/specific-strength-materials/"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "label": "Procesos de Manufactura",
+    "translations": {
+      "en": "Manufacturing Processes"
+    },
+    "items": [
+      {
+        "label": "Conformado",
+        "translations": {
+          "en": "Forming"
+        },
+        "items": [
+          {
+            "label": "Bend allowance y deducción fórmulas",
+            "link": "/manufacturing/bend-allowance-deduction/"
+          },
+          {
+            "label": "Embutición profunda límites y",
+            "link": "/manufacturing/deep-drawing-parameters/"
+          },
+          {
+            "label": "Extrusión parámetros y tolerancias",
+            "link": "/manufacturing/extrusion-parameters-tolerances/"
+          },
+          {
+            "label": "Forja parámetros y tolerancias",
+            "link": "/manufacturing/forging-parameters-tolerances/"
+          },
+          {
+            "label": "K-factor acero inoxidable 304",
+            "link": "/manufacturing/k-factor-stainless-304/"
+          },
+          {
+            "label": "K-factor aluminio 5052",
+            "link": "/manufacturing/k-factor-aluminum-5052/"
+          },
+          {
+            "label": "K-factor aluminio 6061",
+            "link": "/manufacturing/k-factor-aluminum-6061/"
+          },
+          {
+            "label": "K-factor chapa DC01",
+            "link": "/manufacturing/k-factor-dc01/"
+          },
+          {
+            "label": "Radios mínimos de doblez por material",
+            "link": "/manufacturing/minimum-bend-radius/"
+          },
+          {
+            "label": "Reglas DFM para chapa metálica",
+            "link": "/manufacturing/dfm-sheet-metal/"
+          },
+          {
+            "label": "Springback en doblado de chapa",
+            "link": "/manufacturing/springback-sheet-metal/"
+          }
+        ]
+      },
+      {
+        "label": "Fundición",
+        "translations": {
+          "en": "Casting"
+        },
+        "items": [
+          {
+            "label": "Fundición a presión",
+            "link": "/manufacturing/die-casting-parameters/"
+          },
+          {
+            "label": "Fundición en Arena parámetros y tolerancias",
+            "link": "/manufacturing/sand-casting-parameters/"
+          },
+          {
+            "label": "Fundición en molde permanente",
+            "link": "/manufacturing/permanent-mold-casting/"
+          },
+          {
+            "label": "Guía selección proceso de fundición",
+            "link": "/manufacturing/casting-selection-guide/"
+          },
+          {
+            "label": "Microfusión cera perdida",
+            "link": "/manufacturing/investment-casting-parameters/"
+          }
+        ]
+      },
+      {
+        "label": "Mecanizado",
+        "translations": {
+          "en": "Machining"
+        },
+        "items": [
+          {
+            "label": "EDM electroerosión parámetros y tolerancias",
+            "link": "/manufacturing/edm-parameters/"
+          },
+          {
+            "label": "Escariado tolerancias y",
+            "link": "/manufacturing/reaming-parameters/"
+          },
+          {
+            "label": "Fresado velocidades y avances por material",
+            "link": "/manufacturing/milling-speeds-feeds/"
+          },
+          {
+            "label": "Rectificado parámetros y acabados",
+            "link": "/manufacturing/grinding-parameters/"
+          },
+          {
+            "label": "Roscado con macho",
+            "link": "/manufacturing/tapping-parameters/"
+          },
+          {
+            "label": "Taladrado velocidades y avances",
+            "link": "/manufacturing/drilling-speeds-feeds/"
+          },
+          {
+            "label": "Torneado velocidades y avances por material",
+            "link": "/manufacturing/turning-speeds-feeds/"
+          }
+        ]
+      }
+    ]
+  }
+]
