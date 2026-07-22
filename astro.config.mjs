@@ -21,49 +21,10 @@ export default defineConfig({
         },
       },
 
-      sidebar: [
-        ...sidebarGenerated,
-        {
-          label: 'Tolerancias y Ajustes',
-          translations: { en: 'Tolerances & Fits' },
-          items: [{ autogenerate: { directory: 'tolerances' } }],
-        },
-        {
-          label: 'Tornillería',
-          translations: { en: 'Fasteners' },
-          items: [{ autogenerate: { directory: 'fasteners' } }],
-        },
-        {
-          label: 'Elementos de Máquinas',
-          translations: { en: 'Machine Elements' },
-          items: [{ autogenerate: { directory: 'machine-elements' } }],
-        },
-        {
-          label: 'Hidráulica y Neumática',
-          translations: { en: 'Hydraulics & Pneumatics' },
-          items: [{ autogenerate: { directory: 'hydraulics' } }],
-        },
-        {
-          label: 'Resistencia de Materiales',
-          translations: { en: 'Strength of Materials' },
-          items: [{ autogenerate: { directory: 'mechanics' } }],
-        },
-        {
-          label: 'Fluidos y Termodinámica',
-          translations: { en: 'Fluids & Thermodynamics' },
-          items: [{ autogenerate: { directory: 'fluids' } }],
-        },
-        {
-          label: 'Símbolos Técnicos',
-          translations: { en: 'Technical Symbols' },
-          items: [{ autogenerate: { directory: 'symbols' } }],
-        },
-        {
-          label: 'Conversores',
-          translations: { en: 'Converters' },
-          items: [{ autogenerate: { directory: 'converters' } }],
-        },
-      ],
+  sidebar: [
+  ...sidebarGenerated,
+],
+
       head: [
         {
           tag: 'meta',
@@ -71,6 +32,22 @@ export default defineConfig({
             name: 'google-site-verification',
             content: 'PENDING',
           },
+        },
+        {
+          tag: 'script',
+          attrs: {
+            src: 'https://www.googletagmanager.com/gtag/js?id=G-CLYH2C3ER6',
+            async: true,
+          },
+        },
+        {
+          tag: 'script',
+          content: `
+            window.dataLayer = window.dataLayer || [];
+            function gtag(){dataLayer.push(arguments);}
+            gtag('js', new Date());
+            gtag('config', 'G-CLYH2C3ER6');
+          `,
         },
       ],
       components: {

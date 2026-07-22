@@ -338,6 +338,46 @@
     },
     "items": [
       {
+        "label": "Acabados Superficiales",
+        "translations": {
+          "en": "Surface Finishing"
+        },
+        "items": [
+          {
+            "label": "Anodizado tipos I II III",
+            "link": "/manufacturing/anodizing-types-properties/"
+          },
+          {
+            "label": "Cromado duro propiedades y espesores",
+            "link": "/manufacturing/hard-chrome-plating/"
+          },
+          {
+            "label": "Fosfatado propiedades y tipos",
+            "link": "/manufacturing/phosphating-properties/"
+          },
+          {
+            "label": "Galvanizado en caliente especificaciones",
+            "link": "/manufacturing/hot-dip-galvanizing/"
+          },
+          {
+            "label": "Niquelado tipos y aplicaciones",
+            "link": "/manufacturing/nickel-plating-types/"
+          },
+          {
+            "label": "Oxidado negro",
+            "link": "/manufacturing/black-oxide-properties/"
+          },
+          {
+            "label": "Pintura en polvo especificaciones",
+            "link": "/manufacturing/powder-coating-specs/"
+          },
+          {
+            "label": "Rugosidad superficial Ra Rz equivalencias",
+            "link": "/manufacturing/surface-roughness-ra-rz/"
+          }
+        ]
+      },
+      {
         "label": "Conformado",
         "translations": {
           "en": "Forming"
@@ -418,6 +458,38 @@
         ]
       },
       {
+        "label": "Manufactura Aditiva",
+        "translations": {
+          "en": "Additive Manufacturing"
+        },
+        "items": [
+          {
+            "label": "Comparativa procesos manufactura aditiva",
+            "link": "/manufacturing/additive-manufacturing-comparison/"
+          },
+          {
+            "label": "Diseño para manufactura aditiva DfAM",
+            "link": "/manufacturing/design-additive-manufacturing-dfam/"
+          },
+          {
+            "label": "DMLS SLM metales impresión 3D",
+            "link": "/manufacturing/dmls-slm-metals/"
+          },
+          {
+            "label": "FDM parámetros materiales y tolerancias",
+            "link": "/manufacturing/fdm-parameters-materials/"
+          },
+          {
+            "label": "SLA DLP parámetros y resinas",
+            "link": "/manufacturing/sla-dlp-parameters/"
+          },
+          {
+            "label": "SLS parámetros y materiales",
+            "link": "/manufacturing/sls-parameters-materials/"
+          }
+        ]
+      },
+      {
         "label": "Mecanizado",
         "translations": {
           "en": "Machining"
@@ -450,6 +522,42 @@
           {
             "label": "Torneado velocidades y avances por material",
             "link": "/manufacturing/turning-speeds-feeds/"
+          }
+        ]
+      },
+      {
+        "label": "Unión",
+        "translations": {
+          "en": "Joining"
+        },
+        "items": [
+          {
+            "label": "Adhesivos estructurales selección",
+            "link": "/manufacturing/structural-adhesives-selection/"
+          },
+          {
+            "label": "Soldadura blanda fuerte materiales",
+            "link": "/manufacturing/brazing-soldering-materials/"
+          },
+          {
+            "label": "Soldadura FCAW",
+            "link": "/manufacturing/fcaw-welding-parameters/"
+          },
+          {
+            "label": "Soldadura MIG parámetros por material",
+            "link": "/manufacturing/mig-welding-parameters/"
+          },
+          {
+            "label": "Soldadura por puntos",
+            "link": "/manufacturing/spot-welding-parameters/"
+          },
+          {
+            "label": "Soldadura SMAW electrodos y",
+            "link": "/manufacturing/smaw-welding-electrodes/"
+          },
+          {
+            "label": "Soldadura TIG parámetros por material",
+            "link": "/manufacturing/tig-welding-parameters/"
           }
         ]
       }
