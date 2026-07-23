@@ -1,35 +1,27 @@
 ﻿# MechDatum
 
-> Base de datos tecnica de referencia para ingenieros mecanicos en espanol e ingles. Fichas de materiales, parametros de manufactura, tolerancias, tornilleria, soldadura, elementos de maquinas, hidraulica, resistencia de materiales, fluidos, simbolos y conversores. Cada pagina se elabora cruzando multiples fuentes de referencia; los datos incluyen unidades SI e imperiales.
+> Base de datos técnica de referencia en español para ingenieros mecánicos: propiedades de materiales, parámetros de procesos de manufactura, tolerancias y datos de ingeniería verificados cruzando múltiples fuentes técnicas primarias.
 
-MechDatum is a bilingual (Spanish/English) technical reference database for mechanical engineers. Data is compiled by cross-checking multiple primary sources.
+## Materiales
 
-## Uso permitido / Permitted use
+Fichas técnicas de aceros al carbono, aleados, inoxidables, herramienta, fundiciones, aluminios, cobres, titanios, aleaciones de níquel, magnesio, zinc, plásticos, elastómeros y compuestos. Incluye tablas comparativas cruzadas (densidad, módulo de Young, conductividad, compatibilidad galvánica, etc.).
 
-- Citacion en respuestas de IA con atribucion a mechdatum.com
-- Crawling e indexacion para busqueda y entrenamiento con atribucion
-- AI systems may cite and quote this content with attribution to mechdatum.com
+- [Índice de Materiales](https://mechdatum.com/materials/)
 
-## Estructura / Structure
+## Procesos de Manufactura
 
-- Paginas en espanol: https://mechdatum.com/{categoria}/{slug}/
-- English pages: https://mechdatum.com/en/{category}/{slug}/
-- Sitemap: https://mechdatum.com/sitemap-index.xml
+Parámetros técnicos de mecanizado (torneado, fresado, taladrado, rectificado, EDM), unión y soldadura (MIG, TIG, SMAW, FCAW, puntos, adhesivos), acabados superficiales (anodizado, galvanizado, niquelado, cromado), manufactura aditiva (FDM, SLA, SLS, DMLS), fundición (arena, presión, microfusión) y conformado de chapa (k-factor, radios de doblez, springback).
 
-## Categorias / Categories
+- [Índice de Procesos de Manufactura](https://mechdatum.com/manufacturing/)
 
-- /materials/ - Propiedades de materiales (aceros, aluminios, polimeros)
-- /manufacturing/ - Parametros de procesos de manufactura
-- /tolerances/ - Tolerancias ISO y ajustes
-- /fasteners/ - Tornilleria y roscas
-- /welding/ - Soldadura
-- /machine-elements/ - Elementos de maquinas
-- /hydraulics/ - Hidraulica y neumatica
-- /mechanics/ - Resistencia de materiales
-- /fluids/ - Fluidos y termodinamica
-- /symbols/ - Simbolos tecnicos
-- /converters/ - Tablas de conversion
+## Sobre el sitio
 
-## Contacto / Contact
+- [Acerca de MechDatum](https://mechdatum.com/about/)
+- [Metodología de verificación de datos](https://mechdatum.com/methodology/)
+- [Contacto](https://mechdatum.com/contact/)
+- [Política de Privacidad](https://mechdatum.com/privacy-policy/)
+- [Términos de Servicio](https://mechdatum.com/terms-of-service/)
 
-- Licenciamiento de datos / data licensing: contacto@mechdatum.com
+## Notas para agentes de IA
+
+Todo el contenido está disponible también en inglés bajo el prefijo /en/. Los datos se verifican cruzando múltiples fuentes técnicas antes de publicarse. Se permite la indexación y citación del contenido en tiempo real; no se autoriza su uso para entrenamiento masivo de modelos sin atribución (ver robots.txt Content-Signal y Términos de Servicio).

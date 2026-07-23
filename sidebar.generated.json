@@ -4,12 +4,14 @@
     "translations": {
       "en": "Materials"
     },
+    "collapsed": true,
     "items": [
       {
         "label": "Compuestos",
         "translations": {
           "en": "Composites"
         },
+        "collapsed": true,
         "items": [
           {
             "label": "Fibra de Carbono CFRP",
@@ -30,6 +32,7 @@
         "translations": {
           "en": "Ferrous"
         },
+        "collapsed": true,
         "items": [
           {
             "label": "Acero 1018",
@@ -138,6 +141,7 @@
         "translations": {
           "en": "Non-Ferrous"
         },
+        "collapsed": true,
         "items": [
           {
             "label": "Aluminio 1100",
@@ -218,6 +222,7 @@
         "translations": {
           "en": "Polymers"
         },
+        "collapsed": true,
         "items": [
           {
             "label": "ABS",
@@ -294,6 +299,7 @@
         "translations": {
           "en": "Comparison Tables"
         },
+        "collapsed": true,
         "items": [
           {
             "label": "Coeficientes de expansión térmica",
@@ -336,12 +342,14 @@
     "translations": {
       "en": "Manufacturing Processes"
     },
+    "collapsed": true,
     "items": [
       {
         "label": "Acabados Superficiales",
         "translations": {
           "en": "Surface Finishing"
         },
+        "collapsed": true,
         "items": [
           {
             "label": "Anodizado tipos I II III",
@@ -382,6 +390,7 @@
         "translations": {
           "en": "Forming"
         },
+        "collapsed": true,
         "items": [
           {
             "label": "Bend allowance y deducción fórmulas",
@@ -434,6 +443,7 @@
         "translations": {
           "en": "Casting"
         },
+        "collapsed": true,
         "items": [
           {
             "label": "Fundición a presión",
@@ -462,6 +472,7 @@
         "translations": {
           "en": "Additive Manufacturing"
         },
+        "collapsed": true,
         "items": [
           {
             "label": "Comparativa procesos manufactura aditiva",
@@ -494,6 +505,7 @@
         "translations": {
           "en": "Machining"
         },
+        "collapsed": true,
         "items": [
           {
             "label": "EDM electroerosión parámetros y tolerancias",
@@ -526,10 +538,60 @@
         ]
       },
       {
+        "label": "Soldadura",
+        "translations": {
+          "en": "Welding"
+        },
+        "collapsed": true,
+        "items": [
+          {
+            "label": "Alambre MIG por material especificaciones",
+            "link": "/manufacturing/mig-wire-specs/"
+          },
+          {
+            "label": "Calidad de corte ISO 9013",
+            "link": "/manufacturing/iso-9013-cut-quality/"
+          },
+          {
+            "label": "Electrodos SMAW especificaciones",
+            "link": "/manufacturing/smaw-electrodes-specs/"
+          },
+          {
+            "label": "Ensayos no destructivos métodos",
+            "link": "/manufacturing/ndt-methods/"
+          },
+          {
+            "label": "Gases de protección por proceso",
+            "link": "/manufacturing/shielding-gases-process/"
+          },
+          {
+            "label": "Niveles calidad soldadura ISO 5817",
+            "link": "/manufacturing/iso-5817-quality-levels/"
+          },
+          {
+            "label": "Preparación de juntas soldadura",
+            "link": "/manufacturing/weld-joint-preparation/"
+          },
+          {
+            "label": "Símbolos soldadura AWS A2.4",
+            "link": "/manufacturing/welding-symbols-aws-a24/"
+          },
+          {
+            "label": "Símbolos soldadura ISO 2553 completo",
+            "link": "/manufacturing/welding-symbols-iso-2553/"
+          },
+          {
+            "label": "Varillas TIG por material",
+            "link": "/manufacturing/tig-rods-by-material/"
+          }
+        ]
+      },
+      {
         "label": "Unión",
         "translations": {
           "en": "Joining"
         },
+        "collapsed": true,
         "items": [
           {
             "label": "Adhesivos estructurales selección",
@@ -558,6 +620,699 @@
           {
             "label": "Soldadura TIG parámetros por material",
             "link": "/manufacturing/tig-welding-parameters/"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "label": "Tolerancias y Ajustes",
+    "translations": {
+      "en": "Tolerances & Fits"
+    },
+    "collapsed": true,
+    "items": [
+      {
+        "label": "GD&T",
+        "translations": {
+          "en": "GD&T"
+        },
+        "collapsed": true,
+        "items": [
+          {
+            "label": "GDT Angularidad Paralelismo Perpendicularidad",
+            "link": "/tolerances/gdt-angularity-parallelism/"
+          },
+          {
+            "label": "GDT Circularidad y Cilindricidad",
+            "link": "/tolerances/gdt-circularity-cylindricity/"
+          },
+          {
+            "label": "GDT Concentricidad y Simetría",
+            "link": "/tolerances/gdt-concentricity-symmetry/"
+          },
+          {
+            "label": "GDT Oscilación y oscilación total",
+            "link": "/tolerances/gdt-runout-total/"
+          },
+          {
+            "label": "GDT Perfil de línea y superficie",
+            "link": "/tolerances/gdt-profile-line-surface/"
+          },
+          {
+            "label": "GDT Planitud y Rectitud",
+            "link": "/tolerances/gdt-flatness-straightness/"
+          },
+          {
+            "label": "GDT Posición verdadera",
+            "link": "/tolerances/gdt-true-position/"
+          },
+          {
+            "label": "MMC LMC RFS condiciones de material",
+            "link": "/tolerances/mmc-lmc-rfs-conditions/"
+          },
+          {
+            "label": "Referencias datum en planos GDT",
+            "link": "/tolerances/datum-references-gdt/"
+          },
+          {
+            "label": "Simbología GDT completa ASME Y14.5",
+            "link": "/tolerances/gdt-symbols-asme-y145/"
+          }
+        ]
+      },
+      {
+        "label": "Sistema ANSI",
+        "translations": {
+          "en": "ANSI System"
+        },
+        "collapsed": true,
+        "items": [
+          {
+            "label": "Ajustes ANSI B4.1 RC LC FN",
+            "link": "/tolerances/ansi-b41-fits/"
+          }
+        ]
+      },
+      {
+        "label": "Sistema ISO",
+        "translations": {
+          "en": "ISO System"
+        },
+        "collapsed": true,
+        "items": [
+          {
+            "label": "Ajustes de holgura ISO H7 g6",
+            "link": "/tolerances/iso-clearance-fits-h7/"
+          },
+          {
+            "label": "Ajustes de interferencia press fit ISO",
+            "link": "/tolerances/iso-interference-press-fit/"
+          },
+          {
+            "label": "Ajustes de transición ISO k6 m6",
+            "link": "/tolerances/iso-transition-fits-k6/"
+          },
+          {
+            "label": "Grados IT sistema ISO explicados",
+            "link": "/tolerances/it-grades-iso/"
+          },
+          {
+            "label": "Tolerancias generales ISO 2768",
+            "link": "/tolerances/iso-2768-general-tolerances/"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "label": "Tornillería",
+    "translations": {
+      "en": "Fasteners"
+    },
+    "collapsed": true,
+    "items": [
+      {
+        "label": "Grados y Normas",
+        "translations": {
+          "en": "Grades & Standards"
+        },
+        "collapsed": true,
+        "items": [
+          {
+            "label": "Equivalencias ISO DIN tornillería",
+            "link": "/fasteners/iso-din-equivalences/"
+          },
+          {
+            "label": "Grados tornillos ISO vs SAE comparativa",
+            "link": "/fasteners/bolt-grades-iso-sae/"
+          }
+        ]
+      },
+      {
+        "label": "Roscas Imperiales",
+        "translations": {
+          "en": "Imperial Threads"
+        },
+        "collapsed": true,
+        "items": [
+          {
+            "label": "Roscas BSP BSW británicas",
+            "link": "/fasteners/bsp-bsw-threads/"
+          },
+          {
+            "label": "Roscas NPT cónicas tabla",
+            "link": "/fasteners/npt-pipe-threads/"
+          },
+          {
+            "label": "Roscas UNC tabla completa",
+            "link": "/fasteners/unc-thread-table/"
+          },
+          {
+            "label": "Roscas UNF tabla completa",
+            "link": "/fasteners/unf-thread-table/"
+          }
+        ]
+      },
+      {
+        "label": "Roscas Métricas",
+        "translations": {
+          "en": "Metric Threads"
+        },
+        "collapsed": true,
+        "items": [
+          {
+            "label": "Brocas para roscar métricas M3-M20",
+            "link": "/fasteners/metric-tap-drill-sizes/"
+          },
+          {
+            "label": "Roscas métricas paso fino tabla",
+            "link": "/fasteners/metric-fine-threads/"
+          },
+          {
+            "label": "Roscas métricas paso grueso M1-M100",
+            "link": "/fasteners/metric-coarse-threads/"
+          }
+        ]
+      },
+      {
+        "label": "Tornillería Normalizada",
+        "translations": {
+          "en": "Standard Fasteners"
+        },
+        "collapsed": true,
+        "items": [
+          {
+            "label": "Arandelas de presión DIN 127",
+            "link": "/fasteners/din-127-spring-washers/"
+          },
+          {
+            "label": "Arandelas DIN 125 dimensiones",
+            "link": "/fasteners/din-125-washers/"
+          },
+          {
+            "label": "Tornillos allen DIN 912 dimensiones",
+            "link": "/fasteners/din-912-socket-head/"
+          },
+          {
+            "label": "Tornillos hexagonales DIN 933",
+            "link": "/fasteners/din-933-hex-bolts/"
+          },
+          {
+            "label": "Tuercas autoblocantes DIN 985",
+            "link": "/fasteners/din-985-nyloc-nuts/"
+          },
+          {
+            "label": "Tuercas hexagonales DIN 934",
+            "link": "/fasteners/din-934-hex-nuts/"
+          }
+        ]
+      },
+      {
+        "label": "Torque y Preload",
+        "translations": {
+          "en": "Torque & Preload"
+        },
+        "collapsed": true,
+        "items": [
+          {
+            "label": "Cálculo preload y torque tornillos",
+            "link": "/fasteners/bolt-preload-torque/"
+          },
+          {
+            "label": "Torques de apriete roscas imperiales",
+            "link": "/fasteners/torque-values-imperial/"
+          },
+          {
+            "label": "Torques de apriete roscas métricas",
+            "link": "/fasteners/torque-values-metric/"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "label": "Elementos de Máquinas",
+    "translations": {
+      "en": "Machine Elements"
+    },
+    "collapsed": true,
+    "items": [
+      {
+        "label": "Ejes y Acoplamientos",
+        "translations": {
+          "en": "Shafts & Couplings"
+        },
+        "collapsed": true,
+        "items": [
+          {
+            "label": "Acoplamientos flexibles tipos",
+            "link": "/machine-elements/flexible-couplings-types/"
+          },
+          {
+            "label": "Acoplamientos rígidos tipos",
+            "link": "/machine-elements/rigid-couplings-types/"
+          },
+          {
+            "label": "Chaveteros y cuñas DIN 6885",
+            "link": "/machine-elements/keyways-keys-din6885/"
+          },
+          {
+            "label": "Estriados DIN 5480 dimensiones",
+            "link": "/machine-elements/splines-din5480/"
+          }
+        ]
+      },
+      {
+        "label": "Embragues y Frenos",
+        "translations": {
+          "en": "Clutches & Brakes"
+        },
+        "collapsed": true,
+        "items": [
+          {
+            "label": "Embragues de disco tipos",
+            "link": "/machine-elements/disc-clutches-types/"
+          },
+          {
+            "label": "Frenos de tambor",
+            "link": "/machine-elements/drum-brakes-parameters/"
+          },
+          {
+            "label": "Materiales de fricción",
+            "link": "/machine-elements/friction-materials-properties/"
+          }
+        ]
+      },
+      {
+        "label": "Engranajes",
+        "translations": {
+          "en": "Gears"
+        },
+        "collapsed": true,
+        "items": [
+          {
+            "label": "Engranajes cónicos tipos",
+            "link": "/machine-elements/bevel-gears-types/"
+          },
+          {
+            "label": "Engranajes helicoidales",
+            "link": "/machine-elements/helical-gears-parameters/"
+          },
+          {
+            "label": "Engranajes rectos módulos y cálculo",
+            "link": "/machine-elements/spur-gears-calculation/"
+          },
+          {
+            "label": "Engranajes tornillo sin fin",
+            "link": "/machine-elements/worm-gears-parameters/"
+          },
+          {
+            "label": "Módulos normalizados ISO",
+            "link": "/machine-elements/gear-modules-iso/"
+          }
+        ]
+      },
+      {
+        "label": "Resortes",
+        "translations": {
+          "en": "Springs"
+        },
+        "collapsed": true,
+        "items": [
+          {
+            "label": "Materiales para resortes",
+            "link": "/machine-elements/spring-materials-properties/"
+          },
+          {
+            "label": "Resortes de compresión cálculo",
+            "link": "/machine-elements/compression-springs-calc/"
+          },
+          {
+            "label": "Resortes de disco Belleville",
+            "link": "/machine-elements/disc-springs-belleville/"
+          },
+          {
+            "label": "Resortes de tensión cálculo",
+            "link": "/machine-elements/extension-springs-calc/"
+          },
+          {
+            "label": "Resortes de torsión cálculo",
+            "link": "/machine-elements/torsion-springs-calc/"
+          }
+        ]
+      },
+      {
+        "label": "Rodamientos",
+        "translations": {
+          "en": "Bearings"
+        },
+        "collapsed": true,
+        "items": [
+          {
+            "label": "Ajustes y montaje de rodamientos",
+            "link": "/machine-elements/bearing-fits-mounting/"
+          },
+          {
+            "label": "Cálculo vida útil L10 rodamientos",
+            "link": "/machine-elements/bearing-l10-life/"
+          },
+          {
+            "label": "Cojinetes de deslizamiento tipos",
+            "link": "/machine-elements/plain-bearings-types/"
+          },
+          {
+            "label": "Rodamientos cónicos tipos y selección",
+            "link": "/machine-elements/tapered-roller-bearings/"
+          },
+          {
+            "label": "Rodamientos de bolas nomenclatura SKF",
+            "link": "/machine-elements/ball-bearings-nomenclature/"
+          },
+          {
+            "label": "Rodamientos de empuje tipos",
+            "link": "/machine-elements/thrust-bearings/"
+          },
+          {
+            "label": "Rodamientos de rodillos cilíndricos",
+            "link": "/machine-elements/cylindrical-roller-bearings/"
+          },
+          {
+            "label": "Rodamientos esféricos tipos",
+            "link": "/machine-elements/spherical-roller-bearings/"
+          }
+        ]
+      },
+      {
+        "label": "Sellos",
+        "translations": {
+          "en": "Seals"
+        },
+        "collapsed": true,
+        "items": [
+          {
+            "label": "Juntas planas materiales y aplicaciones",
+            "link": "/machine-elements/gaskets-materials/"
+          },
+          {
+            "label": "O-rings dimensiones AS568 y métricos",
+            "link": "/machine-elements/o-rings-dimensions-as568/"
+          },
+          {
+            "label": "Retenes y sellos de labio tipos",
+            "link": "/machine-elements/lip-seals-oil-seals/"
+          },
+          {
+            "label": "Sellos mecánicos tipos y selección",
+            "link": "/machine-elements/mechanical-seals-types/"
+          }
+        ]
+      },
+      {
+        "label": "Transmisión de Potencia",
+        "translations": {
+          "en": "Power Transmission"
+        },
+        "collapsed": true,
+        "items": [
+          {
+            "label": "Bandas síncronas GT2 HTD XL",
+            "link": "/machine-elements/synchronous-belts-gt2/"
+          },
+          {
+            "label": "Bandas V tipos y dimensiones",
+            "link": "/machine-elements/v-belts-types/"
+          },
+          {
+            "label": "Cadenas de rodillos ANSI ISO",
+            "link": "/machine-elements/roller-chains-ansi-iso/"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "label": "Hidráulica y Neumática",
+    "translations": {
+      "en": "Hydraulics & Pneumatics"
+    },
+    "collapsed": true,
+    "items": [
+      {
+        "label": "Sistema Hidráulico",
+        "translations": {
+          "en": "Hydraulic System"
+        },
+        "collapsed": true,
+        "items": [
+          {
+            "label": "Cálculo cilindros hidráulicos fuerza velocidad",
+            "link": "/hydraulics/hydraulic-cylinder-calc/"
+          },
+          {
+            "label": "Fluidos hidráulicos",
+            "link": "/hydraulics/hydraulic-fluids-properties/"
+          },
+          {
+            "label": "Mangueras y racores hidráulicos",
+            "link": "/hydraulics/hydraulic-hoses-fittings/"
+          },
+          {
+            "label": "Presiones estándar industriales hidráulicas",
+            "link": "/hydraulics/hydraulic-pressure-standards/"
+          },
+          {
+            "label": "Símbolos hidráulicos ISO 1219 completo",
+            "link": "/hydraulics/hydraulic-symbols-iso1219/"
+          }
+        ]
+      },
+      {
+        "label": "Sistema Neumático",
+        "translations": {
+          "en": "Pneumatic System"
+        },
+        "collapsed": true,
+        "items": [
+          {
+            "label": "Cálculo consumo de aire neumático",
+            "link": "/hydraulics/pneumatic-air-consumption/"
+          },
+          {
+            "label": "Racores neumáticos tipos y conexiones",
+            "link": "/hydraulics/pneumatic-fittings-types/"
+          },
+          {
+            "label": "Símbolos neumáticos ISO 1219",
+            "link": "/hydraulics/pneumatic-symbols-iso1219/"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "label": "Resistencia de Materiales",
+    "translations": {
+      "en": "Strength of Materials"
+    },
+    "collapsed": true,
+    "items": [
+      {
+        "label": "Columnas",
+        "translations": {
+          "en": "Columns"
+        },
+        "collapsed": true,
+        "items": [
+          {
+            "label": "Pandeo de columnas Euler",
+            "link": "/mechanics/euler-column-buckling/"
+          }
+        ]
+      },
+      {
+        "label": "Dinámica",
+        "translations": {
+          "en": "Dynamics"
+        },
+        "collapsed": true,
+        "items": [
+          {
+            "label": "Masas y momentos de inercia",
+            "link": "/mechanics/mass-moments-inertia/"
+          }
+        ]
+      },
+      {
+        "label": "Fatiga",
+        "translations": {
+          "en": "Fatigue"
+        },
+        "collapsed": true,
+        "items": [
+          {
+            "label": "Curvas S-N fatiga materiales",
+            "link": "/mechanics/sn-curves-fatigue/"
+          },
+          {
+            "label": "Diagramas Goodman Gerber fatiga",
+            "link": "/mechanics/goodman-gerber-diagrams/"
+          },
+          {
+            "label": "Fatiga en uniones soldadas",
+            "link": "/mechanics/fatigue-welded-joints/"
+          }
+        ]
+      },
+      {
+        "label": "Resistencia",
+        "translations": {
+          "en": "Strength"
+        },
+        "collapsed": true,
+        "items": [
+          {
+            "label": "Factores concentración esfuerzo Kt",
+            "link": "/mechanics/stress-concentration-kt/"
+          },
+          {
+            "label": "Fórmulas de vigas apoyo y carga",
+            "link": "/mechanics/beam-formulas-load/"
+          },
+          {
+            "label": "Módulo resistente por sección",
+            "link": "/mechanics/section-modulus/"
+          },
+          {
+            "label": "Momentos de inercia por sección transversal",
+            "link": "/mechanics/moment-inertia-sections/"
+          },
+          {
+            "label": "Teorías de falla ingeniería mecánica",
+            "link": "/mechanics/failure-theories-mechanical/"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "label": "Fluidos y Termodinámica",
+    "translations": {
+      "en": "Fluids & Thermodynamics"
+    },
+    "collapsed": true,
+    "items": [
+      {
+        "label": "Mecánica de Fluidos",
+        "translations": {
+          "en": "Fluid Mechanics"
+        },
+        "collapsed": true,
+        "items": [
+          {
+            "label": "Coeficientes de pérdidas locales",
+            "link": "/fluids/local-loss-coefficients/"
+          },
+          {
+            "label": "Diagrama de Moody factor fricción",
+            "link": "/fluids/moody-diagram-friction/"
+          },
+          {
+            "label": "Ecuación de Bernoulli aplicada",
+            "link": "/fluids/bernoulli-equation/"
+          },
+          {
+            "label": "Números adimensionales mecánica fluidos",
+            "link": "/fluids/dimensionless-numbers-fluids/"
+          },
+          {
+            "label": "Pérdidas por fricción en tuberías",
+            "link": "/fluids/pipe-friction-losses/"
+          },
+          {
+            "label": "Propiedades de fluidos comunes",
+            "link": "/fluids/common-fluid-properties/"
+          }
+        ]
+      },
+      {
+        "label": "Termodinámica",
+        "translations": {
+          "en": "Thermodynamics"
+        },
+        "collapsed": true,
+        "items": [
+          {
+            "label": "Calor específico de materiales",
+            "link": "/fluids/specific-heat-materials/"
+          },
+          {
+            "label": "Carta psicrométrica interpretación",
+            "link": "/fluids/psychrometric-chart/"
+          },
+          {
+            "label": "Ciclos termodinámicos básicos",
+            "link": "/fluids/thermodynamic-cycles/"
+          },
+          {
+            "label": "Propiedades del aire por temperatura",
+            "link": "/fluids/air-properties-temperature/"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "label": "Conversores",
+    "translations": {
+      "en": "Converters"
+    },
+    "collapsed": true,
+    "items": [
+      {
+        "label": "Dureza",
+        "translations": {
+          "en": "Hardness"
+        },
+        "collapsed": true,
+        "items": [
+          {
+            "label": "Conversión durezas HRC HB HV HRA",
+            "link": "/converters/hardness-conversion-hrc-hb-hv/"
+          }
+        ]
+      },
+      {
+        "label": "Rugosidad",
+        "translations": {
+          "en": "Roughness"
+        },
+        "collapsed": true,
+        "items": [
+          {
+            "label": "Conversión rugosidad Ra Rz RMS CLA",
+            "link": "/converters/roughness-ra-rz-rms/"
+          }
+        ]
+      },
+      {
+        "label": "Unidades",
+        "translations": {
+          "en": "Units"
+        },
+        "collapsed": true,
+        "items": [
+          {
+            "label": "Conversión unidades de presión",
+            "link": "/converters/pressure-unit-conversion/"
+          },
+          {
+            "label": "Conversión unidades de torque",
+            "link": "/converters/torque-unit-conversion/"
+          },
+          {
+            "label": "Conversión unidades SI Imperial mecánica",
+            "link": "/converters/si-imperial-mechanical/"
           }
         ]
       }

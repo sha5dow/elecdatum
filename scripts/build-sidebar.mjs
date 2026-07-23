@@ -16,11 +16,13 @@ const CATEGORY_LABELS = {
 };
 
 const TOPIC_LABELS = {
+  // Materials
   'ferrous-metals': { es: 'Ferrosos', en: 'Ferrous' },
   'non-ferrous-metals': { es: 'No Ferrosos', en: 'Non-Ferrous' },
   'polymers': { es: 'Polímeros', en: 'Polymers' },
   'composites': { es: 'Compuestos', en: 'Composites' },
   'cross-reference': { es: 'Tablas Comparativas', en: 'Comparison Tables' },
+  // Manufacturing
   'machining': { es: 'Mecanizado', en: 'Machining' },
   'joining': { es: 'Unión', en: 'Joining' },
   'welding': { es: 'Soldadura', en: 'Welding' },
@@ -28,6 +30,42 @@ const TOPIC_LABELS = {
   'additive': { es: 'Manufactura Aditiva', en: 'Additive Manufacturing' },
   'casting': { es: 'Fundición', en: 'Casting' },
   'forming': { es: 'Conformado', en: 'Forming' },
+  // Fasteners
+  'metric-threads': { es: 'Roscas Métricas', en: 'Metric Threads' },
+  'imperial-threads': { es: 'Roscas Imperiales', en: 'Imperial Threads' },
+  'standard-fasteners': { es: 'Tornillería Normalizada', en: 'Standard Fasteners' },
+  'torque-preload': { es: 'Torque y Preload', en: 'Torque & Preload' },
+  'grades-standards': { es: 'Grados y Normas', en: 'Grades & Standards' },
+  // Machine Elements
+  'bearings': { es: 'Rodamientos', en: 'Bearings' },
+  'gears': { es: 'Engranajes', en: 'Gears' },
+  'power-transmission': { es: 'Transmisión de Potencia', en: 'Power Transmission' },
+  'shafts-couplings': { es: 'Ejes y Acoplamientos', en: 'Shafts & Couplings' },
+  'springs': { es: 'Resortes', en: 'Springs' },
+  'seals': { es: 'Sellos', en: 'Seals' },
+  'clutches-brakes': { es: 'Embragues y Frenos', en: 'Clutches & Brakes' },
+  // Mechanics
+  'strength': { es: 'Resistencia', en: 'Strength' },
+  'fatigue': { es: 'Fatiga', en: 'Fatigue' },
+  'columns': { es: 'Columnas', en: 'Columns' },
+  'dynamics': { es: 'Dinámica', en: 'Dynamics' },
+  // Hydraulics
+  'hydraulic-system': { es: 'Sistema Hidráulico', en: 'Hydraulic System' },
+  'pneumatic-system': { es: 'Sistema Neumático', en: 'Pneumatic System' },
+  // Fluids
+  'fluid-mechanics': { es: 'Mecánica de Fluidos', en: 'Fluid Mechanics' },
+  'thermodynamics': { es: 'Termodinámica', en: 'Thermodynamics' },
+  // Converters
+  'hardness': { es: 'Dureza', en: 'Hardness' },
+  'roughness': { es: 'Rugosidad', en: 'Roughness' },
+  'units': { es: 'Unidades', en: 'Units' },
+  // Tolerances / Symbols (para cuando se generen)
+  'iso-system': { es: 'Sistema ISO', en: 'ISO System' },
+  'ansi-system': { es: 'Sistema ANSI', en: 'ANSI System' },
+  'gdt': { es: 'GD&T', en: 'GD&T' },
+  'drawing-symbols': { es: 'Símbolos de Planos', en: 'Drawing Symbols' },
+  'welding-symbols': { es: 'Símbolos de Soldadura', en: 'Welding Symbols' },
+  'hydraulic-pneumatic': { es: 'Símbolos Hidráulicos/Neumáticos', en: 'Hydraulic/Pneumatic Symbols' },
 };
 const topicLabelEs = (s) => TOPIC_LABELS[s]?.es ?? s;
 const topicLabelEn = (s) => TOPIC_LABELS[s]?.en ?? s;
@@ -54,6 +92,7 @@ async function buildCategory(dir, baseDir, urlPrefix) {
     .map(([t, pages]) => ({
       label: topicLabelEs(t),
       translations: { en: topicLabelEn(t) },
+      collapsed: true,
       items: pages.sort((a, b) => a.label.localeCompare(b.label)),
     }));
 
@@ -68,6 +107,7 @@ async function build() {
     sidebar.push({
       label: CATEGORY_LABELS[dir].es,
       translations: { en: CATEGORY_LABELS[dir].en },
+      collapsed: true,
       items,
     });
   }
