@@ -1,36 +1,22 @@
 ﻿---
-title: Metodología
-description: Cómo MechDatum verifica y estructura los datos técnicos publicados.
+title: "Metodología"
+description: "Metodología de verificación de datos de ElecDatum"
 ---
 
-## Cómo generamos el contenido
+## Cómo verificamos la información
 
-Cada ficha técnica de MechDatum se construye a partir de un proceso consistente de investigación y verificación, no de una sola fuente.
+Cada ficha técnica de ElecDatum se elabora cruzando datos de al menos 2-4 fuentes técnicas independientes (fabricantes, portales de ingeniería eléctrica especializados, normativa oficial) antes de publicarse. Cuando dos o más fuentes coinciden en un valor, ese dato se considera confiable. Cuando existe discrepancia entre fuentes, se prioriza el valor más consistente con referencias adicionales de contraste.
 
-### 1. Consulta de múltiples fuentes técnicas
+Si ningún dato disponible resulta suficientemente confiable, la ficha se marca explícitamente con **[VERIFICAR]** en lugar de presentar un valor no confirmado como definitivo.
 
-Para cada tema, se consultan varias fuentes técnicas reconocidas: catálogos de fabricantes, normas de la industria (ASTM, SAE, DIN, EN, ISO), y referencias de ingeniería establecidas. El objetivo es no depender de un único origen de datos.
+## Estructura estandarizada
 
-### 2. Verificación cruzada
+Todo el contenido sigue una estructura fija por tipo de tema (tabla de referencia, guía normativa, ficha de equipo), con unidades expresadas en sistema métrico e imperial en cada dato numérico, para servir tanto a audiencia que usa NOM/IEC como NEC.
 
-Cada dato numérico publicado se contrasta contra al menos una fuente adicional antes de incluirse en la ficha. Cuando varias fuentes coinciden en un valor, ese es el dato que se presenta.
+## Actualización de contenido
 
-### 3. Estructura estandarizada
+La normativa eléctrica (NOM-001-SEDE, NEC) se actualiza periódicamente. Revisamos y actualizamos el contenido de ElecDatum conforme se publican nuevas ediciones de las normas relevantes.
 
-Cada categoría de contenido (materiales, procesos de manufactura, tolerancias, etc.) sigue una estructura fija de secciones, para que la información sea fácil de comparar entre fichas y de localizar rápidamente.
+## Preguntas sobre un dato específico
 
-### 4. Unidades métricas e imperiales
-
-Los valores numéricos se presentan en ambos sistemas de unidades (métrico e imperial) para facilitar su uso independientemente del estándar de trabajo del lector.
-
-### 5. Actualización
-
-El contenido puede actualizarse cuando se identifican datos desactualizados, nuevas normas aplicables, o correcciones reportadas por la comunidad de ingenieros que consulta el sitio. La fecha de última actualización se indica en cada ficha.
-
-## Limitaciones
-
-La información publicada en MechDatum es de referencia general. Para aplicaciones críticas de diseño, fabricación o cumplimiento normativo, siempre se debe verificar contra la norma oficial vigente, el fabricante específico del material o proceso, y/o pruebas propias del proyecto.
-
-## ¿Encontraste un error?
-
-Si detectas un dato que consideras incorrecto o desactualizado, contáctanos en contact@mechdatum.com — toda corrección reportada se revisa contra las fuentes originales.
+Si tienes dudas sobre la exactitud de un dato particular, contáctanos a través de nuestra página de [Contacto](/contact/).

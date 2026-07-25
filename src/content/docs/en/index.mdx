@@ -1,0 +1,39 @@
+﻿---
+title: ElecDatum
+description: Technical reference database for electrical engineers. Conductors, electrical machines, protection devices, installations, and more — verified data in Spanish.
+template: splash
+hero:
+  title: Verified technical reference for electrical engineers
+  tagline: Conductors, electrical machines, protection devices, installations, and power quality. Data verified across multiple sources, in Spanish.
+  actions:
+    - text: Explore Conductors and Cables
+      link: /en/conductores-cables/
+      icon: right-arrow
+      variant: primary
+    - text: View all categories
+      link: /en/conductores-cables/
+      icon: open-book
+      variant: minimal
+---
+import { Card, CardGrid } from '@astrojs/starlight/components';
+
+## Main categories
+
+<CardGrid stagger>
+  <Card title="Conductors and Cables" icon="seti:config">
+    AWG gauges, ampacity, insulation types, and conductor specifications.
+  </Card>
+  <Card title="Electrical Machines" icon="setting">
+    Motors, transformers, generators, and electrical power equipment.
+  </Card>
+  <Card title="Electrical Protection" icon="approve-check">
+    Breakers, fuses, relays, and protection coordination.
+  </Card>
+  <Card title="Electrical Installations" icon="puzzle">
+    NOM-001-SEDE, NEC, and IEC standards for electrical installations.
+  </Card>
+</CardGrid>
+
+## Why ElecDatum?
+
+Each technical page is built by cross-referencing multiple sources to ensure reliable data. Direct tables, SI and imperial units, and technical terminology in Spanish: the information an electrical engineer needs, without filler.

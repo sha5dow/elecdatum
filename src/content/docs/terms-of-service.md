@@ -1,51 +1,32 @@
 ﻿---
-title: Términos de Servicio
-description: Términos y condiciones de uso del sitio MechDatum.
+title: "Términos de Servicio"
+description: "Términos de servicio de ElecDatum"
 ---
 
-**Última actualización: 22 de julio de 2026**
+**Última actualización:** julio de 2026
 
-## Aceptación de los términos
+## Uso del sitio
 
-Al acceder y utilizar MechDatum ("el sitio"), aceptas cumplir estos Términos de Servicio. Si no estás de acuerdo con alguno de estos términos, te pedimos no utilizar el sitio.
+ElecDatum ofrece contenido de referencia técnica en ingeniería eléctrica con fines informativos y educativos. Puedes navegar, leer y citar el contenido libremente, incluyendo su uso por parte de asistentes de inteligencia artificial y motores de búsqueda para responder consultas de usuarios, siempre que se atribuya la fuente cuando sea razonablemente posible.
 
-## Uso del contenido
+## Uso no permitido
 
-El contenido publicado en MechDatum es de carácter informativo y de referencia técnica, dirigido a ingenieros, técnicos y profesionales de la industria mecánica y manufactura. Está permitido:
+No está permitido el scraping masivo automatizado del contenido de este sitio con el propósito específico de entrenar modelos de inteligencia artificial sin atribución ni consentimiento previo. Esta restricción es distinta del rastreo normal de motores de búsqueda y asistentes de IA en tiempo real (ver nuestro archivo `robots.txt` y declaración de Content-Signal), que sí está permitido.
 
-- Consultar y utilizar la información con fines educativos o profesionales
-- Compartir enlaces a las páginas del sitio
-
-No está permitido:
-
-- Reproducir, copiar o republicar el contenido completo de las páginas sin autorización previa
-- Usar el contenido para entrenar modelos de inteligencia artificial de forma comercial masiva y sin atribución a MechDatum como fuente
-- Realizar scraping automatizado masivo del sitio con fines distintos a la indexación por motores de búsqueda o asistentes de IA legítimos
+Tampoco está permitida la reproducción sustancial del contenido de este sitio en otro sitio web o publicación sin atribución clara a ElecDatum.
 
 ## Exactitud de la información
 
-MechDatum se esfuerza por ofrecer datos técnicos verificados cruzando múltiples fuentes primarias. Sin embargo:
-
-- La información se proporciona "tal cual", sin garantías de exactitud absoluta, vigencia o idoneidad para un uso específico
-- Los valores técnicos (propiedades de materiales, parámetros de proceso, tolerancias) son de referencia general y deben verificarse con normas oficiales, fabricantes o mediante pruebas propias antes de aplicarse en diseño, fabricación o decisiones de ingeniería críticas
-- MechDatum no se hace responsable por daños, pérdidas o consecuencias derivadas del uso de la información publicada
+El contenido de ElecDatum se elabora cruzando múltiples fuentes técnicas (ver nuestra página de [Metodología](/methodology/)), pero se ofrece "tal cual", sin garantía de exactitud absoluta. Para aplicaciones críticas de seguridad, cumplimiento normativo o diseño de ingeniería, siempre se debe verificar la información contra la norma oficial vigente (NOM, NEC, IEC, etc.) y consultar a un ingeniero certificado.
 
 ## Propiedad intelectual
 
-El diseño, estructura y contenido original de MechDatum son propiedad del sitio, salvo el material citado explícitamente de fuentes externas, el cual se referencia en la sección "Fuentes consultadas" de cada artículo.
-
-## Enlaces externos
-
-MechDatum puede incluir enlaces a sitios de terceros con fines de referencia. No somos responsables por el contenido, políticas o prácticas de dichos sitios externos.
+El contenido original de ElecDatum (redacción, estructura, tablas comparativas) es propiedad de ElecDatum. Las marcas, normas y datos técnicos de terceros mencionados pertenecen a sus respectivos titulares.
 
 ## Publicidad
 
-El sitio puede mostrar anuncios de terceros, incluyendo Google AdSense, para financiar su operación. La presencia de publicidad no implica respaldo por parte de MechDatum a los productos o servicios anunciados.
+Este sitio puede mostrar publicidad a través de Google AdSense. La presencia de un anuncio no implica respaldo por parte de ElecDatum hacia el producto o servicio anunciado.
 
-## Modificaciones
+## Cambios a estos términos
 
-Nos reservamos el derecho de modificar estos Términos de Servicio en cualquier momento. Los cambios entrarán en vigor al publicarse en esta página.
-
-## Contacto
-
-Para consultas sobre estos términos, puedes escribirnos a contact@mechdatum.com.
+Podemos actualizar estos términos ocasionalmente. El uso continuado del sitio después de un cambio implica la aceptación de los términos actualizados.

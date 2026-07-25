@@ -1,14 +1,15 @@
-import { defineConfig } from 'astro/config';
+﻿import { defineConfig } from 'astro/config';
 import starlight from '@astrojs/starlight';
 import sitemap from '@astrojs/sitemap';
 import sidebarGenerated from './sidebar.generated.json' with { type: 'json' };
 
 export default defineConfig({
-  site: 'https://mechdatum.com',
+  site: 'https://elecdatum.com',
   integrations: [
     starlight({
-      title: 'MechDatum',
-      description: 'Base de datos técnica de referencia para ingenieros mecánicos en español.',
+      title: 'ElecDatum',
+      description: 'Base de datos técnica de referencia para ingenieros eléctricos en español.',
+      customCss: ['./src/styles/custom.css'],
       defaultLocale: 'root',
       locales: {
         root: {
@@ -32,22 +33,6 @@ export default defineConfig({
             name: 'google-site-verification',
             content: 'PENDING',
           },
-        },
-        {
-          tag: 'script',
-          attrs: {
-            src: 'https://www.googletagmanager.com/gtag/js?id=G-CLYH2C3ER6',
-            async: true,
-          },
-        },
-        {
-          tag: 'script',
-          content: `
-            window.dataLayer = window.dataLayer || [];
-            function gtag(){dataLayer.push(arguments);}
-            gtag('js', new Date());
-            gtag('config', 'G-CLYH2C3ER6');
-          `,
         },
       ],
       components: {

@@ -1,6 +1,6 @@
 ﻿---
 title: Conversores
-description: Herramientas de conversión de unidades técnicas para ingeniería mecánica.
+description: Herramientas de conversión de unidades eléctricas.
 ---
 
-Conversores de unidades técnicas para ingenieros. Herramientas de referencia rápida.
+Conversores de unidades eléctricas para ingenieros. Herramientas de referencia rápida.

@@ -1,24 +1,16 @@
 ﻿---
-title: About MechDatum
-description: Who we are and why MechDatum exists, a technical reference database for mechanical engineers.
+title: "About ElecDatum"
+description: "About ElecDatum"
 ---
 
-## What MechDatum Is
+ElecDatum is a Spanish-language technical reference database for electrical engineers, electricians, and installation technicians. Our goal is to provide verified data, reference tables, and standards (NOM-001-SEDE, NEC, IEC) in a direct, no-filler format for quick consultation on the job.
 
-MechDatum is a Spanish-language technical reference database for mechanical engineers, technicians, and manufacturing professionals. We bring together material properties, manufacturing process parameters, tolerances, and engineering data in quick-reference pages — the kind of information usually scattered across standards, supplier catalogs, and English-language sources.
+## Our approach
 
-## Why It Exists
+Behind ElecDatum is real engineering experience: a background in mechatronics engineering, combining mechanical and electrical engineering fundamentals, with over a decade of technical design work for industrial manufacturing. That hands-on experience — understanding both the mechanical and electrical sides of systems — is the foundation for how we structure and verify each technical page.
 
-Much of the quality technical information for mechanical engineering is primarily available in English, scattered across dozens of sources, or locked behind commercial catalogs. MechDatum aims to centralize that data in Spanish, with the technical rigor an engineer needs to make design, quoting, or manufacturing decisions.
+## Our network
 
-## Who's Behind It
+ElecDatum is part of a network of Spanish-language technical reference sites, alongside [MechDatum](https://mechdatum.com), focused on mechanical engineering.
 
-MechDatum is developed by a mechatronics engineer with hands-on experience in mechanical design and industrial manufacturing, including work on tooling, machines, and complete production lines, as well as manufacturing fixtures for major automotive OEMs (such as Ford, VW, Toyota, Honda, and Nissan, among many others) and food processing and packaging equipment for the food industry (for brands such as PepsiCo). This experience guides what data gets prioritized and how each technical reference page is structured.
-
-## How Content Is Generated
-
-Every MechDatum page is built by cross-referencing information across multiple technical sources (manufacturers, standards, established engineering references), and each data point is verified against at least one additional source before publishing. You can read more detail on our [Methodology](/en/methodology/) page.
-
-## Contact
-
-Questions, corrections, or suggestions? Write to us at contact@mechdatum.com or visit our [Contact](/en/contact/) page.
+For more on our data verification process, visit our [Methodology](/en/methodology/) page.

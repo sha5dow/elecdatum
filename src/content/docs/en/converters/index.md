@@ -1,6 +1,6 @@
 ﻿---
 title: Converters
-description: Conversion tables for hardness, roughness and technical units.
+description: Electrical unit conversion tools.
 ---
 
-Verified conversion tables for hardness, roughness and engineering units.
+Electrical unit converters for engineers. Quick reference tools.

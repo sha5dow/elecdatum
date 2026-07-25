@@ -1,45 +1,39 @@
----
-title: MechDatum
-description: Base de datos técnica de referencia para ingenieros mecánicos. Propiedades de materiales, tolerancias, roscas, soldadura y más — datos verificados en español.
+﻿---
+title: ElecDatum
+description: Base de datos técnica de referencia para ingenieros eléctricos. Conductores, máquinas eléctricas, protecciones, instalaciones y más — datos verificados en español.
 template: splash
 hero:
-  title: Referencia técnica verificada para ingenieros
-  tagline: Propiedades de materiales, parámetros de proceso, tolerancias y tablas técnicas. Datos verificados cruzando múltiples fuentes, en español.
+  title: Referencia técnica verificada para ingenieros eléctricos
+  tagline: Conductores, máquinas eléctricas, protecciones, instalaciones y calidad de energía. Datos verificados cruzando múltiples fuentes, en español.
   actions:
-    - text: Explorar Materiales
-      link: /materials/
+    - text: Explorar Conductores y Cables
+      link: /conductores-cables/
       icon: right-arrow
       variant: primary
     - text: Ver todas las categorías
-      link: /materials/
+      link: /conductores-cables/
       icon: open-book
       variant: minimal
 ---
-
 import { Card, CardGrid } from '@astrojs/starlight/components';
 
 ## Categorías principales
 
 <CardGrid stagger>
-  <Card title="Materiales" icon="seti:config">
-    Propiedades mecánicas, composición química y aplicaciones de aceros, aluminios, polímeros y compuestos.
+  <Card title="Conductores y Cables" icon="seti:config">
+    Calibres AWG, ampacidad, tipos de aislamiento y especificaciones de conductores.
   </Card>
-  <Card title="Manufactura" icon="setting">
-    Parámetros de corte, doblez, soldadura, fundición y manufactura aditiva por material.
+  <Card title="Máquinas Eléctricas" icon="setting">
+    Motores, transformadores, generadores y equipos de potencia eléctrica.
   </Card>
-  <Card title="Tolerancias y Ajustes" icon="approve-check">
-    Sistema ISO de tolerancias, ajustes eje-agujero y simbología GD&T.
+  <Card title="Protecciones Eléctricas" icon="approve-check">
+    Interruptores, fusibles, relevadores y coordinación de protecciones.
   </Card>
-  <Card title="Tornillería" icon="puzzle">
-    Roscas métricas e imperiales, torques de apriete y equivalencias entre normas.
+  <Card title="Instalaciones Eléctricas" icon="puzzle">
+    Normativa NOM-001-SEDE, NEC e IEC para instalaciones eléctricas.
   </Card>
 </CardGrid>
 
-## ¿Por qué MechDatum?
+## ¿Por qué ElecDatum?
 
-Cada ficha técnica se elabora cruzando múltiples fuentes de referencia para asegurar datos confiables. Tablas directas, unidades SI e imperiales, y terminología técnica en español: la información que un ingeniero necesita, sin relleno.
-
-
-
-
-
+Cada ficha técnica se elabora cruzando múltiples fuentes de referencia para asegurar datos confiables. Tablas directas, unidades SI e imperiales, y terminología técnica en español: la información que un ingeniero eléctrico necesita, sin relleno.

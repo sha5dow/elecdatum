@@ -1,1318 +1,902 @@
 [
   {
-    "label": "Materiales",
+    "label": "Conductores y Cables",
     "translations": {
-      "en": "Materials"
+      "en": "Conductors and Cables"
     },
-    "collapsed": true,
     "items": [
       {
-        "label": "Compuestos",
+        "label": "Ampacidad",
         "translations": {
-          "en": "Composites"
+          "en": "Ampacity"
         },
         "collapsed": true,
         "items": [
           {
-            "label": "Fibra de Carbono CFRP",
-            "link": "/materials/carbon-fiber-cfrp/"
+            "label": "Ampacidad de conductores de aluminio",
+            "link": "/conductores-cables/aluminum-conductor-ampacity/"
           },
           {
-            "label": "Fibra de Vidrio GFRP",
-            "link": "/materials/fiberglass-gfrp-properties/"
+            "label": "Ampacidad de conductores de cobre NEC",
+            "link": "/conductores-cables/copper-ampacity-nec/"
           },
           {
-            "label": "Kevlar Aramida",
-            "link": "/materials/kevlar-aramid-properties/"
+            "label": "Ampacidad de conductores de cobre NOM-001",
+            "link": "/conductores-cables/copper-ampacity-nom001/"
+          },
+          {
+            "label": "Factores de corrección por temperatura y agrupamiento",
+            "link": "/conductores-cables/ampacity-derating-factors/"
           }
         ]
       },
       {
-        "label": "Ferrosos",
+        "label": "Barras Conductoras",
         "translations": {
-          "en": "Ferrous"
+          "en": "Busbar"
         },
         "collapsed": true,
         "items": [
           {
-            "label": "Acero 1018",
-            "link": "/materials/steel-1018-properties/"
+            "label": "Ampacidad de barras conductoras (busbar)",
+            "link": "/conductores-cables/busbar-ampacity-table/"
           },
           {
-            "label": "Acero 1020",
-            "link": "/materials/steel-1020-properties/"
-          },
-          {
-            "label": "Acero 1045",
-            "link": "/materials/steel-1045-properties/"
-          },
-          {
-            "label": "Acero 1060",
-            "link": "/materials/steel-1060-properties/"
-          },
-          {
-            "label": "Acero 1080",
-            "link": "/materials/steel-1080-properties/"
-          },
-          {
-            "label": "Acero 4130",
-            "link": "/materials/steel-4130-properties/"
-          },
-          {
-            "label": "Acero 4140",
-            "link": "/materials/steel-4140-properties/"
-          },
-          {
-            "label": "Acero 4340",
-            "link": "/materials/steel-4340-properties/"
-          },
-          {
-            "label": "Acero 8620",
-            "link": "/materials/steel-8620-properties/"
-          },
-          {
-            "label": "Acero Herramienta A2",
-            "link": "/materials/tool-steel-a2/"
-          },
-          {
-            "label": "Acero Herramienta D2",
-            "link": "/materials/tool-steel-d2/"
-          },
-          {
-            "label": "Acero Herramienta H13",
-            "link": "/materials/tool-steel-h13/"
-          },
-          {
-            "label": "Acero Herramienta M2",
-            "link": "/materials/tool-steel-m2/"
-          },
-          {
-            "label": "Acero Herramienta O1",
-            "link": "/materials/tool-steel-o1/"
-          },
-          {
-            "label": "Acero Inoxidable 17-4PH",
-            "link": "/materials/stainless-steel-17-4ph/"
-          },
-          {
-            "label": "Acero Inoxidable 301",
-            "link": "/materials/stainless-steel-301/"
-          },
-          {
-            "label": "Acero Inoxidable 304",
-            "link": "/materials/stainless-steel-304/"
-          },
-          {
-            "label": "Acero Inoxidable 316",
-            "link": "/materials/stainless-steel-316/"
-          },
-          {
-            "label": "Acero Inoxidable 410",
-            "link": "/materials/stainless-steel-410/"
-          },
-          {
-            "label": "Acero Inoxidable 420",
-            "link": "/materials/stainless-steel-420/"
-          },
-          {
-            "label": "Acero Inoxidable 440C",
-            "link": "/materials/stainless-steel-440c/"
-          },
-          {
-            "label": "Aceros HSLA",
-            "link": "/materials/hsla-steels-properties/"
-          },
-          {
-            "label": "Fundición Gris",
-            "link": "/materials/gray-cast-iron-properties/"
-          },
-          {
-            "label": "Fundición Maleable",
-            "link": "/materials/malleable-cast-iron/"
-          },
-          {
-            "label": "Fundición Nodular",
-            "link": "/materials/ductile-iron-properties/"
+            "label": "Dimensionamiento de barras de cobre",
+            "link": "/conductores-cables/copper-busbar-sizing/"
           }
         ]
       },
       {
-        "label": "No Ferrosos",
+        "label": "Caída de Tensión",
         "translations": {
-          "en": "Non-Ferrous"
+          "en": "Voltage Drop"
         },
         "collapsed": true,
         "items": [
           {
-            "label": "Aluminio 1100",
-            "link": "/materials/aluminum-1100-properties/"
+            "label": "Cálculo de caída de tensión en conductores",
+            "link": "/conductores-cables/voltage-drop-calculation/"
           },
           {
-            "label": "Aluminio 2024",
-            "link": "/materials/aluminum-2024-properties/"
-          },
-          {
-            "label": "Aluminio 5052",
-            "link": "/materials/aluminum-5052-properties/"
-          },
-          {
-            "label": "Aluminio 6061",
-            "link": "/materials/aluminum-6061-properties/"
-          },
-          {
-            "label": "Aluminio 6063",
-            "link": "/materials/aluminum-6063-properties/"
-          },
-          {
-            "label": "Aluminio 7075",
-            "link": "/materials/aluminum-7075-properties/"
-          },
-          {
-            "label": "Bronce C630",
-            "link": "/materials/bronze-c630-properties/"
-          },
-          {
-            "label": "Bronce C932",
-            "link": "/materials/bronze-c932-bearing/"
-          },
-          {
-            "label": "Cobre C110",
-            "link": "/materials/copper-c110-properties/"
-          },
-          {
-            "label": "Inconel 625",
-            "link": "/materials/inconel-625-properties/"
-          },
-          {
-            "label": "Inconel 718",
-            "link": "/materials/inconel-718-properties/"
-          },
-          {
-            "label": "Latón C260",
-            "link": "/materials/brass-c260-properties/"
-          },
-          {
-            "label": "Latón C360",
-            "link": "/materials/brass-c360-properties/"
-          },
-          {
-            "label": "Magnesio AZ31B",
-            "link": "/materials/magnesium-az31b-properties/"
-          },
-          {
-            "label": "Monel 400",
-            "link": "/materials/monel-400-properties/"
-          },
-          {
-            "label": "Titanio Grado 2",
-            "link": "/materials/titanium-grade-2/"
-          },
-          {
-            "label": "Titanio Ti-6Al-4V",
-            "link": "/materials/titanium-ti6al4v/"
-          },
-          {
-            "label": "Zinc propiedades generales",
-            "link": "/materials/zinc-properties/"
+            "label": "Tabla de caída de tensión por calibre y distancia",
+            "link": "/conductores-cables/voltage-drop-table/"
           }
         ]
       },
       {
-        "label": "Polímeros",
+        "label": "Conductores de Tierra",
         "translations": {
-          "en": "Polymers"
+          "en": "Grounding Conductors"
         },
         "collapsed": true,
         "items": [
           {
-            "label": "ABS",
-            "link": "/materials/abs-properties/"
+            "label": "Calibre de conductor de electrodo de tierra",
+            "link": "/conductores-cables/grounding-electrode-conductor-sizing/"
           },
           {
-            "label": "EPDM",
-            "link": "/materials/epdm-properties/"
-          },
-          {
-            "label": "NBR Nitrilo",
-            "link": "/materials/nbr-nitrile-properties/"
-          },
-          {
-            "label": "Neopreno CR",
-            "link": "/materials/neoprene-cr-properties/"
-          },
-          {
-            "label": "Nylon PA6",
-            "link": "/materials/nylon-pa6-properties/"
-          },
-          {
-            "label": "Nylon PA66",
-            "link": "/materials/nylon-pa66-properties/"
-          },
-          {
-            "label": "PEEK",
-            "link": "/materials/peek-properties/"
-          },
-          {
-            "label": "PET",
-            "link": "/materials/pet-properties/"
-          },
-          {
-            "label": "Policarbonato PC",
-            "link": "/materials/polycarbonate-pc/"
-          },
-          {
-            "label": "Polietileno PE",
-            "link": "/materials/polyethylene-pe-properties/"
-          },
-          {
-            "label": "Polipropileno PP",
-            "link": "/materials/polypropylene-pp/"
-          },
-          {
-            "label": "POM Delrin",
-            "link": "/materials/pom-delrin-properties/"
-          },
-          {
-            "label": "PTFE Teflón",
-            "link": "/materials/ptfe-teflon-properties/"
-          },
-          {
-            "label": "PVC",
-            "link": "/materials/pvc-properties/"
-          },
-          {
-            "label": "Silicona",
-            "link": "/materials/silicone-properties/"
-          },
-          {
-            "label": "UHMWPE",
-            "link": "/materials/uhmwpe-properties/"
-          },
-          {
-            "label": "Viton FKM",
-            "link": "/materials/viton-fkm-properties/"
+            "label": "Calibre mínimo de conductor de tierra de equipo",
+            "link": "/conductores-cables/equipment-grounding-conductor-size/"
           }
         ]
       },
       {
-        "label": "Tablas Comparativas",
+        "label": "Llenado de Conducto",
         "translations": {
-          "en": "Comparison Tables"
+          "en": "Conduit Fill"
         },
         "collapsed": true,
         "items": [
           {
-            "label": "Coeficientes de expansión térmica",
-            "link": "/materials/thermal-expansion-coefficients/"
+            "label": "Llenado de charola portacables",
+            "link": "/conductores-cables/cable-tray-fill-calculation/"
           },
           {
-            "label": "Compatibilidad galvánica entre metales",
-            "link": "/materials/galvanic-compatibility-metals/"
+            "label": "Llenado de conducto EMT tabla",
+            "link": "/conductores-cables/emt-conduit-fill-table/"
           },
           {
-            "label": "Conductividad eléctrica de metales",
-            "link": "/materials/electrical-conductivity-metals/"
+            "label": "Llenado de conducto PVC tabla",
+            "link": "/conductores-cables/pvc-conduit-fill-table/"
+          }
+        ]
+      },
+      {
+        "label": "Materiales de Conductores",
+        "translations": {
+          "en": "Conductor Materials"
+        },
+        "collapsed": true,
+        "items": [
+          {
+            "label": "Comparativa cobre vs aluminio en conductores",
+            "link": "/conductores-cables/copper-vs-aluminum-conductors/"
           },
           {
-            "label": "Conductividad térmica de materiales",
-            "link": "/materials/thermal-conductivity-materials/"
+            "label": "Resistencia eléctrica de conductores por calibre",
+            "link": "/conductores-cables/conductor-resistance-by-gauge/"
+          }
+        ]
+      },
+      {
+        "label": "Tipos de Aislamiento",
+        "translations": {
+          "en": "Insulation Types"
+        },
+        "collapsed": true,
+        "items": [
+          {
+            "label": "Aislamiento RHW RHH especificaciones",
+            "link": "/conductores-cables/rhw-rhh-insulation/"
           },
           {
-            "label": "Densidades comparativas de metales",
-            "link": "/materials/metal-densities-comparison/"
+            "label": "Aislamiento THHN THWN especificaciones",
+            "link": "/conductores-cables/thhn-thwn-insulation/"
           },
           {
-            "label": "Módulos de Young comparativos",
-            "link": "/materials/young-modulus-comparison/"
+            "label": "Aislamiento XHHW especificaciones",
+            "link": "/conductores-cables/xhhw-insulation-specs/"
           },
           {
-            "label": "Puntos de fusión de metales",
-            "link": "/materials/metal-melting-points/"
+            "label": "Comparativa tipos de aislamiento de cables",
+            "link": "/conductores-cables/cable-insulation-comparison/"
+          }
+        ]
+      },
+      {
+        "label": "Tipos de Cable",
+        "translations": {
+          "en": "Cable Types"
+        },
+        "collapsed": true,
+        "items": [
+          {
+            "label": "Cable armado tipo MC especificaciones",
+            "link": "/conductores-cables/mc-armored-cable-specs/"
           },
           {
-            "label": "Resistencia específica de materiales",
-            "link": "/materials/specific-strength-materials/"
+            "label": "Cable de soldadura especificaciones",
+            "link": "/conductores-cables/welding-cable-specifications/"
+          },
+          {
+            "label": "Cables de control especificaciones",
+            "link": "/conductores-cables/control-cable-specifications/"
+          },
+          {
+            "label": "Cables de instrumentación especificaciones",
+            "link": "/conductores-cables/instrumentation-cable-specs/"
+          },
+          {
+            "label": "Comparativa THWN vs THHN",
+            "link": "/conductores-cables/thwn-vs-thhn-comparison/"
+          },
+          {
+            "label": "Cordones flexibles tipos SJ SJT SO",
+            "link": "/conductores-cables/flexible-cord-types/"
           }
         ]
       }
     ]
   },
   {
-    "label": "Procesos de Manufactura",
+    "label": "Máquinas Eléctricas",
     "translations": {
-      "en": "Manufacturing Processes"
+      "en": "Electrical Machines"
     },
-    "collapsed": true,
     "items": [
       {
-        "label": "Acabados Superficiales",
+        "label": "Arranque de Motores",
         "translations": {
-          "en": "Surface Finishing"
+          "en": "Motor Starting"
         },
         "collapsed": true,
         "items": [
           {
-            "label": "Anodizado tipos I II III",
-            "link": "/manufacturing/anodizing-types-properties/"
+            "label": "Arrancador suave especificaciones",
+            "link": "/maquinas-electricas/soft-starter-specifications/"
           },
           {
-            "label": "Cromado duro propiedades y espesores",
-            "link": "/manufacturing/hard-chrome-plating/"
+            "label": "Arranque directo a línea motores",
+            "link": "/maquinas-electricas/across-line-motor-starting/"
           },
           {
-            "label": "Fosfatado propiedades y tipos",
-            "link": "/manufacturing/phosphating-properties/"
+            "label": "Arranque estrella delta motores",
+            "link": "/maquinas-electricas/star-delta-motor-starting/"
           },
           {
-            "label": "Galvanizado en caliente especificaciones",
-            "link": "/manufacturing/hot-dip-galvanizing/"
-          },
-          {
-            "label": "Niquelado tipos y aplicaciones",
-            "link": "/manufacturing/nickel-plating-types/"
-          },
-          {
-            "label": "Oxidado negro",
-            "link": "/manufacturing/black-oxide-properties/"
-          },
-          {
-            "label": "Pintura en polvo especificaciones",
-            "link": "/manufacturing/powder-coating-specs/"
-          },
-          {
-            "label": "Rugosidad superficial Ra Rz equivalencias",
-            "link": "/manufacturing/surface-roughness-ra-rz/"
+            "label": "Variadores de frecuencia fundamentos",
+            "link": "/maquinas-electricas/vfd-fundamentals/"
           }
         ]
       },
       {
-        "label": "Conformado",
+        "label": "Bancos de Capacitores",
         "translations": {
-          "en": "Forming"
+          "en": "Capacitor Banks"
         },
         "collapsed": true,
         "items": [
           {
-            "label": "Bend allowance y deducción fórmulas",
-            "link": "/manufacturing/bend-allowance-deduction/"
+            "label": "Dimensionamiento de bancos de capacitores",
+            "link": "/maquinas-electricas/capacitor-bank-sizing/"
           },
           {
-            "label": "Embutición profunda límites y",
-            "link": "/manufacturing/deep-drawing-parameters/"
-          },
-          {
-            "label": "Extrusión parámetros y tolerancias",
-            "link": "/manufacturing/extrusion-parameters-tolerances/"
-          },
-          {
-            "label": "Forja parámetros y tolerancias",
-            "link": "/manufacturing/forging-parameters-tolerances/"
-          },
-          {
-            "label": "K-factor acero inoxidable 304",
-            "link": "/manufacturing/k-factor-stainless-304/"
-          },
-          {
-            "label": "K-factor aluminio 5052",
-            "link": "/manufacturing/k-factor-aluminum-5052/"
-          },
-          {
-            "label": "K-factor aluminio 6061",
-            "link": "/manufacturing/k-factor-aluminum-6061/"
-          },
-          {
-            "label": "K-factor chapa DC01",
-            "link": "/manufacturing/k-factor-dc01/"
-          },
-          {
-            "label": "Radios mínimos de doblez por material",
-            "link": "/manufacturing/minimum-bend-radius/"
-          },
-          {
-            "label": "Reglas DFM para chapa metálica",
-            "link": "/manufacturing/dfm-sheet-metal/"
-          },
-          {
-            "label": "Springback en doblado de chapa",
-            "link": "/manufacturing/springback-sheet-metal/"
+            "label": "Tipos de capacitores de potencia",
+            "link": "/maquinas-electricas/power-capacitor-types/"
           }
         ]
       },
       {
-        "label": "Fundición",
+        "label": "Eléctrica Solar",
         "translations": {
-          "en": "Casting"
+          "en": "Solar Electrical"
         },
         "collapsed": true,
         "items": [
           {
-            "label": "Fundición a presión",
-            "link": "/manufacturing/die-casting-parameters/"
+            "label": "Especificaciones eléctricas de paneles solares",
+            "link": "/maquinas-electricas/solar-panel-electrical-specs/"
           },
           {
-            "label": "Fundición en Arena parámetros y tolerancias",
-            "link": "/manufacturing/sand-casting-parameters/"
-          },
-          {
-            "label": "Fundición en molde permanente",
-            "link": "/manufacturing/permanent-mold-casting/"
-          },
-          {
-            "label": "Guía selección proceso de fundición",
-            "link": "/manufacturing/casting-selection-guide/"
-          },
-          {
-            "label": "Microfusión cera perdida",
-            "link": "/manufacturing/investment-casting-parameters/"
+            "label": "Tipos de inversores solares",
+            "link": "/maquinas-electricas/solar-inverter-types/"
           }
         ]
       },
       {
-        "label": "Manufactura Aditiva",
+        "label": "Equipo de Conmutación",
         "translations": {
-          "en": "Additive Manufacturing"
+          "en": "Switchgear"
         },
         "collapsed": true,
         "items": [
           {
-            "label": "Comparativa procesos manufactura aditiva",
-            "link": "/manufacturing/additive-manufacturing-comparison/"
+            "label": "Centro de control de motores MCC fundamentos",
+            "link": "/maquinas-electricas/motor-control-center-basics/"
           },
           {
-            "label": "Diseño para manufactura aditiva DfAM",
-            "link": "/manufacturing/design-additive-manufacturing-dfam/"
+            "label": "Comparativa switchboard vs panelboard",
+            "link": "/maquinas-electricas/switchboard-vs-panelboard/"
           },
           {
-            "label": "DMLS SLM metales impresión 3D",
-            "link": "/manufacturing/dmls-slm-metals/"
-          },
-          {
-            "label": "FDM parámetros materiales y tolerancias",
-            "link": "/manufacturing/fdm-parameters-materials/"
-          },
-          {
-            "label": "SLA DLP parámetros y resinas",
-            "link": "/manufacturing/sla-dlp-parameters/"
-          },
-          {
-            "label": "SLS parámetros y materiales",
-            "link": "/manufacturing/sls-parameters-materials/"
+            "label": "Tipos de ductos de barras (bus duct)",
+            "link": "/maquinas-electricas/bus-duct-types/"
           }
         ]
       },
       {
-        "label": "Mecanizado",
+        "label": "Fuentes de Alimentación",
         "translations": {
-          "en": "Machining"
+          "en": "Power Supplies"
         },
         "collapsed": true,
         "items": [
           {
-            "label": "EDM electroerosión parámetros y tolerancias",
-            "link": "/manufacturing/edm-parameters/"
+            "label": "Fuentes de alimentación DC especificaciones",
+            "link": "/maquinas-electricas/dc-power-supply-specifications/"
           },
           {
-            "label": "Escariado tolerancias y",
-            "link": "/manufacturing/reaming-parameters/"
-          },
-          {
-            "label": "Fresado velocidades y avances por material",
-            "link": "/manufacturing/milling-speeds-feeds/"
-          },
-          {
-            "label": "Rectificado parámetros y acabados",
-            "link": "/manufacturing/grinding-parameters/"
-          },
-          {
-            "label": "Roscado con macho",
-            "link": "/manufacturing/tapping-parameters/"
-          },
-          {
-            "label": "Taladrado velocidades y avances",
-            "link": "/manufacturing/drilling-speeds-feeds/"
-          },
-          {
-            "label": "Torneado velocidades y avances por material",
-            "link": "/manufacturing/turning-speeds-feeds/"
+            "label": "Tipos de UPS especificaciones",
+            "link": "/maquinas-electricas/ups-types-specifications/"
           }
         ]
       },
       {
-        "label": "Soldadura",
+        "label": "Generadores",
         "translations": {
-          "en": "Welding"
+          "en": "Generators"
         },
         "collapsed": true,
         "items": [
           {
-            "label": "Alambre MIG por material especificaciones",
-            "link": "/manufacturing/mig-wire-specs/"
+            "label": "Comparativa alternador vs generador",
+            "link": "/maquinas-electricas/alternator-vs-generator-comparison/"
           },
           {
-            "label": "Calidad de corte ISO 9013",
-            "link": "/manufacturing/iso-9013-cut-quality/"
+            "label": "Dimensionamiento de generadores eléctricos",
+            "link": "/maquinas-electricas/generator-sizing-calculation/"
           },
           {
-            "label": "Electrodos SMAW especificaciones",
-            "link": "/manufacturing/smaw-electrodes-specs/"
+            "label": "Interruptor de transferencia automática ATS",
+            "link": "/maquinas-electricas/automatic-transfer-switch-ats/"
           },
           {
-            "label": "Ensayos no destructivos métodos",
-            "link": "/manufacturing/ndt-methods/"
-          },
-          {
-            "label": "Gases de protección por proceso",
-            "link": "/manufacturing/shielding-gases-process/"
-          },
-          {
-            "label": "Niveles calidad soldadura ISO 5817",
-            "link": "/manufacturing/iso-5817-quality-levels/"
-          },
-          {
-            "label": "Preparación de juntas soldadura",
-            "link": "/manufacturing/weld-joint-preparation/"
-          },
-          {
-            "label": "Símbolos soldadura AWS A2.4",
-            "link": "/manufacturing/welding-symbols-aws-a24/"
-          },
-          {
-            "label": "Símbolos soldadura ISO 2553 completo",
-            "link": "/manufacturing/welding-symbols-iso-2553/"
-          },
-          {
-            "label": "Varillas TIG por material",
-            "link": "/manufacturing/tig-rods-by-material/"
+            "label": "Tipos de generadores síncronos asíncronos",
+            "link": "/maquinas-electricas/generator-types-synchronous/"
           }
         ]
       },
       {
-        "label": "Unión",
+        "label": "Motores DC",
         "translations": {
-          "en": "Joining"
+          "en": "DC Motors"
         },
         "collapsed": true,
         "items": [
           {
-            "label": "Adhesivos estructurales selección",
-            "link": "/manufacturing/structural-adhesives-selection/"
+            "label": "Control de velocidad en motores DC",
+            "link": "/maquinas-electricas/dc-motor-speed-control/"
           },
           {
-            "label": "Soldadura blanda fuerte materiales",
-            "link": "/manufacturing/brazing-soldering-materials/"
+            "label": "Motores paso a paso fundamentos",
+            "link": "/maquinas-electricas/stepper-motor-fundamentals/"
           },
           {
-            "label": "Soldadura FCAW",
-            "link": "/manufacturing/fcaw-welding-parameters/"
+            "label": "Motorreductores fundamentos y selección",
+            "link": "/maquinas-electricas/gearmotor-fundamentals-selection/"
           },
           {
-            "label": "Soldadura MIG parámetros por material",
-            "link": "/manufacturing/mig-welding-parameters/"
+            "label": "Servomotores fundamentos y aplicaciones",
+            "link": "/maquinas-electricas/servo-motor-fundamentals-applications/"
           },
           {
-            "label": "Soldadura por puntos",
-            "link": "/manufacturing/spot-welding-parameters/"
+            "label": "Tipos de motores de corriente directa",
+            "link": "/maquinas-electricas/dc-motor-types/"
+          }
+        ]
+      },
+      {
+        "label": "Motores de Inducción",
+        "translations": {
+          "en": "Induction Motors"
+        },
+        "collapsed": true,
+        "items": [
+          {
+            "label": "Clases de aislamiento en motores A-H",
+            "link": "/maquinas-electricas/motor-insulation-classes/"
           },
           {
-            "label": "Soldadura SMAW electrodos y",
-            "link": "/manufacturing/smaw-welding-electrodes/"
+            "label": "Clases de eficiencia de motores IE1-IE4",
+            "link": "/maquinas-electricas/motor-efficiency-classes-ie/"
           },
           {
-            "label": "Soldadura TIG parámetros por material",
-            "link": "/manufacturing/tig-welding-parameters/"
+            "label": "Factor de potencia típico en motores eléctricos",
+            "link": "/maquinas-electricas/typical-motor-power-factor/"
+          },
+          {
+            "label": "Factor de servicio en motores eléctricos",
+            "link": "/maquinas-electricas/motor-service-factor/"
+          },
+          {
+            "label": "Motor de inducción monofásico tipos",
+            "link": "/maquinas-electricas/single-phase-induction-motor-types/"
+          },
+          {
+            "label": "Motor síncrono características",
+            "link": "/maquinas-electricas/synchronous-motor-characteristics/"
+          },
+          {
+            "label": "Tamaños de carcasa NEMA motores",
+            "link": "/maquinas-electricas/nema-motor-frame-sizes/"
+          },
+          {
+            "label": "Tipos de carcasa de motores TEFC ODP",
+            "link": "/maquinas-electricas/motor-enclosure-types/"
+          }
+        ]
+      },
+      {
+        "label": "Selección de Motores",
+        "translations": {
+          "en": "Motor Selection"
+        },
+        "collapsed": true,
+        "items": [
+          {
+            "label": "Guía de selección de motores eléctricos",
+            "link": "/maquinas-electricas/motor-selection-guide/"
+          },
+          {
+            "label": "Interpretación de placa de datos de motor",
+            "link": "/maquinas-electricas/motor-nameplate-interpretation/"
+          },
+          {
+            "label": "Lubricación de rodamientos en motores",
+            "link": "/maquinas-electricas/motor-bearing-lubrication/"
+          },
+          {
+            "label": "Tipos de rodamientos en motores eléctricos",
+            "link": "/maquinas-electricas/motor-bearing-types/"
+          }
+        ]
+      },
+      {
+        "label": "Sistemas de Baterías",
+        "translations": {
+          "en": "Battery Systems"
+        },
+        "collapsed": true,
+        "items": [
+          {
+            "label": "Comparativa tipos de baterías industriales",
+            "link": "/maquinas-electricas/industrial-battery-types-comparison/"
+          },
+          {
+            "label": "Dimensionamiento de banco de baterías",
+            "link": "/maquinas-electricas/battery-bank-sizing/"
+          }
+        ]
+      },
+      {
+        "label": "Transformadores",
+        "translations": {
+          "en": "Transformers"
+        },
+        "collapsed": true,
+        "items": [
+          {
+            "label": "Conexiones de transformadores delta estrella",
+            "link": "/maquinas-electricas/transformer-connections-delta-wye/"
+          },
+          {
+            "label": "Impedancia de transformadores %Z",
+            "link": "/maquinas-electricas/transformer-impedance-percent/"
+          },
+          {
+            "label": "Pérdidas en transformadores núcleo y cobre",
+            "link": "/maquinas-electricas/transformer-core-copper-losses/"
+          },
+          {
+            "label": "Tipos de enfriamiento de transformadores ONAN ONAF",
+            "link": "/maquinas-electricas/transformer-cooling-types/"
+          },
+          {
+            "label": "Transformador de distribución especificaciones",
+            "link": "/maquinas-electricas/distribution-transformer-specs/"
+          },
+          {
+            "label": "Transformador sumergido en aceite",
+            "link": "/maquinas-electricas/oil-filled-transformer-specs/"
+          },
+          {
+            "label": "Transformador tipo seco especificaciones",
+            "link": "/maquinas-electricas/dry-type-transformer-specs/"
           }
         ]
       }
     ]
   },
   {
-    "label": "Tolerancias y Ajustes",
+    "label": "Protecciones Eléctricas",
     "translations": {
-      "en": "Tolerances & Fits"
+      "en": "Electrical Protection"
     },
-    "collapsed": true,
     "items": [
       {
-        "label": "GD&T",
+        "label": "Fusibles",
         "translations": {
-          "en": "GD&T"
+          "en": "Fuses"
         },
         "collapsed": true,
         "items": [
           {
-            "label": "GDT Angularidad Paralelismo Perpendicularidad",
-            "link": "/tolerances/gdt-angularity-parallelism/"
+            "label": "Comparativa fusible vs interruptor",
+            "link": "/protecciones-electricas/fuse-vs-breaker-comparison/"
           },
           {
-            "label": "GDT Circularidad y Cilindricidad",
-            "link": "/tolerances/gdt-circularity-cylindricity/"
+            "label": "Dimensionamiento de fusibles por carga",
+            "link": "/protecciones-electricas/fuse-sizing-calculation/"
           },
           {
-            "label": "GDT Concentricidad y Simetría",
-            "link": "/tolerances/gdt-concentricity-symmetry/"
-          },
-          {
-            "label": "GDT Oscilación y oscilación total",
-            "link": "/tolerances/gdt-runout-total/"
-          },
-          {
-            "label": "GDT Perfil de línea y superficie",
-            "link": "/tolerances/gdt-profile-line-surface/"
-          },
-          {
-            "label": "GDT Planitud y Rectitud",
-            "link": "/tolerances/gdt-flatness-straightness/"
-          },
-          {
-            "label": "GDT Posición verdadera",
-            "link": "/tolerances/gdt-true-position/"
-          },
-          {
-            "label": "MMC LMC RFS condiciones de material",
-            "link": "/tolerances/mmc-lmc-rfs-conditions/"
-          },
-          {
-            "label": "Referencias datum en planos GDT",
-            "link": "/tolerances/datum-references-gdt/"
-          },
-          {
-            "label": "Simbología GDT completa ASME Y14.5",
-            "link": "/tolerances/gdt-symbols-asme-y145/"
+            "label": "Tipos de fusibles clase J RK1 T",
+            "link": "/protecciones-electricas/fuse-types-class/"
           }
         ]
       },
       {
-        "label": "Sistema ANSI",
+        "label": "GFCI y AFCI",
         "translations": {
-          "en": "ANSI System"
+          "en": "GFCI & AFCI"
         },
         "collapsed": true,
         "items": [
           {
-            "label": "Ajustes ANSI B4.1 RC LC FN",
-            "link": "/tolerances/ansi-b41-fits/"
+            "label": "Interruptor AFCI fundamentos y aplicación",
+            "link": "/protecciones-electricas/afci-fundamentals/"
+          },
+          {
+            "label": "Interruptor GFCI fundamentos y aplicación",
+            "link": "/protecciones-electricas/gfci-fundamentals/"
           }
         ]
       },
       {
-        "label": "Sistema ISO",
+        "label": "Interruptores Termomagnéticos",
         "translations": {
-          "en": "ISO System"
+          "en": "Circuit Breakers"
         },
         "collapsed": true,
         "items": [
           {
-            "label": "Ajustes de holgura ISO H7 g6",
-            "link": "/tolerances/iso-clearance-fits-h7/"
+            "label": "Capacidad de interrupción de interruptores kA",
+            "link": "/protecciones-electricas/breaker-interrupting-capacity/"
           },
           {
-            "label": "Ajustes de interferencia press fit ISO",
-            "link": "/tolerances/iso-interference-press-fit/"
+            "label": "Curvas de disparo de interruptores B C D K",
+            "link": "/protecciones-electricas/breaker-trip-curves/"
           },
           {
-            "label": "Ajustes de transición ISO k6 m6",
-            "link": "/tolerances/iso-transition-fits-k6/"
+            "label": "Dimensionamiento de interruptores termomagnéticos",
+            "link": "/protecciones-electricas/circuit-breaker-sizing/"
           },
           {
-            "label": "Grados IT sistema ISO explicados",
-            "link": "/tolerances/it-grades-iso/"
+            "label": "Tipos de interruptores termomagnéticos",
+            "link": "/protecciones-electricas/circuit-breaker-types/"
+          }
+        ]
+      },
+      {
+        "label": "Relevadores",
+        "translations": {
+          "en": "Relays"
+        },
+        "collapsed": true,
+        "items": [
+          {
+            "label": "Relevador de sobrecarga térmica selección",
+            "link": "/protecciones-electricas/thermal-overload-relay-selection/"
           },
           {
-            "label": "Tolerancias generales ISO 2768",
-            "link": "/tolerances/iso-2768-general-tolerances/"
+            "label": "Relevador diferencial protección de transformadores",
+            "link": "/protecciones-electricas/differential-relay-transformer/"
+          },
+          {
+            "label": "Tipos de relevadores de protección ANSI",
+            "link": "/protecciones-electricas/protective-relay-types-ansi/"
           }
         ]
       }
     ]
   },
   {
-    "label": "Tornillería",
+    "label": "Instalaciones Eléctricas",
     "translations": {
-      "en": "Fasteners"
+      "en": "Electrical Installations"
     },
-    "collapsed": true,
     "items": [
       {
-        "label": "Grados y Normas",
+        "label": "Acometida",
         "translations": {
-          "en": "Grades & Standards"
+          "en": "Service Entrance"
         },
         "collapsed": true,
         "items": [
           {
-            "label": "Equivalencias ISO DIN tornillería",
-            "link": "/fasteners/iso-din-equivalences/"
+            "label": "Dimensionamiento de acometida eléctrica",
+            "link": "/instalaciones-electricas/service-entrance-sizing/"
           },
           {
-            "label": "Grados tornillos ISO vs SAE comparativa",
-            "link": "/fasteners/bolt-grades-iso-sae/"
+            "label": "Requisitos de base de medidor",
+            "link": "/instalaciones-electricas/meter-base-requirements/"
           }
         ]
       },
       {
-        "label": "Roscas Imperiales",
+        "label": "Áreas Peligrosas",
         "translations": {
-          "en": "Imperial Threads"
+          "en": "Hazardous Locations"
         },
         "collapsed": true,
         "items": [
           {
-            "label": "Roscas BSP BSW británicas",
-            "link": "/fasteners/bsp-bsw-threads/"
+            "label": "Áreas clasificadas Clase I II III",
+            "link": "/instalaciones-electricas/classified-hazardous-areas/"
           },
           {
-            "label": "Roscas NPT cónicas tabla",
-            "link": "/fasteners/npt-pipe-threads/"
-          },
-          {
-            "label": "Roscas UNC tabla completa",
-            "link": "/fasteners/unc-thread-table/"
-          },
-          {
-            "label": "Roscas UNF tabla completa",
-            "link": "/fasteners/unf-thread-table/"
+            "label": "Equipo a prueba de explosión especificaciones",
+            "link": "/instalaciones-electricas/explosion-proof-equipment-specs/"
           }
         ]
       },
       {
-        "label": "Roscas Métricas",
+        "label": "Canalizaciones",
         "translations": {
-          "en": "Metric Threads"
+          "en": "Raceways"
         },
         "collapsed": true,
         "items": [
           {
-            "label": "Brocas para roscar métricas M3-M20",
-            "link": "/fasteners/metric-tap-drill-sizes/"
+            "label": "Comparativa conducto EMT vs rígido",
+            "link": "/instalaciones-electricas/emt-vs-rigid-conduit/"
           },
           {
-            "label": "Roscas métricas paso fino tabla",
-            "link": "/fasteners/metric-fine-threads/"
+            "label": "Dobleces de conducto ángulos y offsets",
+            "link": "/instalaciones-electricas/conduit-bending-angles-offsets/"
           },
           {
-            "label": "Roscas métricas paso grueso M1-M100",
-            "link": "/fasteners/metric-coarse-threads/"
+            "label": "Tipos de charola portacables",
+            "link": "/instalaciones-electricas/cable-tray-types/"
           }
         ]
       },
       {
-        "label": "Tornillería Normalizada",
+        "label": "Cargas de Tablero",
         "translations": {
-          "en": "Standard Fasteners"
+          "en": "Panel Loads"
         },
         "collapsed": true,
         "items": [
           {
-            "label": "Arandelas de presión DIN 127",
-            "link": "/fasteners/din-127-spring-washers/"
+            "label": "Cálculo de carga en tableros eléctricos",
+            "link": "/instalaciones-electricas/panelboard-load-calculation/"
           },
           {
-            "label": "Arandelas DIN 125 dimensiones",
-            "link": "/fasteners/din-125-washers/"
+            "label": "Factores de demanda por tipo de carga",
+            "link": "/instalaciones-electricas/demand-factors-by-load/"
           },
           {
-            "label": "Tornillos allen DIN 912 dimensiones",
-            "link": "/fasteners/din-912-socket-head/"
-          },
-          {
-            "label": "Tornillos hexagonales DIN 933",
-            "link": "/fasteners/din-933-hex-bolts/"
-          },
-          {
-            "label": "Tuercas autoblocantes DIN 985",
-            "link": "/fasteners/din-985-nyloc-nuts/"
-          },
-          {
-            "label": "Tuercas hexagonales DIN 934",
-            "link": "/fasteners/din-934-hex-nuts/"
+            "label": "Guía de cédula de circuitos de tablero",
+            "link": "/instalaciones-electricas/panel-schedule-guide/"
           }
         ]
       },
       {
-        "label": "Torque y Preload",
+        "label": "Circuitos de Iluminación",
         "translations": {
-          "en": "Torque & Preload"
+          "en": "Lighting Circuits"
         },
         "collapsed": true,
         "items": [
           {
-            "label": "Cálculo preload y torque tornillos",
-            "link": "/fasteners/bolt-preload-torque/"
+            "label": "Cálculo de carga de iluminación",
+            "link": "/instalaciones-electricas/lighting-load-calculation/"
           },
           {
-            "label": "Torques de apriete roscas imperiales",
-            "link": "/fasteners/torque-values-imperial/"
+            "label": "Requisitos de iluminación de emergencia",
+            "link": "/instalaciones-electricas/emergency-lighting-code-requirements/"
+          }
+        ]
+      },
+      {
+        "label": "Código Residencial",
+        "translations": {
+          "en": "Residential Code"
+        },
+        "collapsed": true,
+        "items": [
+          {
+            "label": "Circuitos de baño requisitos de código",
+            "link": "/instalaciones-electricas/bathroom-circuit-code-requirements/"
           },
           {
-            "label": "Torques de apriete roscas métricas",
-            "link": "/fasteners/torque-values-metric/"
+            "label": "Circuitos de cocina requisitos de código",
+            "link": "/instalaciones-electricas/kitchen-circuit-code-requirements/"
+          },
+          {
+            "label": "Requisitos eléctricos para albercas y spas",
+            "link": "/instalaciones-electricas/pool-spa-electrical-code/"
+          }
+        ]
+      },
+      {
+        "label": "Comparativa de Normas",
+        "translations": {
+          "en": "Standards Comparison"
+        },
+        "collapsed": true,
+        "items": [
+          {
+            "label": "Comparativa NOM-001 vs NEC",
+            "link": "/instalaciones-electricas/nom001-vs-nec-comparison/"
+          },
+          {
+            "label": "Instalaciones eléctricas según IEC",
+            "link": "/instalaciones-electricas/iec-electrical-installation-standards/"
+          }
+        ]
+      },
+      {
+        "label": "Contactos e Interruptores",
+        "translations": {
+          "en": "Receptacles & Switches"
+        },
+        "collapsed": true,
+        "items": [
+          {
+            "label": "Tipos de contactos NEMA especificaciones",
+            "link": "/instalaciones-electricas/nema-receptacle-types/"
+          },
+          {
+            "label": "Tipos de interruptores de instalación",
+            "link": "/instalaciones-electricas/electrical-switch-types/"
+          },
+          {
+            "label": "Ubicaciones donde se requiere GFCI en instalación",
+            "link": "/instalaciones-electricas/gfci-installation-locations/"
+          }
+        ]
+      },
+      {
+        "label": "Instalación Solar",
+        "translations": {
+          "en": "Solar Installation"
+        },
+        "collapsed": true,
+        "items": [
+          {
+            "label": "Circuito para cargador de vehículo eléctrico",
+            "link": "/instalaciones-electricas/ev-charger-circuit-requirements/"
+          },
+          {
+            "label": "Dimensionamiento de conductores en sistemas solares",
+            "link": "/instalaciones-electricas/solar-conductor-sizing/"
+          },
+          {
+            "label": "Requisitos de interconexión de sistemas solares",
+            "link": "/instalaciones-electricas/solar-interconnection-code-requirements/"
+          }
+        ]
+      },
+      {
+        "label": "Instalaciones Industriales",
+        "translations": {
+          "en": "Industrial Installations"
+        },
+        "collapsed": true,
+        "items": [
+          {
+            "label": "Conductores de circuito de motor dimensionamiento",
+            "link": "/instalaciones-electricas/motor-circuit-conductor-sizing/"
+          },
+          {
+            "label": "Conductores secundarios de transformador",
+            "link": "/instalaciones-electricas/transformer-secondary-conductors/"
+          },
+          {
+            "label": "Interconexión de generadores de respaldo",
+            "link": "/instalaciones-electricas/backup-generator-interconnection/"
+          },
+          {
+            "label": "Requisitos de instalaciones eléctricas temporales",
+            "link": "/instalaciones-electricas/temporary-wiring-code-requirements/"
+          },
+          {
+            "label": "Requisitos eléctricos para centros de datos",
+            "link": "/instalaciones-electricas/data-center-electrical-requirements/"
+          },
+          {
+            "label": "Requisitos eléctricos para elevadores",
+            "link": "/instalaciones-electricas/elevator-electrical-requirements/"
+          },
+          {
+            "label": "Requisitos eléctricos para instalaciones de salud",
+            "link": "/instalaciones-electricas/healthcare-facility-electrical-requirements/"
+          }
+        ]
+      },
+      {
+        "label": "Métodos de Alambrado",
+        "translations": {
+          "en": "Wiring Methods"
+        },
+        "collapsed": true,
+        "items": [
+          {
+            "label": "Cálculo de llenado de caja eléctrica",
+            "link": "/instalaciones-electricas/electrical-box-fill-calculation/"
+          },
+          {
+            "label": "Comparativa de métodos de alambrado",
+            "link": "/instalaciones-electricas/wiring-methods-comparison/"
+          },
+          {
+            "label": "Requisitos de alambrado exterior",
+            "link": "/instalaciones-electricas/outdoor-wiring-requirements/"
+          }
+        ]
+      },
+      {
+        "label": "NEC",
+        "translations": {
+          "en": "NEC"
+        },
+        "collapsed": true,
+        "items": [
+          {
+            "label": "Circuitos derivados según NEC",
+            "link": "/instalaciones-electricas/nec-branch-circuits/"
+          },
+          {
+            "label": "Dimensionamiento de alimentadores NEC",
+            "link": "/instalaciones-electricas/nec-feeder-sizing/"
+          },
+          {
+            "label": "Guía general del NEC artículos principales",
+            "link": "/instalaciones-electricas/nec-general-guide-articles/"
+          }
+        ]
+      },
+      {
+        "label": "NOM-001",
+        "translations": {
+          "en": "NOM-001"
+        },
+        "collapsed": true,
+        "items": [
+          {
+            "label": "Cálculo de carga residencial NOM-001",
+            "link": "/instalaciones-electricas/nom001-residential-load-calculation/"
+          },
+          {
+            "label": "Dimensionamiento de circuitos según NOM-001",
+            "link": "/instalaciones-electricas/nom001-circuit-sizing/"
+          },
+          {
+            "label": "Guía general NOM-001-SEDE",
+            "link": "/instalaciones-electricas/nom-001-sede-general-guide/"
           }
         ]
       }
     ]
   },
   {
-    "label": "Elementos de Máquinas",
+    "label": "Sistemas de Control",
     "translations": {
-      "en": "Machine Elements"
+      "en": "Control Systems"
     },
-    "collapsed": true,
     "items": [
       {
-        "label": "Ejes y Acoplamientos",
+        "label": "Contactores",
         "translations": {
-          "en": "Shafts & Couplings"
+          "en": "Contactors"
         },
         "collapsed": true,
         "items": [
           {
-            "label": "Acoplamientos flexibles tipos",
-            "link": "/machine-elements/flexible-couplings-types/"
+            "label": "Comparativa contactor vs relevador",
+            "link": "/sistemas-control/contactor-vs-relay-comparison/"
           },
           {
-            "label": "Acoplamientos rígidos tipos",
-            "link": "/machine-elements/rigid-couplings-types/"
-          },
-          {
-            "label": "Chaveteros y cuñas DIN 6885",
-            "link": "/machine-elements/keyways-keys-din6885/"
-          },
-          {
-            "label": "Estriados DIN 5480 dimensiones",
-            "link": "/machine-elements/splines-din5480/"
+            "label": "Selección de contactores por corriente",
+            "link": "/sistemas-control/contactor-selection-by-current/"
           }
         ]
       },
       {
-        "label": "Embragues y Frenos",
+        "label": "Fundamentos de PLC",
         "translations": {
-          "en": "Clutches & Brakes"
+          "en": "PLC Basics"
         },
         "collapsed": true,
         "items": [
           {
-            "label": "Embragues de disco tipos",
-            "link": "/machine-elements/disc-clutches-types/"
+            "label": "Fundamentos de PLC introducción",
+            "link": "/sistemas-control/plc-fundamentals-introduction/"
           },
           {
-            "label": "Frenos de tambor",
-            "link": "/machine-elements/drum-brakes-parameters/"
+            "label": "Lógica de escalera (ladder logic) fundamentos",
+            "link": "/sistemas-control/ladder-logic-fundamentals/"
           },
           {
-            "label": "Materiales de fricción",
-            "link": "/machine-elements/friction-materials-properties/"
+            "label": "Tipos de entradas y salidas de PLC",
+            "link": "/sistemas-control/plc-io-types/"
           }
         ]
       },
       {
-        "label": "Engranajes",
+        "label": "Sensores",
         "translations": {
-          "en": "Gears"
+          "en": "Sensors"
         },
         "collapsed": true,
         "items": [
           {
-            "label": "Engranajes cónicos tipos",
-            "link": "/machine-elements/bevel-gears-types/"
+            "label": "Tipos de sensores de presión industrial",
+            "link": "/sistemas-control/pressure-sensor-types-industrial/"
           },
           {
-            "label": "Engranajes helicoidales",
-            "link": "/machine-elements/helical-gears-parameters/"
+            "label": "Tipos de sensores de proximidad industrial",
+            "link": "/sistemas-control/proximity-sensor-types/"
           },
           {
-            "label": "Engranajes rectos módulos y cálculo",
-            "link": "/machine-elements/spur-gears-calculation/"
+            "label": "Tipos de sensores de temperatura industrial",
+            "link": "/sistemas-control/temperature-sensor-types-industrial/"
           },
           {
-            "label": "Engranajes tornillo sin fin",
-            "link": "/machine-elements/worm-gears-parameters/"
-          },
-          {
-            "label": "Módulos normalizados ISO",
-            "link": "/machine-elements/gear-modules-iso/"
-          }
-        ]
-      },
-      {
-        "label": "Resortes",
-        "translations": {
-          "en": "Springs"
-        },
-        "collapsed": true,
-        "items": [
-          {
-            "label": "Materiales para resortes",
-            "link": "/machine-elements/spring-materials-properties/"
-          },
-          {
-            "label": "Resortes de compresión cálculo",
-            "link": "/machine-elements/compression-springs-calc/"
-          },
-          {
-            "label": "Resortes de disco Belleville",
-            "link": "/machine-elements/disc-springs-belleville/"
-          },
-          {
-            "label": "Resortes de tensión cálculo",
-            "link": "/machine-elements/extension-springs-calc/"
-          },
-          {
-            "label": "Resortes de torsión cálculo",
-            "link": "/machine-elements/torsion-springs-calc/"
-          }
-        ]
-      },
-      {
-        "label": "Rodamientos",
-        "translations": {
-          "en": "Bearings"
-        },
-        "collapsed": true,
-        "items": [
-          {
-            "label": "Ajustes y montaje de rodamientos",
-            "link": "/machine-elements/bearing-fits-mounting/"
-          },
-          {
-            "label": "Cálculo vida útil L10 rodamientos",
-            "link": "/machine-elements/bearing-l10-life/"
-          },
-          {
-            "label": "Cojinetes de deslizamiento tipos",
-            "link": "/machine-elements/plain-bearings-types/"
-          },
-          {
-            "label": "Rodamientos cónicos tipos y selección",
-            "link": "/machine-elements/tapered-roller-bearings/"
-          },
-          {
-            "label": "Rodamientos de bolas nomenclatura SKF",
-            "link": "/machine-elements/ball-bearings-nomenclature/"
-          },
-          {
-            "label": "Rodamientos de empuje tipos",
-            "link": "/machine-elements/thrust-bearings/"
-          },
-          {
-            "label": "Rodamientos de rodillos cilíndricos",
-            "link": "/machine-elements/cylindrical-roller-bearings/"
-          },
-          {
-            "label": "Rodamientos esféricos tipos",
-            "link": "/machine-elements/spherical-roller-bearings/"
-          }
-        ]
-      },
-      {
-        "label": "Sellos",
-        "translations": {
-          "en": "Seals"
-        },
-        "collapsed": true,
-        "items": [
-          {
-            "label": "Juntas planas materiales y aplicaciones",
-            "link": "/machine-elements/gaskets-materials/"
-          },
-          {
-            "label": "O-rings dimensiones AS568 y métricos",
-            "link": "/machine-elements/o-rings-dimensions-as568/"
-          },
-          {
-            "label": "Retenes y sellos de labio tipos",
-            "link": "/machine-elements/lip-seals-oil-seals/"
-          },
-          {
-            "label": "Sellos mecánicos tipos y selección",
-            "link": "/machine-elements/mechanical-seals-types/"
-          }
-        ]
-      },
-      {
-        "label": "Transmisión de Potencia",
-        "translations": {
-          "en": "Power Transmission"
-        },
-        "collapsed": true,
-        "items": [
-          {
-            "label": "Bandas síncronas GT2 HTD XL",
-            "link": "/machine-elements/synchronous-belts-gt2/"
-          },
-          {
-            "label": "Bandas V tipos y dimensiones",
-            "link": "/machine-elements/v-belts-types/"
-          },
-          {
-            "label": "Cadenas de rodillos ANSI ISO",
-            "link": "/machine-elements/roller-chains-ansi-iso/"
-          }
-        ]
-      }
-    ]
-  },
-  {
-    "label": "Hidráulica y Neumática",
-    "translations": {
-      "en": "Hydraulics & Pneumatics"
-    },
-    "collapsed": true,
-    "items": [
-      {
-        "label": "Sistema Hidráulico",
-        "translations": {
-          "en": "Hydraulic System"
-        },
-        "collapsed": true,
-        "items": [
-          {
-            "label": "Cálculo cilindros hidráulicos fuerza velocidad",
-            "link": "/hydraulics/hydraulic-cylinder-calc/"
-          },
-          {
-            "label": "Fluidos hidráulicos",
-            "link": "/hydraulics/hydraulic-fluids-properties/"
-          },
-          {
-            "label": "Mangueras y racores hidráulicos",
-            "link": "/hydraulics/hydraulic-hoses-fittings/"
-          },
-          {
-            "label": "Presiones estándar industriales hidráulicas",
-            "link": "/hydraulics/hydraulic-pressure-standards/"
-          },
-          {
-            "label": "Símbolos hidráulicos ISO 1219 completo",
-            "link": "/hydraulics/hydraulic-symbols-iso1219/"
-          }
-        ]
-      },
-      {
-        "label": "Sistema Neumático",
-        "translations": {
-          "en": "Pneumatic System"
-        },
-        "collapsed": true,
-        "items": [
-          {
-            "label": "Cálculo consumo de aire neumático",
-            "link": "/hydraulics/pneumatic-air-consumption/"
-          },
-          {
-            "label": "Racores neumáticos tipos y conexiones",
-            "link": "/hydraulics/pneumatic-fittings-types/"
-          },
-          {
-            "label": "Símbolos neumáticos ISO 1219",
-            "link": "/hydraulics/pneumatic-symbols-iso1219/"
-          }
-        ]
-      }
-    ]
-  },
-  {
-    "label": "Resistencia de Materiales",
-    "translations": {
-      "en": "Strength of Materials"
-    },
-    "collapsed": true,
-    "items": [
-      {
-        "label": "Columnas",
-        "translations": {
-          "en": "Columns"
-        },
-        "collapsed": true,
-        "items": [
-          {
-            "label": "Pandeo de columnas Euler",
-            "link": "/mechanics/euler-column-buckling/"
-          }
-        ]
-      },
-      {
-        "label": "Dinámica",
-        "translations": {
-          "en": "Dynamics"
-        },
-        "collapsed": true,
-        "items": [
-          {
-            "label": "Masas y momentos de inercia",
-            "link": "/mechanics/mass-moments-inertia/"
-          }
-        ]
-      },
-      {
-        "label": "Fatiga",
-        "translations": {
-          "en": "Fatigue"
-        },
-        "collapsed": true,
-        "items": [
-          {
-            "label": "Curvas S-N fatiga materiales",
-            "link": "/mechanics/sn-curves-fatigue/"
-          },
-          {
-            "label": "Diagramas Goodman Gerber fatiga",
-            "link": "/mechanics/goodman-gerber-diagrams/"
-          },
-          {
-            "label": "Fatiga en uniones soldadas",
-            "link": "/mechanics/fatigue-welded-joints/"
-          }
-        ]
-      },
-      {
-        "label": "Resistencia",
-        "translations": {
-          "en": "Strength"
-        },
-        "collapsed": true,
-        "items": [
-          {
-            "label": "Factores concentración esfuerzo Kt",
-            "link": "/mechanics/stress-concentration-kt/"
-          },
-          {
-            "label": "Fórmulas de vigas apoyo y carga",
-            "link": "/mechanics/beam-formulas-load/"
-          },
-          {
-            "label": "Módulo resistente por sección",
-            "link": "/mechanics/section-modulus/"
-          },
-          {
-            "label": "Momentos de inercia por sección transversal",
-            "link": "/mechanics/moment-inertia-sections/"
-          },
-          {
-            "label": "Teorías de falla ingeniería mecánica",
-            "link": "/mechanics/failure-theories-mechanical/"
-          }
-        ]
-      }
-    ]
-  },
-  {
-    "label": "Fluidos y Termodinámica",
-    "translations": {
-      "en": "Fluids & Thermodynamics"
-    },
-    "collapsed": true,
-    "items": [
-      {
-        "label": "Mecánica de Fluidos",
-        "translations": {
-          "en": "Fluid Mechanics"
-        },
-        "collapsed": true,
-        "items": [
-          {
-            "label": "Coeficientes de pérdidas locales",
-            "link": "/fluids/local-loss-coefficients/"
-          },
-          {
-            "label": "Diagrama de Moody factor fricción",
-            "link": "/fluids/moody-diagram-friction/"
-          },
-          {
-            "label": "Ecuación de Bernoulli aplicada",
-            "link": "/fluids/bernoulli-equation/"
-          },
-          {
-            "label": "Números adimensionales mecánica fluidos",
-            "link": "/fluids/dimensionless-numbers-fluids/"
-          },
-          {
-            "label": "Pérdidas por fricción en tuberías",
-            "link": "/fluids/pipe-friction-losses/"
-          },
-          {
-            "label": "Propiedades de fluidos comunes",
-            "link": "/fluids/common-fluid-properties/"
-          }
-        ]
-      },
-      {
-        "label": "Termodinámica",
-        "translations": {
-          "en": "Thermodynamics"
-        },
-        "collapsed": true,
-        "items": [
-          {
-            "label": "Calor específico de materiales",
-            "link": "/fluids/specific-heat-materials/"
-          },
-          {
-            "label": "Carta psicrométrica interpretación",
-            "link": "/fluids/psychrometric-chart/"
-          },
-          {
-            "label": "Ciclos termodinámicos básicos",
-            "link": "/fluids/thermodynamic-cycles/"
-          },
-          {
-            "label": "Propiedades del aire por temperatura",
-            "link": "/fluids/air-properties-temperature/"
-          }
-        ]
-      }
-    ]
-  },
-  {
-    "label": "Conversores",
-    "translations": {
-      "en": "Converters"
-    },
-    "collapsed": true,
-    "items": [
-      {
-        "label": "Dureza",
-        "translations": {
-          "en": "Hardness"
-        },
-        "collapsed": true,
-        "items": [
-          {
-            "label": "Conversión durezas HRC HB HV HRA",
-            "link": "/converters/hardness-conversion-hrc-hb-hv/"
-          }
-        ]
-      },
-      {
-        "label": "Rugosidad",
-        "translations": {
-          "en": "Roughness"
-        },
-        "collapsed": true,
-        "items": [
-          {
-            "label": "Conversión rugosidad Ra Rz RMS CLA",
-            "link": "/converters/roughness-ra-rz-rms/"
-          }
-        ]
-      },
-      {
-        "label": "Unidades",
-        "translations": {
-          "en": "Units"
-        },
-        "collapsed": true,
-        "items": [
-          {
-            "label": "Conversión unidades de presión",
-            "link": "/converters/pressure-unit-conversion/"
-          },
-          {
-            "label": "Conversión unidades de torque",
-            "link": "/converters/torque-unit-conversion/"
-          },
-          {
-            "label": "Conversión unidades SI Imperial mecánica",
-            "link": "/converters/si-imperial-mechanical/"
+            "label": "Tipos de sensores fotoeléctricos",
+            "link": "/sistemas-control/photoelectric-sensor-types/"
           }
         ]
       }

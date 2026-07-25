@@ -1,61 +1,28 @@
 ﻿---
-title: Política de Privacidad
-description: Política de privacidad de MechDatum sobre recopilación y uso de datos de los usuarios.
+title: "Política de Privacidad"
+description: "Política de privacidad de ElecDatum"
 ---
 
-**Última actualización: 22 de julio de 2026**
+**Última actualización:** julio de 2026
 
-## Introducción
+## Qué información recopilamos
 
-MechDatum ("nosotros", "el sitio") respeta la privacidad de sus visitantes. Esta política explica qué información recopilamos, cómo la usamos y qué opciones tienes al respecto.
+ElecDatum utiliza cookies y tecnologías similares a través de **Google Analytics** y **Google AdSense** para entender cómo se usa el sitio y, cuando corresponda, mostrar publicidad relevante. También usamos **Cloudflare** como proveedor de infraestructura y seguridad, que procesa datos técnicos de conexión (dirección IP, tipo de navegador) como parte estándar de su servicio de CDN.
 
-## Información que recopilamos
+No solicitamos ni almacenamos información personal identificable más allá de lo que envíes voluntariamente a través del formulario de contacto (nombre y correo electrónico).
 
-### Datos de navegación automáticos
+## Cookies y publicidad
 
-Como la mayoría de los sitios web, MechDatum puede recopilar automáticamente información técnica al visitar el sitio, incluyendo:
-
-- Dirección IP
-- Tipo de navegador y dispositivo
-- Páginas visitadas y tiempo de permanencia
-- Sitio de referencia (de dónde llegaste)
-
-### Cookies
-
-MechDatum puede utilizar cookies propias y de terceros para mejorar la experiencia de navegación, analizar el tráfico del sitio y, en su caso, mostrar publicidad relevante a través de servicios como Google AdSense.
-
-Google, como proveedor externo, utiliza cookies para publicar anuncios en este sitio. El uso de la cookie de publicidad DART por parte de Google le permite publicar anuncios a los usuarios basándose en la visita de estos a MechDatum y otros sitios en internet. Los usuarios pueden inhabilitar el uso de la cookie DART visitando la [Política de privacidad de la red de contenido y los anuncios de Google](https://policies.google.com/technologies/ads).
-
-## Uso de la información
-
-La información recopilada se utiliza para:
-
-- Mejorar el contenido y la funcionalidad del sitio
-- Analizar patrones de uso y tráfico
-- Mostrar publicidad relevante (cuando aplique)
+Google Analytics utiliza cookies para generar estadísticas de uso agregadas y anónimas. Google AdSense puede utilizar cookies para mostrar anuncios basados en visitas anteriores a este u otros sitios. Puedes gestionar tus preferencias de cookies publicitarias en [Configuración de anuncios de Google](https://adssettings.google.com).
 
 ## Terceros
 
-MechDatum puede utilizar servicios de terceros que recopilan información de forma independiente, incluyendo:
-
-- **Google Analytics** — análisis de tráfico
-- **Google AdSense** — publicidad
-- **Cloudflare** — infraestructura y seguridad
-
-Estos servicios tienen sus propias políticas de privacidad, las cuales recomendamos revisar.
+Este sitio puede incluir enlaces o contenido servido por terceros (Google Analytics, Google AdSense, Cloudflare). Cada uno de estos servicios tiene su propia política de privacidad, y no somos responsables del tratamiento de datos que realicen fuera de este sitio.
 
 ## Tus derechos
 
-Puedes configurar tu navegador para rechazar cookies o para que te avise cuando se envíe una cookie. Ten en cuenta que algunas partes del sitio pueden no funcionar correctamente sin cookies habilitadas.
-
-## Enlaces a otros sitios
-
-MechDatum incluye enlaces a fuentes técnicas externas citadas en cada artículo. No nos hacemos responsables de las prácticas de privacidad de esos sitios.
+Puedes solicitar la eliminación de cualquier dato personal que nos hayas proporcionado (por ejemplo, a través del formulario de contacto) escribiéndonos a través de la página de [Contacto](/contact/).
 
 ## Cambios a esta política
 
-Podemos actualizar esta política ocasionalmente. Los cambios se publicarán en esta página con la fecha de actualización correspondiente.
-
-## Contacto
-
-Para preguntas sobre esta política de privacidad, puedes contactarnos en contact@mechdatum.com.
+Podemos actualizar esta política ocasionalmente. La fecha de "Última actualización" al inicio de esta página refleja la versión más reciente.

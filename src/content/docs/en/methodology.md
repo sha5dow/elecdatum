@@ -1,36 +1,22 @@
 ﻿---
-title: Methodology
-description: How MechDatum verifies and structures the technical data it publishes.
+title: "Methodology"
+description: "ElecDatum data verification methodology"
 ---
 
-## How We Generate Content
+## How we verify information
 
-Every MechDatum technical reference page is built through a consistent research and verification process, not from a single source.
+Each ElecDatum technical page is built by cross-referencing at least 2-4 independent technical sources (manufacturers, specialized electrical engineering portals, official standards) before publication. When two or more sources agree on a value, that data point is considered reliable. When sources disagree, the value most consistent with additional corroborating references is prioritized.
 
-### 1. Consulting Multiple Technical Sources
+If no available data proves sufficiently reliable, the page is explicitly marked with **[VERIFY]** rather than presenting an unconfirmed value as definitive.
 
-For each topic, several recognized technical sources are consulted: manufacturer catalogs, industry standards (ASTM, SAE, DIN, EN, ISO), and established engineering references. The goal is to avoid relying on a single data origin.
+## Standardized structure
 
-### 2. Cross-Verification
+All content follows a fixed structure by topic type (reference table, standards guide, equipment page), with units expressed in both metric and imperial for every numerical data point, to serve audiences using NOM/IEC as well as NEC.
 
-Every published numerical value is checked against at least one additional source before being included in the page. When multiple sources agree on a value, that is the data presented.
+## Content updates
 
-### 3. Standardized Structure
+Electrical standards (NOM-001-SEDE, NEC) are updated periodically. We review and update ElecDatum content as new editions of relevant standards are published.
 
-Each content category (materials, manufacturing processes, tolerances, etc.) follows a fixed section structure, making information easy to compare across pages and quick to locate.
+## Questions about a specific data point
 
-### 4. Metric and Imperial Units
-
-Numerical values are presented in both unit systems (metric and imperial) to make the content usable regardless of the reader's working standard.
-
-### 5. Updates
-
-Content may be updated when outdated data, new applicable standards, or corrections reported by the engineering community using the site are identified. The last updated date is shown on each page.
-
-## Limitations
-
-Information published on MechDatum is for general reference. For critical design, manufacturing, or regulatory compliance applications, always verify against the current official standard, the specific material or process manufacturer, and/or your own project testing.
-
-## Found an Error?
-
-If you spot a data point you believe is incorrect or outdated, contact us at contact@mechdatum.com — every reported correction is reviewed against the original sources.
+If you have questions about the accuracy of a particular data point, contact us via our [Contact](/en/contact/) page.

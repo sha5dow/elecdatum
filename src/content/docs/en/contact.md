@@ -1,22 +1,10 @@
 ﻿---
-title: Contact
-description: How to get in touch with the MechDatum team.
+title: "Contact"
+description: "ElecDatum contact"
 ---
 
-## Contact
+For questions, technical corrections, content suggestions, or business inquiries, you can reach us at:
 
-Have questions, suggestions, found a data point that needs correction, or want to propose a technical topic for future reference pages? Reach out.
+**contact@elecdatum.com**
 
-**Email:** contact@mechdatum.com
-
-### Report a Data Error
-
-MechDatum verifies every data point by cross-referencing multiple primary technical sources, but if you spot an inconsistency, an outdated value, or an error, we'd appreciate you letting us know with:
-
-- The link to the specific page
-- The data point you believe is incorrect
-- The source backing your correction, if you have one
-
-### Content Suggestions
-
-If you work in mechanical engineering, manufacturing, or related fields and think an important material, process, or reference topic is missing, let us know — suggestions from professionals in the field help us prioritize what content we develop next.
+If you find incorrect or outdated data on any technical page, we appreciate you letting us know, specifying the page and the data in question — accuracy is our priority.
