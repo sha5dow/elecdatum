@@ -120,6 +120,23 @@
         ]
       },
       {
+        "label": "Sistema AWG",
+        "translations": {
+          "en": "AWG System"
+        },
+        "collapsed": true,
+        "items": [
+          {
+            "label": "Diámetro de conductores AWG en mm",
+            "link": "/conductores-cables/awg-wire-diameter-mm/"
+          },
+          {
+            "label": "Tabla de conversión AWG a mm²",
+            "link": "/conductores-cables/awg-mm2-conversion/"
+          }
+        ]
+      },
+      {
         "label": "Tipos de Aislamiento",
         "translations": {
           "en": "Insulation Types"
@@ -174,6 +191,166 @@
           {
             "label": "Cordones flexibles tipos SJ SJT SO",
             "link": "/conductores-cables/flexible-cord-types/"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "label": "Circuitos y Análisis",
+    "translations": {
+      "en": "Circuits and Analysis"
+    },
+    "items": [
+      {
+        "label": "Cálculo de Transformadores",
+        "translations": {
+          "en": "Transformer Calculations"
+        },
+        "collapsed": true,
+        "items": [
+          {
+            "label": "Relación de transformación en transformadores",
+            "link": "/circuitos-analisis/transformer-turns-ratio/"
+          }
+        ]
+      },
+      {
+        "label": "Cortocircuito",
+        "translations": {
+          "en": "Short Circuit"
+        },
+        "collapsed": true,
+        "items": [
+          {
+            "label": "Cálculo de corriente de cortocircuito",
+            "link": "/circuitos-analisis/short-circuit-current-calculation/"
+          },
+          {
+            "label": "Corriente de falla en transformadores",
+            "link": "/circuitos-analisis/transformer-fault-current/"
+          }
+        ]
+      },
+      {
+        "label": "Eléctrica de Motores",
+        "translations": {
+          "en": "Motor Electrical"
+        },
+        "collapsed": true,
+        "items": [
+          {
+            "label": "Cálculo de corriente de motor por HP",
+            "link": "/circuitos-analisis/motor-current-calculation-hp/"
+          },
+          {
+            "label": "Corriente de rotor bloqueado LRA",
+            "link": "/circuitos-analisis/locked-rotor-current-lra/"
+          }
+        ]
+      },
+      {
+        "label": "Elementos de Circuito",
+        "translations": {
+          "en": "Circuit Elements"
+        },
+        "collapsed": true,
+        "items": [
+          {
+            "label": "Fórmulas de capacitores serie paralelo",
+            "link": "/circuitos-analisis/capacitor-series-parallel-formulas/"
+          },
+          {
+            "label": "Fórmulas de inductores serie paralelo",
+            "link": "/circuitos-analisis/inductor-series-parallel-formulas/"
+          },
+          {
+            "label": "Resistencias en serie y paralelo",
+            "link": "/circuitos-analisis/resistors-series-parallel/"
+          }
+        ]
+      },
+      {
+        "label": "Factor de Potencia",
+        "translations": {
+          "en": "Power Factor"
+        },
+        "collapsed": true,
+        "items": [
+          {
+            "label": "Cálculo del factor de potencia",
+            "link": "/circuitos-analisis/power-factor-calculation/"
+          },
+          {
+            "label": "Corrección de factor de potencia con capacitores",
+            "link": "/circuitos-analisis/power-factor-correction-capacitors/"
+          }
+        ]
+      },
+      {
+        "label": "Fundamentos",
+        "translations": {
+          "en": "Fundamentals"
+        },
+        "collapsed": true,
+        "items": [
+          {
+            "label": "Fórmulas de potencia eléctrica",
+            "link": "/circuitos-analisis/electrical-power-formulas/"
+          },
+          {
+            "label": "Ley de Ohm fórmulas y aplicaciones",
+            "link": "/circuitos-analisis/ohms-law-formulas/"
+          },
+          {
+            "label": "Leyes de Kirchhoff corriente y voltaje",
+            "link": "/circuitos-analisis/kirchhoff-laws/"
+          }
+        ]
+      },
+      {
+        "label": "Fundamentos de CA",
+        "translations": {
+          "en": "AC Fundamentals"
+        },
+        "collapsed": true,
+        "items": [
+          {
+            "label": "Cálculo de impedancia en corriente alterna",
+            "link": "/circuitos-analisis/ac-impedance-calculation/"
+          },
+          {
+            "label": "Relación frecuencia y periodo",
+            "link": "/circuitos-analisis/frequency-period-relationship/"
+          },
+          {
+            "label": "Valores RMS y pico en corriente alterna",
+            "link": "/circuitos-analisis/ac-rms-peak-values/"
+          }
+        ]
+      },
+      {
+        "label": "Monofásico y Trifásico",
+        "translations": {
+          "en": "Single & Three Phase"
+        },
+        "collapsed": true,
+        "items": [
+          {
+            "label": "Cálculo de potencia monofásica",
+            "link": "/circuitos-analisis/single-phase-power-calculation/"
+          },
+          {
+            "label": "Cálculo de potencia trifásica",
+            "link": "/circuitos-analisis/three-phase-power-calculation/"
+          },
+          {
+            "label": "Conexiones delta y estrella comparativa",
+            "link": "/circuitos-analisis/delta-wye-connections/"
+          },
+          {
+            "label": "Corriente de línea y de fase relación",
+            "link": "/circuitos-analisis/line-phase-current-relationship/"
           }
         ]
       }
@@ -364,6 +541,10 @@
             "link": "/maquinas-electricas/single-phase-induction-motor-types/"
           },
           {
+            "label": "Motor de inducción trifásico características",
+            "link": "/maquinas-electricas/three-phase-induction-motor/"
+          },
+          {
             "label": "Motor síncrono características",
             "link": "/maquinas-electricas/synchronous-motor-characteristics/"
           },
@@ -465,6 +646,40 @@
     },
     "items": [
       {
+        "label": "Arco Eléctrico",
+        "translations": {
+          "en": "Arc Flash"
+        },
+        "collapsed": true,
+        "items": [
+          {
+            "label": "Categorías de EPP para arco eléctrico",
+            "link": "/protecciones-electricas/arc-flash-ppe-categories/"
+          },
+          {
+            "label": "Riesgo de arco eléctrico fundamentos",
+            "link": "/protecciones-electricas/arc-flash-hazard-fundamentals/"
+          }
+        ]
+      },
+      {
+        "label": "Coordinación de Protecciones",
+        "translations": {
+          "en": "Protection Coordination"
+        },
+        "collapsed": true,
+        "items": [
+          {
+            "label": "Coordinación de protecciones eléctricas",
+            "link": "/protecciones-electricas/protection-coordination/"
+          },
+          {
+            "label": "Estudio de selectividad de protecciones",
+            "link": "/protecciones-electricas/protection-selectivity-study/"
+          }
+        ]
+      },
+      {
         "label": "Fusibles",
         "translations": {
           "en": "Fuses"
@@ -499,6 +714,27 @@
           {
             "label": "Interruptor GFCI fundamentos y aplicación",
             "link": "/protecciones-electricas/gfci-fundamentals/"
+          },
+          {
+            "label": "Ubicaciones donde se requiere GFCI",
+            "link": "/protecciones-electricas/gfci-required-locations/"
+          }
+        ]
+      },
+      {
+        "label": "Interruptores de Desconexión",
+        "translations": {
+          "en": "Disconnect Switches"
+        },
+        "collapsed": true,
+        "items": [
+          {
+            "label": "Clasificación NEMA de gabinetes de protección",
+            "link": "/protecciones-electricas/nema-enclosure-ratings/"
+          },
+          {
+            "label": "Tipos de interruptores de desconexión",
+            "link": "/protecciones-electricas/disconnect-switch-types/"
           }
         ]
       },
@@ -524,6 +760,57 @@
           {
             "label": "Tipos de interruptores termomagnéticos",
             "link": "/protecciones-electricas/circuit-breaker-types/"
+          }
+        ]
+      },
+      {
+        "label": "Normas de Interruptores",
+        "translations": {
+          "en": "Breaker Standards"
+        },
+        "collapsed": true,
+        "items": [
+          {
+            "label": "Comparativa normas IEC vs UL en interruptores",
+            "link": "/protecciones-electricas/iec-vs-ul-breaker-standards/"
+          },
+          {
+            "label": "Ics e Icu en interruptores diferencia",
+            "link": "/protecciones-electricas/breaker-ics-icu-difference/"
+          }
+        ]
+      },
+      {
+        "label": "Protección contra Sobretensión",
+        "translations": {
+          "en": "Surge Protection"
+        },
+        "collapsed": true,
+        "items": [
+          {
+            "label": "Pararrayos y descargadores especificaciones",
+            "link": "/protecciones-electricas/lightning-arrester-specifications/"
+          },
+          {
+            "label": "Tipos de dispositivos de protección contra sobretensión SPD",
+            "link": "/protecciones-electricas/spd-surge-protection-types/"
+          }
+        ]
+      },
+      {
+        "label": "Protección de Motores",
+        "translations": {
+          "en": "Motor Protection"
+        },
+        "collapsed": true,
+        "items": [
+          {
+            "label": "Clases de disparo de sobrecarga en motores",
+            "link": "/protecciones-electricas/motor-overload-trip-classes/"
+          },
+          {
+            "label": "Protección de cortocircuito en motores",
+            "link": "/protecciones-electricas/motor-short-circuit-protection/"
           }
         ]
       },
@@ -832,6 +1119,238 @@
     ]
   },
   {
+    "label": "Sistemas de Puesta a Tierra",
+    "translations": {
+      "en": "Grounding Systems"
+    },
+    "items": [
+      {
+        "label": "Bonding",
+        "translations": {
+          "en": "Bonding"
+        },
+        "collapsed": true,
+        "items": [
+          {
+            "label": "Bonding de equipos eléctricos",
+            "link": "/puesta-tierra/electrical-equipment-bonding/"
+          },
+          {
+            "label": "Dimensionamiento de puente de unión (bonding)",
+            "link": "/puesta-tierra/bonding-jumper-sizing/"
+          }
+        ]
+      },
+      {
+        "label": "Fundamentos de Tierra",
+        "translations": {
+          "en": "Grounding Fundamentals"
+        },
+        "collapsed": true,
+        "items": [
+          {
+            "label": "Diferencia entre puesta a tierra y bonding",
+            "link": "/puesta-tierra/grounding-vs-bonding-difference/"
+          },
+          {
+            "label": "Resistividad del suelo medición",
+            "link": "/puesta-tierra/soil-resistivity-measurement/"
+          }
+        ]
+      },
+      {
+        "label": "Protección contra Rayos",
+        "translations": {
+          "en": "Lightning Protection"
+        },
+        "collapsed": true,
+        "items": [
+          {
+            "label": "Sistema de protección contra rayos NFPA 780",
+            "link": "/puesta-tierra/lightning-protection-system-nfpa780/"
+          }
+        ]
+      },
+      {
+        "label": "Pruebas de Resistencia",
+        "translations": {
+          "en": "Resistance Testing"
+        },
+        "collapsed": true,
+        "items": [
+          {
+            "label": "Medición de resistencia de puesta a tierra",
+            "link": "/puesta-tierra/ground-resistance-testing-methods/"
+          },
+          {
+            "label": "Valores aceptables de resistencia de tierra",
+            "link": "/puesta-tierra/acceptable-ground-resistance-values/"
+          }
+        ]
+      },
+      {
+        "label": "Sistemas de Tierra",
+        "translations": {
+          "en": "Grounding Systems"
+        },
+        "collapsed": true,
+        "items": [
+          {
+            "label": "Diseño de malla de tierra",
+            "link": "/puesta-tierra/grounding-mesh-design/"
+          },
+          {
+            "label": "Electrodo de tierra empotrado (Ufer ground)",
+            "link": "/puesta-tierra/ufer-ground-electrode/"
+          },
+          {
+            "label": "Especificaciones de electrodos de tierra (varillas)",
+            "link": "/puesta-tierra/ground-rod-specifications/"
+          }
+        ]
+      },
+      {
+        "label": "Tierra Estática",
+        "translations": {
+          "en": "Static Grounding"
+        },
+        "collapsed": true,
+        "items": [
+          {
+            "label": "Puesta a tierra estática requisitos industriales",
+            "link": "/puesta-tierra/static-grounding-industrial-requirements/"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "label": "Calidad de la Energía",
+    "translations": {
+      "en": "Power Quality"
+    },
+    "items": [
+      {
+        "label": "Armónicos",
+        "translations": {
+          "en": "Harmonics"
+        },
+        "collapsed": true,
+        "items": [
+          {
+            "label": "Distorsión armónica total THD explicación",
+            "link": "/calidad-energia/thd-total-harmonic-distortion/"
+          },
+          {
+            "label": "Filtros de armónicos tipos",
+            "link": "/calidad-energia/harmonic-filter-types/"
+          },
+          {
+            "label": "Resonancia de bancos de capacitores con armónicos",
+            "link": "/calidad-energia/capacitor-bank-harmonic-resonance/"
+          },
+          {
+            "label": "Tabla de orden de armónicos y fuentes",
+            "link": "/calidad-energia/harmonic-order-table-sources/"
+          }
+        ]
+      },
+      {
+        "label": "Calidad de Factor de Potencia",
+        "translations": {
+          "en": "Power Factor Quality"
+        },
+        "collapsed": true,
+        "items": [
+          {
+            "label": "Comparativa de normas de calidad de energía",
+            "link": "/calidad-energia/power-quality-standards-comparison/"
+          },
+          {
+            "label": "Límites de la norma IEEE 519",
+            "link": "/calidad-energia/ieee519-standard-limits/"
+          },
+          {
+            "label": "Normas de factor de potencia calidad de energía",
+            "link": "/calidad-energia/power-factor-quality-standards/"
+          }
+        ]
+      },
+      {
+        "label": "Calidad de Voltaje",
+        "translations": {
+          "en": "Voltage Quality"
+        },
+        "collapsed": true,
+        "items": [
+          {
+            "label": "Caída y elevación de tensión (sag/swell)",
+            "link": "/calidad-energia/voltage-sag-swell/"
+          },
+          {
+            "label": "Desbalance de voltaje en sistemas trifásicos",
+            "link": "/calidad-energia/voltage-unbalance-three-phase/"
+          },
+          {
+            "label": "Parpadeo de voltaje (flicker) causas",
+            "link": "/calidad-energia/voltage-flicker-causes/"
+          }
+        ]
+      },
+      {
+        "label": "Medición",
+        "translations": {
+          "en": "Metering"
+        },
+        "collapsed": true,
+        "items": [
+          {
+            "label": "Fundamentos de medición de energía eléctrica",
+            "link": "/calidad-energia/energy-metering-fundamentals/"
+          },
+          {
+            "label": "Medidores de calidad de energía tipos",
+            "link": "/calidad-energia/power-quality-meter-types/"
+          }
+        ]
+      },
+      {
+        "label": "Potencia Reactiva",
+        "translations": {
+          "en": "Reactive Power"
+        },
+        "collapsed": true,
+        "items": [
+          {
+            "label": "Potencia reactiva fundamentos",
+            "link": "/calidad-energia/reactive-power-fundamentals/"
+          },
+          {
+            "label": "Triángulo de potencias explicación",
+            "link": "/calidad-energia/power-triangle-explanation/"
+          }
+        ]
+      },
+      {
+        "label": "Transitorios",
+        "translations": {
+          "en": "Transients"
+        },
+        "collapsed": true,
+        "items": [
+          {
+            "label": "Clasificación de categorías de sobretensión",
+            "link": "/calidad-energia/overvoltage-category-classification/"
+          },
+          {
+            "label": "Sobretensiones transitorias causas",
+            "link": "/calidad-energia/transient-overvoltage-causes/"
+          }
+        ]
+      }
+    ]
+  },
+  {
     "label": "Sistemas de Control",
     "translations": {
       "en": "Control Systems"
@@ -855,6 +1374,27 @@
         ]
       },
       {
+        "label": "Dispositivos de Control de Motores",
+        "translations": {
+          "en": "Motor Control Devices"
+        },
+        "collapsed": true,
+        "items": [
+          {
+            "label": "Código de colores de botones pulsadores",
+            "link": "/sistemas-control/push-button-color-code/"
+          },
+          {
+            "label": "Código de colores de luces piloto",
+            "link": "/sistemas-control/pilot-light-color-code/"
+          },
+          {
+            "label": "Tipos de interruptores de límite",
+            "link": "/sistemas-control/limit-switch-types/"
+          }
+        ]
+      },
+      {
         "label": "Fundamentos de PLC",
         "translations": {
           "en": "PLC Basics"
@@ -870,8 +1410,88 @@
             "link": "/sistemas-control/ladder-logic-fundamentals/"
           },
           {
+            "label": "PLC de seguridad fundamentos",
+            "link": "/sistemas-control/safety-plc-fundamentals/"
+          },
+          {
             "label": "Tipos de entradas y salidas de PLC",
             "link": "/sistemas-control/plc-io-types/"
+          },
+          {
+            "label": "Tipos de memoria en PLC",
+            "link": "/sistemas-control/plc-memory-types/"
+          }
+        ]
+      },
+      {
+        "label": "HMI y SCADA",
+        "translations": {
+          "en": "HMI & SCADA"
+        },
+        "collapsed": true,
+        "items": [
+          {
+            "label": "Fundamentos de interfaz HMI",
+            "link": "/sistemas-control/hmi-interface-fundamentals/"
+          },
+          {
+            "label": "Fundamentos de sistemas SCADA",
+            "link": "/sistemas-control/scada-system-fundamentals/"
+          }
+        ]
+      },
+      {
+        "label": "Protocolos de Comunicación",
+        "translations": {
+          "en": "Communication Protocols"
+        },
+        "collapsed": true,
+        "items": [
+          {
+            "label": "Comparativa Profibus vs Profinet",
+            "link": "/sistemas-control/profibus-vs-profinet-comparison/"
+          },
+          {
+            "label": "Protocolo EtherNet/IP fundamentos",
+            "link": "/sistemas-control/ethernet-ip-protocol-fundamentals/"
+          },
+          {
+            "label": "Protocolo Modbus fundamentos",
+            "link": "/sistemas-control/modbus-protocol-fundamentals/"
+          }
+        ]
+      },
+      {
+        "label": "Selección de PLC",
+        "translations": {
+          "en": "PLC Selection"
+        },
+        "collapsed": true,
+        "items": [
+          {
+            "label": "Comparativa de marcas de PLC",
+            "link": "/sistemas-control/plc-brand-comparison/"
+          },
+          {
+            "label": "Guía de selección de PLC",
+            "link": "/sistemas-control/plc-selection-guide/"
+          }
+        ]
+      },
+      {
+        "label": "Señales de Control",
+        "translations": {
+          "en": "Control Signals"
+        },
+        "collapsed": true,
+        "items": [
+          {
+            "label": "Señal de corriente 4-20 mA fundamentos",
+            "link": "/sistemas-control/4-20ma-signal-fundamentals/"
+          },
+          {
+            "label": "Señal de voltaje 0-10V fundamentos",
+            "link": "/sistemas-control/0-10v-signal-fundamentals/"
           }
         ]
       },
@@ -897,6 +1517,228 @@
           {
             "label": "Tipos de sensores fotoeléctricos",
             "link": "/sistemas-control/photoelectric-sensor-types/"
+          }
+        ]
+      },
+      {
+        "label": "Termopares",
+        "translations": {
+          "en": "Thermocouples"
+        },
+        "collapsed": true,
+        "items": [
+          {
+            "label": "Comparativa RTD vs termopar",
+            "link": "/sistemas-control/rtd-vs-thermocouple-comparison/"
+          },
+          {
+            "label": "Tabla de tipos de termopar J K T E",
+            "link": "/sistemas-control/thermocouple-type-table/"
+          }
+        ]
+      },
+      {
+        "label": "Variadores de Frecuencia",
+        "translations": {
+          "en": "Variable Frequency Drives"
+        },
+        "collapsed": true,
+        "items": [
+          {
+            "label": "Métodos de frenado en variadores de frecuencia",
+            "link": "/sistemas-control/vfd-braking-methods/"
+          },
+          {
+            "label": "Parámetros de configuración de variadores",
+            "link": "/sistemas-control/vfd-parameter-configuration/"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "label": "Símbolos Eléctricos",
+    "translations": {
+      "en": "Electrical Symbols"
+    },
+    "items": [
+      {
+        "label": "Diagramas Unifilares",
+        "translations": {
+          "en": "Single-Line Diagrams"
+        },
+        "collapsed": true,
+        "items": [
+          {
+            "label": "Diagramas trifilares explicación",
+            "link": "/simbolos-electricos/three-line-diagram-explanation/"
+          },
+          {
+            "label": "Símbolos de diagramas unifilares",
+            "link": "/simbolos-electricos/single-line-diagram-symbols/"
+          }
+        ]
+      },
+      {
+        "label": "Números de Dispositivo",
+        "translations": {
+          "en": "Device Numbers"
+        },
+        "collapsed": true,
+        "items": [
+          {
+            "label": "Números de dispositivo ANSI protección",
+            "link": "/simbolos-electricos/ansi-device-numbers-protection/"
+          }
+        ]
+      },
+      {
+        "label": "Símbolos de Diagrama de Alambrado",
+        "translations": {
+          "en": "Wiring Diagram Symbols"
+        },
+        "collapsed": true,
+        "items": [
+          {
+            "label": "Símbolos de planos eléctricos residenciales",
+            "link": "/simbolos-electricos/residential-electrical-drawing-symbols/"
+          }
+        ]
+      },
+      {
+        "label": "Símbolos de Diagrama de Control",
+        "translations": {
+          "en": "Control Diagram Symbols"
+        },
+        "collapsed": true,
+        "items": [
+          {
+            "label": "Símbolos de diagramas de escalera",
+            "link": "/simbolos-electricos/ladder-diagram-symbols/"
+          },
+          {
+            "label": "Símbolos de lógica de relevadores",
+            "link": "/simbolos-electricos/relay-logic-symbols/"
+          }
+        ]
+      },
+      {
+        "label": "Símbolos de PLC",
+        "translations": {
+          "en": "PLC Symbols"
+        },
+        "collapsed": true,
+        "items": [
+          {
+            "label": "Símbolos de lógica ladder en PLC",
+            "link": "/simbolos-electricos/plc-ladder-logic-symbols/"
+          }
+        ]
+      },
+      {
+        "label": "Símbolos IEC",
+        "translations": {
+          "en": "IEC Symbols"
+        },
+        "collapsed": true,
+        "items": [
+          {
+            "label": "Símbolos eléctricos ANSI/IEEE",
+            "link": "/simbolos-electricos/ansi-ieee-electrical-symbols/"
+          },
+          {
+            "label": "Símbolos eléctricos IEC 60617",
+            "link": "/simbolos-electricos/iec60617-electrical-symbols/"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "label": "Conversores",
+    "translations": {
+      "en": "Converters"
+    },
+    "items": [
+      {
+        "label": "Unidades de Cable",
+        "translations": {
+          "en": "Wire Units"
+        },
+        "collapsed": true,
+        "items": [
+          {
+            "label": "Conversor AWG a mm²",
+            "link": "/converters/awg-to-mm2-converter/"
+          }
+        ]
+      },
+      {
+        "label": "Unidades de Energía",
+        "translations": {
+          "en": "Energy Units"
+        },
+        "collapsed": true,
+        "items": [
+          {
+            "label": "Conversión de kWh a Joules",
+            "link": "/converters/kwh-to-joules-conversion/"
+          }
+        ]
+      },
+      {
+        "label": "Unidades de Frecuencia",
+        "translations": {
+          "en": "Frequency Units"
+        },
+        "collapsed": true,
+        "items": [
+          {
+            "label": "Conversión de frecuencia a RPM en motores",
+            "link": "/converters/frequency-to-rpm-motor-conversion/"
+          }
+        ]
+      },
+      {
+        "label": "Unidades de Iluminación",
+        "translations": {
+          "en": "Illumination Units"
+        },
+        "collapsed": true,
+        "items": [
+          {
+            "label": "Conversión de lux a footcandle",
+            "link": "/converters/lux-to-footcandle-conversion/"
+          }
+        ]
+      },
+      {
+        "label": "Unidades de Potencia",
+        "translations": {
+          "en": "Power Units"
+        },
+        "collapsed": true,
+        "items": [
+          {
+            "label": "Conversión de kVA a kW factor de potencia",
+            "link": "/converters/kva-to-kw-conversion/"
+          },
+          {
+            "label": "Conversión de kW a HP",
+            "link": "/converters/kw-to-hp-conversion/"
+          }
+        ]
+      },
+      {
+        "label": "Unidades de Resistencia",
+        "translations": {
+          "en": "Resistance Units"
+        },
+        "collapsed": true,
+        "items": [
+          {
+            "label": "Conversión resistividad a conductividad IACS",
+            "link": "/converters/resistivity-conductivity-iacs-conversion/"
           }
         ]
       }
