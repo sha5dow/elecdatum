@@ -12,74 +12,73 @@ launch_phase: undefined
 last_updated: "2026-07-25"
 verified: true
 ---
+La coordinación de protecciones eléctricas, también llamada selectividad o discriminación, es la técnica de ajuste de dispositivos de sobrecorriente que garantiza que, ante un fallo en una instalación, solo el interruptor más próximo al defecto desconecte el circuito, manteniendo el servicio en el resto de la red. En sistemas de baja tensión, un diseño de coordinación adecuado puede limitar el tiempo de interrupción a menos de 0,5 segundos incluso en fallos de cortocircuito de hasta 50 kA.
 
-## Definición  
-La coordinación de protecciones eléctricas, también denominada selectividad o discriminación, consiste en la disposición y ajuste de los dispositivos de protección de sobreintensidad para que, ante una falla, solo se despeje la porción mínima del circuito directamente afectada, preservando la continuidad del suministro en el resto de la instalación. La selectividad se evalúa para todo el rango de corrientes de sobrecarga y cortocircuito posibles, desde el valor de ajuste hasta la máxima corriente de falla prevista en el punto de instalación, y para cualquier tiempo de apertura asociado a esos niveles de corriente.
+## Requisitos funcionales de la protección selectiva
+Un sistema de protección confiable debe alcanzar una tasa de éxito superior al 99,9 % en la detección y despeje de fallos, asegurando que las partes sanas de la instalación permanezcan en servicio.
 
-## Principio de selectividad  
-El principio fundamental es localizar la interrupción del servicio exclusivamente en el circuito fallado. La protección más cercana a la carga aguas abajo debe actuar antes que cualquier dispositivo aguas arriba, evitando disparos innecesarios en cabeceras de grupo o en la acometida general. La selectividad se consigue mediante la coordinación de las características de disparo de los interruptores automáticos, fusibles y relés de protección, analizando sus curvas tiempo‑corriente y los tiempos de respuesta ante diferentes magnitudes de falta.
+| Requisito | Descripción | Dato numérico típico |
+|---|---|---|
+| **Confiabilidad** | El relé debe operar únicamente cuando se cumplan las condiciones para las que fue diseñado, sin actuar en condiciones normales o transitorias ajenas. | Tasa de disparos indebidos < 0,1 % (1 de cada 1000 maniobras) |
+| **Selectividad** | Capacidad para disparar solo el interruptor necesario, preservando el suministro en las ramas no afectadas. | Discriminación efectiva en el 100 % de los fallos para la zona de selectividad total |
+| **Sensibilidad** | Detecta corrientes de fallo a partir de un valor mínimo preestablecido, funcionando incluso con niveles de cortocircuito reducidos. | Ajuste de pick-up desde 1,2 veces la corriente nominal (In) del circuito |
+| **Velocidad** | El tiempo total de interrupción debe ser lo bastante corto para evitar daños en equipos y riesgos para las personas. | Tiempo de operación típico entre 20 ms y 100 ms en circuitos de distribución |
 
-## Métodos de selectividad  
-Existen cuatro modalidades básicas para lograr la discriminación entre protecciones:
+## Métodos de coordinación selectiva
+Existen cuatro métodos principales de coordinación selectiva definidos en la norma IEC 60947‑2, que se diferencian por el principio físico utilizado para lograr la discriminación y por el margen de selectividad mínimo que ofrecen.
 
-| Método | Principio de funcionamiento | Dispositivos típicos |
-| --- | --- | --- |
-| **Amperimétrica** | Diferentes capacidades de ruptura o calibres; el dispositivo aguas arriba soporta una corriente de falla mayor que el aguas abajo. | Interruptores automáticos, fusibles |
-| **Cronométrica** | Retardo de tiempo programado en el dispositivo aguas arriba para permitir que el dispositivo aguas abajo despeje primero la falla. | Relés de protección, interruptores con unidad de disparo electrónica |
-| **Energética (o selectividad por energía)** | Análisis comparativo de las ondas de corriente (integral de Joule I²t); el interruptor aguas arriba deja pasar la energía necesaria para que el aguas abajo opere sin que él mismo inicie la apertura. | Interruptores automáticos de caja moldeada y bastidor abierto |
-| **Por zona (Interbloqueo selectivo – ZSI)** | Comunicación entre los dispositivos mediante un lazo de pilotaje; la unidad aguas arriba recibe una señal del aguas abajo y retiene su orden de disparo instantáneo, pasando a temporizado solo si la falla persiste. | Relés digitales, unidades de control electrónicas |
+### Selectividad amperimétrica (corriente)
+La selectividad amperimétrica se basa en escalonar las corrientes de disparo instantáneo de los interruptores conectados en serie, de modo que el dispositivo aguas abajo responda antes que el de aguas arriba para la misma intensidad de defecto. El ajuste instantáneo del interruptor principal suele programarse a un valor 1,5 a 2,0 veces superior al del interruptor secundario, lo que proporciona un margen de selectividad del 50 % al 100 %.
 
-### Selectividad amperimétrica  
-Se basa en escalonar los umbrales de disparo magnético o las corrientes nominales de los dispositivos. Por ejemplo, un interruptor aguas abajo de 100 A con disparo magnético a 1000 A puede coordinarse con uno aguas arriba de 250 A cuyo umbral magnético se sitúe en 2500 A, de modo que para una falla de 1500 A solo actúe el interruptor menor. La selectividad es total si la corriente de cortocircuito máxima en bornas del dispositivo aguas abajo no supera el umbral de disparo instantáneo del dispositivo aguas arriba.
+| Nivel de protección | Corriente de ajuste instantáneo (ejemplo) | Margen de selectividad |
+|---|---|---|
+| Interruptor aguas abajo Q2, In = 100 A | 500 A | – |
+| Interruptor aguas arriba Q1, In = 250 A | 1000 A | 2,0 (100 %) |
 
-### Selectividad cronométrica  
-Consiste en retardar intencionadamente la apertura del interruptor aguas arriba mediante un ajuste de tiempo (ej. 0,1 s / 100 ms) mientras que el interruptor aguas abajo tiene disparo instantáneo (0,02 s / 20 ms). La diferencia de tiempos, típicamente entre 70 ms y 300 ms, garantiza que la falta se extinga en el nivel inferior. Las unidades de disparo electrónicas permiten programar curvas de tiempo definido o de tiempo inverso. La ecuación que rige el retardo temporizado suele ser de la forma:
+### Selectividad cronométrica (tiempo)
+La selectividad cronométrica introduce un retardo intencionado en los dispositivos aguas arriba mediante curvas de tiempo inverso o temporizadores fijos, de manera que la protección más cercana al fallo opere sin espera y la siguiente espere un intervalo definido. El escalón de tiempo típico entre curvas adyacentes es de 0,2 s a 0,5 s, dependiendo de la clase de selectividad.
 
-> **t_disp = k / (I/In)^α - 1**
+| Dispositivo | Ajuste de retardo (s) |
+|---|---|
+| Interruptor Q2 (aguas abajo) | 0 s (instantáneo) |
+| Interruptor Q1 (aguas arriba) | 0,3 s |
 
-donde:
-| Símbolo | Magnitud | Unidad (métrica / imperial) |
-| --- | --- | --- |
-| t_disp | Tiempo de disparo | s / s |
-| I | Corriente de falla | A / A |
-| In | Corriente nominal del interruptor | A / A |
-| k, α | Constantes de la curva (según norma IEC 60255‑151 o ANSI C37.112) | adimensional / adimensional |
+### Selectividad basada en energía
+La selectividad energética analiza la evolución temporal de la corriente de cortocircuito y distingue entre fallos que pueden ser despejados por el interruptor local y aquellos que exceden su capacidad de ruptura, haciendo disparar únicamente al dispositivo de mayor poder de corte. Este método permite alcanzar selectividad total hasta corrientes de cortocircuito superiores a 50 kA en interruptores de caja moldeada con control electrónico.
 
-### Selectividad energética  
-Se sustenta en la comparación de la energía específica pasante (I²t) de los dispositivos. Cuando la energía que deja pasar el interruptor aguas arriba durante la falla, limitada por su propio poder de corte, es menor que la energía necesaria para fundir el elemento fusible o para accionar el disparador del interruptor aguas abajo, se mantiene la selectividad. La condición básica es:
+### Selectividad por zona de interbloqueo (ZSI)
+La selectividad por zona de interbloqueo utiliza señales de comunicación entre los relés de protección de diferentes niveles. Cuando un relé detecta un fallo, envía una orden de bloqueo al nivel superior, que retrasa su disparo; si el fallo no es despejado por el nivel inferior en un tiempo de gradiente típico de 100 ms, el nivel superior actúa como respaldo. Esta técnica es especialmente útil en cuadros de distribución con numerosos circuitos ramales.
 
-> **I²t_pasante (aguas arriba) < I²t_fusión o prearco (aguas abajo)**
+## Parámetros de ajuste de dispositivos de protección
+Los relés de sobrecorriente electrónicos permiten definir con precisión los umbrales y tiempos de actuación mediante ajustes discretos o continuos. Un relé con pantalla gráfica puede ofrecer pasos de ajuste de corriente tan finos como 0,1 A dentro de un rango de 0,5 a 10 veces la corriente nominal (In).
 
-Este método es típico en la coordinación fusible‑interruptor y entre interruptores limitadores, y se verifica mediante las curvas de energía publicadas por el fabricante para tensiones de 230/400 V o 480 V.
+| Parámetro | Símbolo | Rango típico | Unidad dual aplicable (si procede) |
+|---|---|---|---|
+| Corriente de pick-up (ajuste de sobrecarga) | Is | 0,5 – 1,0 × In | A (valor absoluto en amperios) |
+| Corriente de disparo instantáneo | Ii | 2 – 12 × In | A |
+| Multiplicador de tiempo (time dial) | TMS | 0,05 – 1,50 | adimensional |
+| Retardo fijo para selectividad cronométrica | t<sub>d</sub> | 0,1 – 3,0 s | s |
+| Separación mínima entre curvas tiempo‑corriente | Δt | 0,20 – 0,40 s | s |
 
-### Selectividad por zona (interbloqueo)  
-Emplea un conductor de pilotaje que conecta las unidades de disparo de todos los interruptores de una misma línea. Ante una falta, el interruptor aguas abajo que detecta la corriente envía una señal de bloqueo al interruptor aguas arriba, el cual inhibe su disparo instantáneo y activa un retardo programado (por ejemplo 0,1 s). Si la falla es despejada por el interruptor aguas abajo, la señal cesa y el interruptor aguas arriba no dispara. Este sistema garantiza selectividad total para corrientes de cortocircuito elevadas, incluso cuando los umbrales instantáneos se superponen.
+## Curvas de disparo y ecuaciones de tiempo inverso
+La relación entre el tiempo de disparo y la intensidad de fallo sigue curvas normalizadas, cuya forma se describe mediante la ecuación general de tiempo inverso. Para una curva estándar IEC normalmente inversa, la expresión es:
 
-## Ajustes y curvas de disparo  
-Los relés de protección deben cumplir los requisitos funcionales de **fiabilidad**, **selectividad**, **sensibilidad** y **velocidad**. La selectividad exige que el relé actúe únicamente ante condiciones para las cuales ha sido configurado, evitando operaciones intempestivas. Los ajustes típicos en un sistema de distribución industrial son:
+> **t = TMS × (0,14 / ((I/Is)^0,02 – 1))**
 
-| Nivel | Dispositivo | Umbral magnético (Im) | Retardo (td) |
-| --- | --- | --- | --- |
-| Acometida general | Interruptor automático 1600 A | 12 kA / 12 kA | 0,5 s / 0,5 s |
-| Alimentador | Interruptor automático 400 A | 4 kA / 4 kA | 0,2 s / 0,2 s |
-| Carga final | Interruptor caja moldeada 100 A | 1 kA / 1 kA | Instantáneo (< 20 ms / < 0,02 s) |
+donde los términos se definen a continuación.
 
-Las curvas de disparo se representan en escala log‑log corriente‑tiempo; la separación entre las curvas de dos dispositivos consecutivos debe ser de al menos 0,1 s para garantizar selectividad cronométrica en todo el rango de sobreintensidad.
+| Variable | Significado | Unidad |
+|---|---|---|
+| t | Tiempo de disparo del relé | s |
+| TMS | Multiplicador de tiempo (time multiplier setting) | adimensional |
+| I | Corriente real del defecto | A |
+| Is | Corriente de ajuste (pick‑up) del relé | A |
 
-## Ejemplo de estudio de coordinación  
-En una instalación con un transformador de 1000 kVA, 400 V, corriente nominal secundaria 1443 A, se instalan tres niveles de protecciones:
-
-- **Acometida**: Interruptor de bastidor abierto 1600 A, umbral magnético 12×In = 19200 A, retardo 0,4 s.  
-- **Alimentador motor**: Interruptor 250 A, umbral magnético 9×In = 2250 A, retardo 0,1 s.  
-- **Protección del motor**: Guardamotor con disparo magnético a 500 A, instantáneo.
-
-Al producirse un cortocircuito de 1500 A en bornas del motor, actúa el guardamotor en menos de 10 ms. Si la falla alcanzara 8000 A (dentro del alimentador), el interruptor de 250 A dispararía en 0,1 s, mientras el de acometida esperaría sus 0,4 s antes de intervenir, manteniendo la selectividad. El estudio debe verificar que la corriente de cortocircuito máxima en cada punto no obligue al disparo instantáneo del nivel superior.
-
-## Consideraciones para instalaciones en atmósferas peligrosas  
-Cuando la coordinación se aplica en áreas clasificadas (Clase I, División 1 o Zona 0, 1, 2), los dispositivos de protección deben cumplir con técnicas específicas que limitan la energía superficial y confinan posibles explosiones internas. Las temperaturas máximas admisibles en la envolvente se relacionan con la clase de temperatura del equipo, cuyo código indica la temperatura superficial máxima que no debe superar la autoignición de la atmósfera circundante.
+## Coordinación en áreas clasificadas
+La protección de equipos en atmósferas potencialmente explosivas impone restricciones adicionales de temperatura superficial máxima, que deben respetarse en toda la cadena de coordinación. El código de temperatura de un dispositivo indica su temperatura superficial máxima en operación continua y debe ser inferior a la temperatura de autoignición del gas o polvo presente.
 
 | Código de temperatura | Temperatura superficial máxima |
-| --- | --- |
+|---|---|
 | T1 | 450 °C / 842 °F |
 | T2 | 300 °C / 572 °F |
 | T2A | 280 °C / 536 °F |
@@ -95,26 +94,32 @@ Cuando la coordinación se aplica en áreas clasificadas (Clase I, División 1 o
 | T5 | 100 °C / 212 °F |
 | T6 | 85 °C / 185 °F |
 
-En la coordinación deben seleccionarse interruptores y relés que, bajo condiciones de falla, no eleven la temperatura de la carcasa por encima de la clase correspondiente, y que respeten los métodos de protección Ex (p.ej., Ex d, Ex i, Ex e) aplicados al envolvente. La selectividad no debe comprometer la integridad de la protección contra explosiones, por lo que los tiempos de disparo deben ser compatibles con la inercia térmica del recinto.
+En instalaciones intrínsecamente seguras, la coordinación incluye la separación física entre cableado intrínsecamente seguro y no intrínseco, que de acuerdo con la práctica ISA‑RP12.6 debe ser de al menos **50,8 mm / 2 in** para evitar la transferencia de energía peligrosa al área clasificada.
+
+## Aplicaciones prácticas y ejemplos de selectividad
+En una planta industrial con tres niveles de distribución (acometida, tableros secundarios y cargas finales), la aplicación de selectividad cronométrica combinada con selectividad amperimétrica puede reducir el tiempo de indisponibilidad a menos de 0,5 s para el 95 % de los fallos. Por ejemplo, en un esquema con interruptor principal de bastidor abierto de 1600 A, interruptores de caja moldeada de 250 A en sub‑alimentación e interruptores miniatura de 20 A en circuitos de iluminación, se ajustan las curvas de disparo de manera que un cortocircuito en una luminaria solo haga actuar el magnetotérmico de 20 A, dejando los demás niveles en servicio.
+
+## Ventajas y limitaciones de la coordinación
+La selectividad total garantiza la continuidad del suministro en las partes no afectadas de la instalación, pero puede exigir interruptores con mayor poder de corte y calibre en los niveles superiores. En sistemas con altas corrientes de cortocircuito (> 50 kA), la selectividad basada en energía ofrece la mejor solución, aunque requiere equipos electrónicos y un estudio de curvas preciso. La principal limitación de la selectividad cronométrica es el incremento del tiempo de despeje en los niveles aguas arriba, lo que puede comprometer la estabilidad térmica de los cables; para compensarlo se suele imponer un tiempo máximo de falla de 5 s en circuitos de distribución.
 
 ## Preguntas frecuentes (FAQ)
-### ¿Qué es la selectividad en un sistema de protección eléctrica?
-Es la capacidad del conjunto de protecciones para desconectar únicamente el circuito donde ocurre la falla, dejando el resto de la instalación en servicio. Se consigue coordinando los ajustes de intensidad y tiempo de los dispositivos aguas arriba y aguas abajo.
+### ¿Qué es la coordinación selectiva o discriminación?
+Es la coordinación de los dispositivos de protección de sobrecorriente para que, ante un fallo, únicamente el interruptor más cercano al defecto desconecte el circuito, preservando el suministro en el resto de la instalación.
 
-### ¿Cuáles son los cuatro métodos principales de selectividad?
-Son la selectividad amperimétrica (basada en distintos valores de corriente de disparo), la cronométrica (retardos de tiempo), la energética (comparación de la integral de Joule I²t) y la selectividad por zona o interbloqueo (ZSI, comunicación entre protecciones).
+### ¿Cuál es la diferencia entre selectividad total y selectividad parcial?
+La selectividad total se mantiene para cualquier valor de corriente de cortocircuito hasta el poder de corte máximo de los interruptores; la selectividad parcial solo es válida hasta un determinado nivel de corriente, a partir del cual pueden disparar ambos dispositivos.
 
-### ¿Qué diferencia hay entre selectividad total y selectividad parcial?
-La selectividad total se mantiene para cualquier valor de corriente de falla, desde la sobrecarga hasta la máxima corriente de cortocircuito disponible. La selectividad parcial solo se garantiza hasta un cierto límite de corriente, por encima del cual ambos dispositivos pueden disparar simultáneamente.
+### ¿Qué métodos de selectividad contempla la norma IEC 60947‑2?
+La norma reconoce la selectividad amperimétrica (por escalonamiento de corrientes), la cronométrica (por retardos de tiempo), la selectividad basada en energía y la selectividad por zona de interbloqueo lógico (ZSI).
 
-### ¿Cómo se garantiza la selectividad cronométrica?
-Programando un retardo de tiempo (por ejemplo 0,1 s a 0,5 s) en el interruptor aguas arriba, mientras que el dispositivo aguas abajo actúa de forma instantánea. La diferencia de tiempos se elige de manera que la falta sea extinguida por el primer dispositivo antes de que el segundo inicie su apertura.
+### ¿Es obligatorio aplicar coordinación selectiva en todas las instalaciones?
+No en todas, pero sí en aquellas donde la continuidad del servicio es crítica, como hospitales, centros de datos o procesos industriales continuos, según exigen códigos como el NEC (artículo 700) o las normas locales equivalentes.
 
-### ¿Por qué es crítica la coordinación de protecciones en hospitales?
-En hospitales, la continuidad del suministro a áreas críticas (quirófanos, UCI) es vital. La correcta coordinación evita que una falla en un circuito secundario provoque la desconexión de toda la instalación, cumpliendo los requisitos de seguridad eléctrica de normas como NFPA 70 e IEC 60364-7-710.
+### ¿Cómo se calcula el margen de selectividad entre dos interruptores?
+Se compara la curva tiempo‑corriente de los dos dispositivos y se verifica que, para cualquier corriente de fallo, el interruptor aguas abajo despeje el defecto antes de que el interruptor aguas arriba comience a cronometrar su disparo. Un margen típico es un factor de 1,5 a 2 en el ajuste instantáneo o un escalón de tiempo de 0,2 s a 0,4 s en el dominio cronométrico.
 
-### ¿Qué normas rigen los estudios de selectividad?
-Los estudios se basan en los requisitos de coordinación definidos en la NFPA 70 (NEC), artículos 100 y 517; la IEC 60947‑2 (interruptores automáticos de baja tensión) y la IEC 60255‑151 (características de relés de protección). Los fabricantes publican tablas de selectividad verificadas conforme a estas normas.
+### ¿Qué ventajas ofrece la selectividad por zona de interbloqueo (ZSI)?
+Reduce el tiempo de despeje en los niveles superiores al evitar retardos innecesarios, ya que los relés de protección se comunican para decidir cuál debe operar. El tiempo de espera programado en el comando de bloqueo suele ser del orden de 100 ms, mucho menor que los retardos acumulativos de la selectividad cronométrica pura.
 
 ## Fuentes consultadas
 

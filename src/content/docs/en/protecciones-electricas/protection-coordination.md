@@ -12,74 +12,73 @@ launch_phase: undefined
 last_updated: "2026-07-25"
 verified: true
 ---
+Protection coordination, also called selectivity or discrimination, is the technique of adjusting overcurrent devices to ensure that, in the event of a fault in an installation, only the circuit breaker closest to the fault disconnects the circuit, maintaining service in the rest of the network. In low voltage systems, an adequate coordination design can limit interruption time to less than 0.5 seconds even for short-circuit faults up to 50 kA.
 
-## Definition  
-Electrical protection coordination, also called selectivity or discrimination, consists of the arrangement and adjustment of overcurrent protection devices so that, in the event of a fault, only the minimum portion of the circuit directly affected is cleared, preserving supply continuity in the rest of the installation. Selectivity is evaluated for the entire range of possible overload and short-circuit currents, from the setting value to the maximum fault current expected at the installation point, and for any opening time associated with those current levels.
+## Functional Requirements of Selective Protection
+A reliable protection system must achieve a success rate greater than 99.9% in fault detection and clearing, ensuring that healthy parts of the installation remain in service.
 
-## Principle of selectivity  
-The fundamental principle is to confine the service interruption exclusively to the faulted circuit. The protection closest to the downstream load must operate before any upstream device, avoiding unnecessary tripping at group feeders or the main service. Selectivity is achieved by coordinating the trip characteristics of circuit breakers, fuses, and protection relays, analyzing their time-current curves and response times for different fault magnitudes.
+| Requirement | Description | Typical Numerical Data |
+|---|---|---|
+| **Reliability** | The relay must operate only when the conditions for which it was designed are met, without acting in normal or unrelated transient conditions. | Unwanted trip rate < 0.1% (1 in 1000 operations) |
+| **Selectivity** | Ability to trip only the necessary circuit breaker, preserving supply in unaffected branches. | Effective discrimination in 100% of faults for the total selectivity zone |
+| **Sensitivity** | Detects fault currents from a minimum preset value, operating even with reduced short-circuit levels. | Pick-up setting from 1.2 times the rated current (In) of the circuit |
+| **Speed** | The total interruption time must be short enough to avoid equipment damage and risks to people. | Typical operation time between 20 ms and 100 ms in distribution circuits |
 
-## Selectivity methods  
-There are four basic methods to achieve discrimination between protections:
+## Selective Coordination Methods
+There are four main selective coordination methods defined in IEC 60947‑2, which differ by the physical principle used to achieve discrimination and by the minimum selectivity margin they offer.
 
-| Method | Operating principle | Typical devices |
-| --- | --- | --- |
-| **Amperometric** | Different breaking capacities or ratings; the upstream device withstands a higher fault current than the downstream device. | Circuit breakers, fuses |
-| **Chronometric** | Programmed time delay on the upstream device to allow the downstream device to clear the fault first. | Protection relays, circuit breakers with electronic trip units |
-| **Energy (or energy selectivity)** | Comparative analysis of current waves (Joule integral I²t); the upstream breaker allows the energy necessary for the downstream device to operate without itself initiating opening. | Molded case and open frame circuit breakers |
-| **Zone (Selective interlocking – ZSI)** | Communication between devices via a pilot wire; the upstream unit receives a signal from the downstream unit and withholds its instantaneous trip command, switching to timed delay only if the fault persists. | Digital relays, electronic control units |
+### Amperimetric Selectivity (Current)
+Amperimetric selectivity is based on staggering the instantaneous trip currents of series-connected circuit breakers, so that the downstream device responds before the upstream one for the same fault magnitude. The instantaneous setting of the main circuit breaker is usually programmed to a value 1.5 to 2.0 times that of the secondary circuit breaker, providing a selectivity margin of 50% to 100%.
 
-### Amperometric selectivity  
-It is based on staggering the magnetic trip thresholds or nominal currents of the devices. For example, a 100 A downstream breaker with magnetic trip at 1000 A can be coordinated with a 250 A upstream breaker whose magnetic threshold is set at 2500 A, so that for a 1500 A fault only the smaller breaker operates. Selectivity is total if the maximum short-circuit current at the terminals of the downstream device does not exceed the instantaneous trip threshold of the upstream device.
+| Protection Level | Instantaneous Setting Current (example) | Selectivity Margin |
+|---|---|---|
+| Downstream circuit breaker Q2, In = 100 A | 500 A | – |
+| Upstream circuit breaker Q1, In = 250 A | 1000 A | 2.0 (100%) |
 
-### Chronometric selectivity  
-It consists of intentionally delaying the opening of the upstream breaker by a time setting (e.g., 0.1 s / 100 ms) while the downstream breaker has instantaneous trip (0.02 s / 20 ms). The time difference, typically between 70 ms and 300 ms, ensures that the fault is extinguished at the lower level. Electronic trip units allow programming of definite-time or inverse-time curves. The equation governing the timed delay is usually of the form:
+### Chronometric Selectivity (Time)
+Chronometric selectivity introduces an intentional delay in upstream devices using inverse-time curves or fixed timers, so that the protection closest to the fault operates without waiting and the next one waits a defined interval. The typical time step between adjacent curves is 0.2 s to 0.5 s, depending on the selectivity class.
 
-> **t_trip = k / (I/In)^α - 1**
+| Device | Delay Setting (s) |
+|---|---|
+| Circuit breaker Q2 (downstream) | 0 s (instantaneous) |
+| Circuit breaker Q1 (upstream) | 0.3 s |
 
-where:
-| Symbol | Quantity | Unit (metric / imperial) |
-| --- | --- | --- |
-| t_trip | Trip time | s / s |
-| I | Fault current | A / A |
-| In | Rated current of the breaker | A / A |
-| k, α | Curve constants (per IEC 60255‑151 or ANSI C37.112) | dimensionless / dimensionless |
+### Energy-Based Selectivity
+Energy-based selectivity analyzes the time evolution of the short-circuit current and distinguishes between faults that can be cleared by the local circuit breaker and those that exceed its interrupting rating, causing only the device with higher interrupting rating to trip. This method allows achieving total selectivity up to short-circuit currents exceeding 50 kA in molded case circuit breakers with electronic control.
 
-### Energy selectivity  
-It is based on comparing the specific let-through energy (I²t) of the devices. When the energy let through by the upstream breaker during the fault, limited by its own breaking capacity, is less than the energy required to melt the fuse element or to actuate the downstream breaker trip device, selectivity is maintained. The basic condition is:
+### Zone Selective Interlocking (ZSI) Selectivity
+Zone selective interlocking uses communication signals between protection relays at different levels. When a relay detects a fault, it sends a blocking command to the higher level, which delays its trip; if the fault is not cleared by the lower level within a typical gradient time of 100 ms, the higher level acts as backup. This technique is especially useful in distribution panels with numerous branch circuits.
 
-> **I²t_let-through (upstream) < I²t_fusion or pre-arcing (downstream)**
+## Setting Parameters of Protection Devices
+Electronic overcurrent relays allow precise definition of thresholds and operating times through discrete or continuous adjustments. A relay with a graphic display can offer current adjustment steps as fine as 0.1 A within a range of 0.5 to 10 times the rated current (In).
 
-This method is typical in fuse-breaker coordination and between current-limiting breakers, and is verified using energy curves published by the manufacturer for voltages of 230/400 V or 480 V.
+| Parameter | Symbol | Typical Range | Applicable Dual Unit (if applicable) |
+|---|---|---|---|
+| Pick-up current (overload setting) | Is | 0.5 – 1.0 × In | A (absolute value in amperes) |
+| Instantaneous trip current | Ii | 2 – 12 × In | A |
+| Time multiplier setting (time dial) | TMS | 0.05 – 1.50 | dimensionless |
+| Fixed delay for chronometric selectivity | t<sub>d</sub> | 0.1 – 3.0 s | s |
+| Minimum separation between time-current curves | Δt | 0.20 – 0.40 s | s |
 
-### Zone selectivity (interlocking)  
-It uses a pilot conductor that connects the trip units of all breakers on the same line. In case of a fault, the downstream breaker that detects the current sends a blocking signal to the upstream breaker, which inhibits its instantaneous trip and activates a programmed delay (e.g., 0.1 s). If the fault is cleared by the downstream breaker, the signal ceases and the upstream breaker does not trip. This system guarantees total selectivity for high short-circuit currents, even when instantaneous thresholds overlap.
+## Trip Curves and Inverse-Time Equations
+The relationship between trip time and fault current follows standardized curves, whose shape is described by the general inverse-time equation. For a standard IEC normally inverse curve, the expression is:
 
-## Settings and trip curves  
-Protection relays must meet the functional requirements of **reliability**, **selectivity**, **sensitivity**, and **speed**. Selectivity requires that the relay operate only under conditions for which it has been configured, avoiding nuisance operations. Typical settings in an industrial distribution system are:
+> **t = TMS × (0.14 / ((I/Is)^0.02 – 1))**
 
-| Level | Device | Magnetic threshold (Im) | Delay (td) |
-| --- | --- | --- | --- |
-| Main service | Circuit breaker 1600 A | 12 kA / 12 kA | 0.5 s / 0.5 s |
-| Feeder | Circuit breaker 400 A | 4 kA / 4 kA | 0.2 s / 0.2 s |
-| Final load | Molded case breaker 100 A | 1 kA / 1 kA | Instantaneous (< 20 ms / < 0.02 s) |
+where the terms are defined below.
 
-Trip curves are plotted on a log-log current-time scale; the separation between the curves of two consecutive devices must be at least 0.1 s to ensure chronometric selectivity over the entire overcurrent range.
+| Variable | Meaning | Unit |
+|---|---|---|
+| t | Relay trip time | s |
+| TMS | Time multiplier setting | dimensionless |
+| I | Actual fault current | A |
+| Is | Relay setting (pick-up) current | A |
 
-## Example of coordination study  
-In an installation with a 1000 kVA, 400 V transformer, secondary rated current 1443 A, three protection levels are installed:
+## Coordination in Classified Areas
+Protection of equipment in potentially explosive atmospheres imposes additional restrictions on maximum surface temperature, which must be respected throughout the coordination chain. The temperature code of a device indicates its maximum surface temperature in continuous operation and must be lower than the autoignition temperature of the gas or dust present.
 
-- **Main service**: Open frame circuit breaker 1600 A, magnetic threshold 12×In = 19200 A, delay 0.4 s.  
-- **Motor feeder**: Circuit breaker 250 A, magnetic threshold 9×In = 2250 A, delay 0.1 s.  
-- **Motor protection**: Motor protection circuit breaker with magnetic trip at 500 A, instantaneous.
-
-When a short circuit of 1500 A occurs at the motor terminals, the motor protection circuit breaker operates in less than 10 ms. If the fault reaches 8000 A (within the feeder), the 250 A breaker would trip in 0.1 s, while the main service breaker would wait its 0.4 s before intervening, maintaining selectivity. The study must verify that the maximum short-circuit current at each point does not force the instantaneous trip of the upstream level.
-
-## Considerations for installations in hazardous atmospheres  
-When coordination is applied in classified areas (Class I, Division 1 or Zone 0, 1, 2), protection devices must comply with specific techniques that limit surface energy and contain possible internal explosions. The maximum allowable surface temperatures on the enclosure are related to the equipment temperature class, whose code indicates the maximum surface temperature that must not exceed the autoignition temperature of the surrounding atmosphere.
-
-| Temperature code | Maximum surface temperature |
-| --- | --- |
+| Temperature Code | Maximum Surface Temperature |
+|---|---|
 | T1 | 450 °C / 842 °F |
 | T2 | 300 °C / 572 °F |
 | T2A | 280 °C / 536 °F |
@@ -95,26 +94,32 @@ When coordination is applied in classified areas (Class I, Division 1 or Zone 0,
 | T5 | 100 °C / 212 °F |
 | T6 | 85 °C / 185 °F |
 
-In coordination, circuit breakers and relays must be selected that, under fault conditions, do not raise the enclosure temperature above the corresponding class, and that respect the Ex protection methods (e.g., Ex d, Ex i, Ex e) applied to the enclosure. Selectivity must not compromise the integrity of explosion protection, so trip times must be compatible with the thermal inertia of the enclosure.
+In intrinsically safe installations, coordination includes physical separation between intrinsically safe and non-intrinsically safe wiring, which according to ISA‑RP12.6 practice must be at least **50.8 mm / 2 in** to prevent transfer of hazardous energy to the classified area.
+
+## Practical Applications and Selectivity Examples
+In an industrial plant with three distribution levels (service entrance, secondary panels, and final loads), the application of chronometric selectivity combined with amperimetric selectivity can reduce downtime to less than 0.5 s for 95% of faults. For example, in a scheme with a main open-frame circuit breaker of 1600 A, molded case circuit breakers of 250 A in sub-feeders, and miniature circuit breakers of 20 A in lighting circuits, the trip curves are adjusted so that a short circuit in a luminaire causes only the 20 A MCB to operate, leaving the other levels in service.
+
+## Advantages and Limitations of Coordination
+Total selectivity guarantees continuity of supply in unaffected parts of the installation, but may require circuit breakers with higher interrupting rating and frame size at higher levels. In systems with high short-circuit currents (> 50 kA), energy-based selectivity offers the best solution, although it requires electronic equipment and precise curve study. The main limitation of chronometric selectivity is the increase in clearing time at upstream levels, which can compromise the thermal stability of cables; to compensate, a maximum fault time of 5 s is usually imposed in distribution circuits.
 
 ## Frequently Asked Questions (FAQ)
-### What is selectivity in an electrical protection system?
-It is the ability of the protection set to disconnect only the circuit where the fault occurs, leaving the rest of the installation in service. It is achieved by coordinating the current and time settings of upstream and downstream devices.
-
-### What are the four main selectivity methods?
-They are amperometric selectivity (based on different trip current values), chronometric (time delays), energy (comparison of the Joule integral I²t), and zone selectivity or interlocking (ZSI, communication between protections).
+### What is selective coordination or discrimination?
+It is the coordination of overcurrent protection devices so that, in the event of a fault, only the circuit breaker closest to the fault disconnects the circuit, preserving supply in the rest of the installation.
 
 ### What is the difference between total selectivity and partial selectivity?
-Total selectivity is maintained for any fault current value, from overload to the maximum available short-circuit current. Partial selectivity is only guaranteed up to a certain current limit, above which both devices may trip simultaneously.
+Total selectivity is maintained for any short-circuit current value up to the maximum interrupting rating of the circuit breakers; partial selectivity is only valid up to a certain current level, above which both devices may trip.
 
-### How is chronometric selectivity guaranteed?
-By programming a time delay (e.g., 0.1 s to 0.5 s) on the upstream breaker, while the downstream device operates instantaneously. The time difference is chosen so that the fault is extinguished by the first device before the second begins its opening.
+### What selectivity methods are covered by IEC 60947‑2?
+The standard recognizes amperimetric selectivity (by current staggering), chronometric (by time delays), energy-based selectivity, and zone selective interlocking (ZSI).
 
-### Why is protection coordination critical in hospitals?
-In hospitals, continuity of supply to critical areas (operating rooms, ICUs) is vital. Proper coordination prevents a fault in a secondary circuit from disconnecting the entire installation, meeting electrical safety requirements of standards such as NFPA 70 and IEC 60364-7-710.
+### Is it mandatory to apply selective coordination in all installations?
+Not in all, but in those where service continuity is critical, such as hospitals, data centers, or continuous industrial processes, as required by codes such as the NEC (Article 700) or equivalent local standards.
 
-### What standards govern selectivity studies?
-Studies are based on coordination requirements defined in NFPA 70 (NEC), Articles 100 and 517; IEC 60947‑2 (low-voltage circuit breakers); and IEC 60255‑151 (protection relay characteristics). Manufacturers publish selectivity tables verified in accordance with these standards.
+### How is the selectivity margin between two circuit breakers calculated?
+The time-current curves of the two devices are compared and it is verified that, for any fault current, the downstream circuit breaker clears the fault before the upstream circuit breaker begins timing its trip. A typical margin is a factor of 1.5 to 2 in the instantaneous setting or a time step of 0.2 s to 0.4 s in the chronometric domain.
+
+### What advantages does zone selective interlocking (ZSI) offer?
+It reduces clearing time at higher levels by avoiding unnecessary delays, since the protection relays communicate to decide which one should operate. The programmed wait time in the blocking command is typically on the order of 100 ms, much shorter than the cumulative delays of pure chronometric selectivity.
 
 ## Sources Consulted
 
