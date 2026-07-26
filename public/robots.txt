@@ -1,4 +1,4 @@
-﻿# MechDatum - Abierto a crawlers e IA
+﻿# ElecDatum - Abierto a crawlers e IA
 User-agent: *
 Allow: /
 Content-Signal: ai-train=no, search=yes, ai-input=yes
@@ -34,4 +34,4 @@ Allow: /
 User-agent: meta-externalagent
 Allow: /
 
-Sitemap: https://mechdatum.com/sitemap-index.xml
+Sitemap: https://elecdatum.com/sitemap-index.xml
