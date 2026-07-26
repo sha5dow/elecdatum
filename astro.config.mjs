@@ -38,6 +38,22 @@ export default defineConfig({
           tag: 'script',
           attrs: {
             async: true,
+            src: 'https://www.googletagmanager.com/gtag/js?id=G-RC5WSLWH5E',
+          },
+        },
+        {
+          tag: 'script',
+          content: \
+            window.dataLayer = window.dataLayer || [];
+            function gtag(){dataLayer.push(arguments);}
+            gtag('js', new Date());
+            gtag('config', 'G-RC5WSLWH5E');
+          \,
+        },
+        {
+          tag: 'script',
+          attrs: {
+            async: true,
             src: 'https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-7956072980493669',
             crossorigin: 'anonymous',
           },
