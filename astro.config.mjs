@@ -50,14 +50,6 @@ export default defineConfig({
             gtag('config', 'G-RC5WSLWH5E');
           \,
         },
-        {
-          tag: 'script',
-          attrs: {
-            async: true,
-            src: 'https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-7956072980493669',
-            crossorigin: 'anonymous',
-          },
-        },
       ],
       components: {
         Footer: './src/components/Footer.astro',
