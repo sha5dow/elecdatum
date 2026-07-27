@@ -87,6 +87,7 @@ export default defineConfig({
       ],
       components: {
         Footer: './src/components/Footer.astro',
+        PageSidebar: './src/components/PageSidebar.astro',
       },
     }),
     sitemap(),

@@ -1,11 +1,8 @@
 ﻿---
 import Default from '@astrojs/starlight/components/Footer.astro';
-
 const locale = Astro.currentLocale;
 const isEn = locale === 'en';
-
 const prefix = isEn ? '/en' : '';
-
 const links = isEn
   ? [
       { href: `${prefix}/about/`, label: 'About' },
@@ -21,12 +18,18 @@ const links = isEn
       { href: '/privacy-policy/', label: 'Política de Privacidad' },
       { href: '/terms-of-service/', label: 'Términos de Servicio' },
     ];
-
 const copyright = isEn
   ? '© 2026 ElecDatum. All rights reserved.'
   : '© 2026 ElecDatum. Todos los derechos reservados.';
 ---
 <Default><slot /></Default>
+<div class="ezoic-footer-ad" style="margin-top: 2rem;">
+  <script>
+    ezstandalone.cmd.push(function () {
+      ezstandalone.showAds({});
+    });
+  </script>
+</div>
 <footer class="site-footer">
   <nav>
     {links.map((link) => (
@@ -35,7 +38,6 @@ const copyright = isEn
   </nav>
   <p>{copyright}</p>
 </footer>
-
 <style>
   .site-footer {
     margin-top: 3rem;
