@@ -23,13 +23,7 @@ const copyright = isEn
   : '© 2026 ElecDatum. Todos los derechos reservados.';
 ---
 <Default><slot /></Default>
-<div class="ezoic-footer-ad" style="margin-top: 2rem;">
-  <script>
-    ezstandalone.cmd.push(function () {
-      ezstandalone.showAds({});
-    });
-  </script>
-</div>
+<div class="ezoic-footer-ad" style="margin-top: 2rem;"></div>
 <footer class="site-footer">
   <nav>
     {links.map((link) => (
@@ -61,3 +55,12 @@ const copyright = isEn
     text-decoration: underline;
   }
 </style>
+<script>
+  document.addEventListener('astro:page-load', () => {
+    if (window.ezstandalone) {
+      ezstandalone.cmd.push(function () {
+        ezstandalone.showAds();
+      });
+    }
+  });
+</script>
