@@ -1,26 +1,44 @@
-﻿# MechDatum
+﻿# ElecDatum
 
-> Base de datos técnica de referencia en español para ingenieros mecánicos: propiedades de materiales, parámetros de procesos de manufactura, tolerancias y datos de ingeniería verificados cruzando múltiples fuentes técnicas primarias.
+> Base de datos técnica de referencia en español para ingenieros eléctricos: conductores y cables, circuitos y análisis, máquinas eléctricas, protecciones, instalaciones eléctricas, puesta a tierra, calidad de energía, sistemas de control y símbolos eléctricos, con datos verificados cruzando múltiples fuentes técnicas primarias.
 
-## Materiales
+## Conductores y Cables
 
-Fichas técnicas de aceros al carbono, aleados, inoxidables, herramienta, fundiciones, aluminios, cobres, titanios, aleaciones de níquel, magnesio, zinc, plásticos, elastómeros y compuestos. Incluye tablas comparativas cruzadas (densidad, módulo de Young, conductividad, compatibilidad galvánica, etc.).
+Calibres AWG/mm², ampacidad, caída de tensión, tipos de aislamiento y aplicaciones de conductores y cables eléctricos.
 
-- [Índice de Materiales](https://mechdatum.com/materials/)
+- [Índice de Conductores y Cables](https://elecdatum.com/conductores-cables/)
 
-## Procesos de Manufactura
+## Circuitos y Análisis
 
-Parámetros técnicos de mecanizado (torneado, fresado, taladrado, rectificado, EDM), unión y soldadura (MIG, TIG, SMAW, FCAW, puntos, adhesivos), acabados superficiales (anodizado, galvanizado, niquelado, cromado), manufactura aditiva (FDM, SLA, SLS, DMLS), fundición (arena, presión, microfusión) y conformado de chapa (k-factor, radios de doblez, springback).
+Leyes fundamentales, teoremas de análisis de circuitos, componentes pasivos y activos, corriente alterna y directa.
 
-- [Índice de Procesos de Manufactura](https://mechdatum.com/manufacturing/)
+- [Índice de Circuitos y Análisis](https://elecdatum.com/circuitos-analisis/)
+
+## Máquinas Eléctricas
+
+Motores, generadores, transformadores: parámetros, curvas de operación y especificaciones técnicas.
+
+- [Índice de Máquinas Eléctricas](https://elecdatum.com/maquinas-electricas/)
+
+## Protecciones Eléctricas
+
+Interruptores termomagnéticos, diferenciales, fusibles, relés de protección y coordinación de protecciones.
+
+- [Índice de Protecciones Eléctricas](https://elecdatum.com/protecciones-electricas/)
+
+## Instalaciones Eléctricas
+
+Normas de instalación, dimensionamiento de circuitos, canalizaciones y tableros eléctricos.
+
+- [Índice de Instalaciones Eléctricas](https://elecdatum.com/instalaciones-electricas/)
 
 ## Sobre el sitio
 
-- [Acerca de MechDatum](https://mechdatum.com/about/)
-- [Metodología de verificación de datos](https://mechdatum.com/methodology/)
-- [Contacto](https://mechdatum.com/contact/)
-- [Política de Privacidad](https://mechdatum.com/privacy-policy/)
-- [Términos de Servicio](https://mechdatum.com/terms-of-service/)
+- [Acerca de ElecDatum](https://elecdatum.com/about/)
+- [Metodología de verificación de datos](https://elecdatum.com/methodology/)
+- [Contacto](https://elecdatum.com/contact/)
+- [Política de Privacidad](https://elecdatum.com/privacy-policy/)
+- [Términos de Servicio](https://elecdatum.com/terms-of-service/)
 
 ## Notas para agentes de IA
 
