@@ -28,44 +28,17 @@ export default defineConfig({
 
       head: [
         {
-          tag: 'script',
+          tag: 'meta',
           attrs: {
-            'data-cfasync': 'false',
-            src: 'https://cmp.gatekeeperconsent.com/min.js',
-          },
-        },
-        {
-          tag: 'script',
-          attrs: {
-            'data-cfasync': 'false',
-            src: 'https://the.gatekeeperconsent.com/cmp.min.js',
-          },
-        },
-        {
-          tag: 'script',
-          attrs: {
-            async: true,
-            src: '//www.ezojs.com/ezoic/sa.min.js',
-          },
-        },
-        {
-          tag: 'script',
-          content: `
-            window.ezstandalone = window.ezstandalone || {};
-            ezstandalone.cmd = ezstandalone.cmd || [];
-          `,
-        },
-        {
-          tag: 'script',
-          attrs: {
-            src: '//ezoicanalytics.com/analytics.js',
+            name: 'google-site-verification',
+            content: 'PENDING',
           },
         },
         {
           tag: 'meta',
           attrs: {
-            name: 'google-site-verification',
-            content: 'PENDING',
+            name: 'google-adsense-account',
+            content: 'ca-pub-4927890967456381',
           },
         },
         {
