@@ -42,6 +42,13 @@ export default defineConfig({
           },
         },
         {
+          tag: 'meta',
+          attrs: {
+            name: 'monetag',
+            content: '9cf14792aab4e64613b0a40546cea9c7',
+          },
+        },
+        {
           tag: 'script',
           attrs: {
             async: true,
@@ -66,3 +73,5 @@ export default defineConfig({
     sitemap(),
   ],
 });
+
+
